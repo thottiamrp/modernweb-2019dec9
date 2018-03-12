@@ -1,0 +1,256 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Floating - Two column layout using floats </title>
+	<style type="text/css"><!--
+		body	{	font: medium Arial, Helvetica, sans-serif; 
+					margin:0; padding:1em; border:0;
+					color: black; 
+					background:#ccf; }
+		h1		{	margin:0; border:0; padding:10px; 
+					font-size:medium; }
+		p, li		{	font-size:small; padding:0.3em;}
+		.CodeSample	{ 	font-family:"Courier New", Courier, mono; }
+		.Highlight	{	background-color:#e7e7ff; color:#f00; }
+		hr {		clear:both; }	
+		
+#CentreSection { width:600px; 
+                 margin:0 auto; /* centre on the page */
+                 border-color:#369; border-width:1px 10px; border-style:solid; 
+                 padding:0;
+                 background:#f99; /* temporary background colour */}
+#LeftNav {       float:left;
+                 width:160px;
+                 margin:0;
+                 border:1;
+                 background:#9f9; /* temporary background colour */}
+#Content {       float:right;
+                 width:430px; /* 600-160=440, plus add a gutter */
+                 margin:0; border:0; padding:0;
+                 background:#ff9; /* temporary background colour */}
+--></style>
+<!--[if IE 5]>
+	<style>
+div#CentreSection { width:640px; /* 600 + 10 + 10 */ }
+	</style>
+<![endif]-->
+</head>
+
+<body>
+ 	<h1>Floating - Two column layout using floats </h1>
+ 	<p>Now to start using floats. We're going to create the centre section of the website, between the
+ 		header and footer. The design calls for a left-navigation menu and the page contents which both
+ 		are of an unknown height.</p>
+ 	<p>Firstly, we need to draw our structure to understand how the sections fit together. </p>
+<pre>-------------------------------------------------------
+|  div = CentreSection   (centred in the page)        |
+|  -----------------    ----------------------------  |
+|  | div = LeftNav |    | div = Content            |  |
+|  | (left float)  |    | (right float)            |  |
+|  |               |    |                          |  |
+|  |               |    |                          |  |
+|  |               |    |                          |  |
+|  |               |    |                          |  |
+|  -----------------    |                          |  |
+|                       |                          |  |
+|                       |                          |  |
+|                       |                          |  |
+|                       ----------------------------  |
+-------------------------------------------------------</pre>
+<p>From this drawing, it is clear that we need to define three sections in our document. We will also
+	need to ensure there's a clear at the bottom to force the centre section down. Our basic HTML will
+	be: </p>
+<pre>&lt;div id=&quot;CentreSection&quot;&gt;
+   &lt;div id=&quot;LeftNav&quot;&gt;
+      &lt;ul&gt;
+         &lt;li&gt;Menu 1&lt;/li&gt;<br />         &lt;li&gt;Menu 2&lt;/li&gt;<br />         &lt;li&gt;Menu 3&lt;/li&gt;<br />         &lt;li&gt;Menu 4&lt;/li&gt;
+      &lt;/ul&gt;
+   &lt;/div&gt;
+   &lt;div id=&quot;Content&quot;&gt;
+      &lt;h1&gt;Welcome to the content&lt;/h1&gt;
+      &lt;p&gt;Lorum ipsum...&lt;/p&gt;
+   &lt;/div&gt;
+&lt;/div&gt;</pre>
+<p>There is a small issue with this in that it would be much nicer to have the content appear before
+	the menu in the source code. This is better for people using non-CSS aware devices (mobile phone,
+	PDA, screen reader, etc.), and it is much better for web search engines. As we're using floats, this
+	is not a problem.</p>
+<pre>&lt;div id=&quot;CentreSection&quot;&gt;
+   &lt;div id=&quot;Content&quot;&gt;
+      &lt;h1&gt;Welcome to the content&lt;/h1&gt;
+      &lt;p&gt;Lorum ipsum...&lt;/p&gt;
+   &lt;/div&gt;
+   &lt;div id=&quot;LeftNav&quot;&gt;
+      &lt;ul&gt;
+         &lt;li&gt;Menu 1&lt;/li&gt;
+         &lt;li&gt;Menu 2&lt;/li&gt;
+         &lt;li&gt;Menu 3&lt;/li&gt;
+         &lt;li&gt;Menu 4&lt;/li&gt;
+      &lt;/ul&gt;
+   &lt;/div&gt;
+&lt;/div&gt;</pre>
+<p>Now to get on with some styling. Firstly create the basic styles with widths and floats: </p>
+<pre>#CentreSection { width:600px; 
+                 margin:0 auto; /* centre on the page */
+                 border-color:#369; border-width:1px 10px; border-style:solid; 
+                 padding:0;
+                 background:red; /* temporary background colour */}
+#LeftNav {       float:left;
+                 width:160px;
+                 margin:0;
+                 border:1;
+                 background:green; /* temporary background colour */}
+#Content {       float:right;
+                 width:430px; /* 600-160=440, plus add a gutter */
+                 margin:0; border:0; padding:0;
+                 background:yellow; /* temporary background colour */}</pre>
+<div id="CentreSection">
+	<div id="Content">
+		<h1>Welcome to the content</h1>
+		<p>Lorum ipsum dolor sit amet. Con minimim venami quis nostrud laboris nisi ut aliquip ex ea com dolor
+		in reprehenderitin voluptate nonumi. Mimimum veniami ex ea con dolor nisi ut aliquip.</p>
+		<p>Exercitationullam corpor suscipuitod tempor incidunt uit labore et dolore magna aliquam erat volupat.
+			Ut enim ad minimum veniami quis nostrud exercitaum dolor sit amet, consectetur adipscing elit sed diam
+		nonumny euismod tempor incidunt uit labore et dolore magna aliquam erat volupat. </p>
+	</div>
+    <div id="LeftNav">
+		<ul>
+			<li>Menu 1</li>
+			<li>Menu 2</li>
+			<li>Menu 3</li>
+			<li>Menu 4</li>
+		</ul>
+	</div>
+</div>
+	
+	
+	<hr />
+	<p>Check if there are any issues between browsers.</p>
+	<p>We need to add a clearing block element under the LeftNav and Content. In reality, you can often
+		add some item of furniture to the structure to avoid this such as  a footer menu 
+		or &quot;page last updated&quot; text. </p>
+	<p>In this case we'll use a temporary &lt;div&gt;
+		which we'll style inline - we'll add the footer menu later </p>
+	<pre>
+       ..........
+       &lt;/ul&gt;
+   &lt;/div&gt;
+   <span class="Highlight">&lt;div style=&quot;clear:both; height:0; line-height:0;&quot;&gt;&amp;nbsp;&lt;/div&gt;</span>
+&lt;/div&gt;</pre>
+	<div id="CentreSection">
+	<div id="Content">
+		<h1>Welcome to the content</h1>
+		<p>Lorum ipsum dolor sit amet. Con minimim venami quis nostrud laboris nisi ut aliquip ex ea com dolor
+		in reprehenderitin voluptate nonumi. Mimimum veniami ex ea con dolor nisi ut aliquip.</p>
+		<p>Exercitationullam corpor suscipuitod tempor incidunt uit labore et dolore magna aliquam erat volupat.
+			Ut enim ad minimum veniami quis nostrud exercitaum dolor sit amet, consectetur adipscing elit sed diam
+		nonumny euismod tempor incidunt uit labore et dolore magna aliquam erat volupat. </p>
+	</div>
+    <div id="LeftNav">
+		<ul>
+			<li>Menu 1</li>
+			<li>Menu 2</li>
+			<li>Menu 3</li>
+			<li>Menu 4</li>
+		</ul>
+	</div>
+	<div style="clear:both; height:0; line-height:0;">&nbsp;</div>
+</div>
+
+	<hr />
+	<p>Now to address Internet Explorer's worst feature -- extending the width of an element to envelop
+		all it's text.</p>
+	<p>Change one of the menu items to a very long word and see the impact:</p>
+	<div id="CentreSection">
+		<div id="Content">
+		<h1>Welcome to the content</h1>
+		<p>Lorum ipsum dolor sit amet. Con minimim venami quis nostrud laboris nisi ut aliquip ex ea com dolor
+		in reprehenderitin voluptate nonumi. Mimimum veniami ex ea con dolor nisi ut aliquip.</p>
+		<p>Exercitationullam corpor suscipuitod tempor incidunt uit labore et dolore magna aliquam erat volupat.
+			Ut enim ad minimum veniami quis nostrud exercitaum dolor sit amet, consectetur adipscing elit sed diam
+		nonumny euismod tempor incidunt uit labore et dolore magna aliquam erat volupat. </p>
+	</div>
+    <div id="LeftNav">
+		<ul>
+			<li>Menu 1</li>
+			<li>Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch is a village in Wales</li>
+			<li>Menu 3</li>
+			<li>Menu 4</li>
+		</ul>
+	</div>
+	<div style="clear:both; height:0; line-height:0;">&nbsp;</div>
+</div>
+
+	<hr />
+	<p>Where has the menu gone in IE? It's extended the width of the LeftNav float such that there's no
+		space for it to fit in the gap between the Content float and the side. So it then moves the float
+		downwards until if finds space. </p>
+	<p>We're fortunate that the workaround is to simply add a Microsoft proprietary CSS rule, word-wrap:break-word;		</p>
+	<p>The down side to using this is that your stylesheet won't validate. If this is imporant to you, you
+		can move this rule to a separate stylesheet and hide them using conditional comments. </p>
+		
+<pre>       &lt;ul style=&quot;<span class="Highlight">word-wrap:break-word;</span>&quot;&gt;
+            &lt;li&gt;Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch is a village in Wales&lt;/li&gt;
+       &lt;/ul&gt;</pre>
+		
+		
+		
+	<div id="CentreSection">
+		<div id="Content">
+		<h1>Welcome to the content</h1>
+		<p>Lorum ipsum dolor sit amet. Con minimim venami quis nostrud laboris nisi ut aliquip ex ea com dolor
+		in reprehenderitin voluptate nonumi. Mimimum veniami ex ea con dolor nisi ut aliquip.</p>
+		<p>Exercitationullam corpor suscipuitod tempor incidunt uit labore et dolore magna aliquam erat volupat.
+			Ut enim ad minimum veniami quis nostrud exercitaum dolor sit amet, consectetur adipscing elit sed diam
+		nonumny euismod tempor incidunt uit labore et dolore magna aliquam erat volupat. </p>
+	</div>
+    <div id="LeftNav">
+		<ul style="word-wrap:break-word;">
+			<li>Menu 1</li>
+			<li>Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch is a village in Wales</li>
+			<li>Menu 3</li>
+			<li>Menu 4</li>
+		</ul>
+	</div>
+	<div style="clear:both; height:0; line-height:0;">&nbsp;</div>
+</div>
+
+	<hr />
+	<p>Where has the menu gone in IE? It's extended the width of the LeftNav float such that there's no
+		space for it to fit in the gap between the Content float and the side. So it then moves the float
+		downwards until if finds space. </p>
+	<p>We're fortunate that the workaround is to simply add a Microsoft proprietary CSS rule, <span class="CodeSample">word-wrap:break-word;</span> This
+		doesn't work for IE5 and 5.5. </p>
+	<p>The down side to using this is that your stylesheet won't validate. If this is imporant to you, you
+		can move this rule to a separate stylesheet and hide them using conditional comments. </p>
+		
+<pre>       &lt;ul style=&quot;<span class="Highlight">word-wrap:break-word;</span>&quot;&gt;
+            &lt;li&gt;Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch is a village in Wales&lt;/li&gt;
+       &lt;/ul&gt;</pre>
+		
+		
+		
+	<div id="CentreSection">
+		<div id="Content">
+		<h1>Welcome to the content</h1>
+		<p>Lorum ipsum dolor sit amet. Con minimim venami quis nostrud laboris nisi ut aliquip ex ea com dolor
+		in reprehenderitin voluptate nonumi. Mimimum veniami ex ea con dolor nisi ut aliquip.</p>
+		<p>Exercitationullam corpor suscipuitod tempor incidunt uit labore et dolore magna aliquam erat volupat.
+			Ut enim ad minimum veniami quis nostrud exercitaum dolor sit amet, consectetur adipscing elit sed diam
+		nonumny euismod tempor incidunt uit labore et dolore magna aliquam erat volupat. </p>
+	</div>
+    <div id="LeftNav">
+		<ul style="word-wrap:break-word;">
+			<li>Menu 1</li>
+			<li>Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch is a village in Wales</li>
+			<li>Menu 3</li>
+			<li>Menu 4</li>
+		</ul>
+	</div>
+	<div style="clear:both; height:0; line-height:0;">&nbsp;</div>
+</div>
+
+
+</body>
+</html>

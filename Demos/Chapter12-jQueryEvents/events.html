@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery.js"></script>
+<style>
+
+
+</style>
+<script>
+	
+	$(document).ready(function() {
+		//click
+		$("#my-id").click(function() { 
+			console.log('The element my-id was clicked'); 
+		});
+		
+		//keyup
+		$("#name-text-box").keyup(function(e) { 
+			 console.log('You pressed ' + e.which);
+		});
+		
+		$("#email-text-box").on('click', function() {
+			console.log('You clicked in the email textfield');
+			$("#email-text-box").off();
+		  });
+		
+		$("#phone-text-box").on('click', function() {
+			console.log('You clicked in the phone, and now the event is gone');
+			$("#phone-text-box").off();
+		  });
+		
+		$("#button1").on('click', function() {
+			console.log('Logging button1 ');
+		});
+		
+		$("#button1").on('dblclick', function() {
+			$("#button1").css("color","red");
+		});
+		
+		$("#button2").on('click', function() {
+			console.log('turning off click for button 1');
+			$("#button1").off('click'); //turn off all click events
+		});
+		
+		$("#button3").on('click', function() {
+			console.log('turning off all events');
+			$("#button1").off(); //turn off all events
+			$("#button1").css("color","black");
+		  });
+		
+		$("#email-text-box").on('cut copy paste', function(e) {
+			e.preventDefault();
+			alert('Cut/Copy/Paste is disabled for this textbox.');
+		});
+
+		$("#hover-here").hover(
+				function(){
+				    $(this).css("background-color", "#00FF99");
+			    },
+				function(){
+				    $(this).css("background-color", "#FFFFFF");
+			    }
+			);
+
+		$("#toggle-hover").hover(function() { 
+		    $(this).toggleClass('over'); 
+		});
+		
+		$("p").click(function(e) { 
+			   console.log(e.currentTarget);
+		});
+
+		$("*").click(function(event) {
+			  console.log("X=" + event.pageX + " Y=" + 
+			       event.pageY);
+			 }); 
+		
+		
+		
+		
+	});
+</script>
+	
+</head>
+<body>
+	
+	<p id="my-id">Click me!</p>
+	
+	Name: <input id="name-text-box" type="text" /> <br />
+	Email: <input id="email-text-box" type="text" /> <br />
+	Phone: <input id="phone-text-box" type="phone" /> <br />
+	
+	<button id="button1">Button1 - click and double click me</button>
+	<button id="button2">Turn off Click for Button 1</button>
+	<button id="button3">Turn off All for button 1</button>
+	
+	<div id="hover-here">Hover here</div>
+	
+	<div id="toggle-hover">Toggle Hover</div>
+	
+	<p>CLick this paragraph</p>
+	
+	
+	
+	
+</body>
+</html>

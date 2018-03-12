@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Modernizr Demo</title>
+    <script src="./modernizr-custom.js"></script>
+    <style>
+        .no-geolocation div {
+            border: red 2px dashed
+        }
+
+        .geolocation div {
+            border: green 2px solid
+        }
+    </style>
+</head>
+
+<body>
+    <div id="message"></div>
+    <script>
+        function init() {
+            var message = document.getElementById("message");
+
+            if (Modernizr.geolocation) {
+                output.innerHTML = "Geolocations supported";
+            } else {
+                // not-supported
+                output.innerHTML = "<p>Geolocation is not supported by your browser</p>";
+                return;
+            }
+        }
+
+       
+    </script>
+           <script src="../../scripts/header.js"></script>
+    
+</body>
+
+</html>

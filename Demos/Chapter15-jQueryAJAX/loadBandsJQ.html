@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src="http://code.jquery.com/jquery.js"></script>
+ <style>
+</style>
+<script>
+	$(document).ready(
+			function() {
+				
+				$.getJSON("data/myBands.json", 
+						function(parsedData) {
+							myFunction(parsedData);
+						}
+				);
+				
+
+				function myFunction(jsonData) {
+				    var out = "";
+				    var bands = jsonData.bands.band;
+				    var i;
+				    for(i = 0; i < bands.length; i++) {
+				    	
+				        out += bands[i].name + ' was formed ' + bands[i].yearFormed + ' in '+ bands[i].city + '<br/>';
+				    }
+				    $("#showBands").html(out);
+				}	
+			});
+				
+</script>
+
+</head>
+<body>
+
+	<div id="showBands"></div>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Review JavaScript getElementByID and innerHTML</title>
+	<style>
+	
+		#targetedDiv {
+			font-family: arial;
+			font-weight: bold;
+			width: 400px;
+			border: 3px dotted white;
+			padding:10px;
+		}
+	
+		.showError {
+			background-color: red;
+			border-color: black;
+			color: white;
+			
+		}
+
+		.clearError {
+			background-color: green;
+			color: white;
+			border-color: yellow;
+			width: 400px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Review JavaScript getElementByID and innerHTML</h1>
+	<div id="targetedDiv">Target Div</div>
+	<br /><br />
+	<button id="showError">Show Error</button>
+	&nbsp;&nbsp;
+	<button id="clearError">Show Success</button>
+
+
+	<script>
+		var targetDiv = getById('targetedDiv');
+		//can access element using document.getElementById
+		document.getElementById('showError').addEventListener('click', showHideError);
+		
+		//could use a function as a shortcut
+		getById('clearError').addEventListener('click', showHideError);
+
+		function getById(id) {
+			return document.getElementById(id)
+		}
+
+		//An event object is passed when the click event occurs
+		function showHideError(event) {
+			//Get the target object that triggered the event
+			var id = event.target.id; 
+			targetDiv.className = id;
+			targetDiv.innerHTML = (id == 'showError') ? 'There is an error' : 'Process completed successfully';
+		}
+	</script>
+</body>
+</html>

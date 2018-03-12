@@ -1,0 +1,66 @@
+body > header { background-color: rgb(240, 230, 230);
+margin-bottom:10px;}
+
+header {
+    color:rgb(241, 163, 248);
+}
+
+header br {
+	clear:both;
+}
+
+aside {float: left; width: 10%; background-color: lightcyan;
+padding: 10px}
+
+body > footer {margin-top:10px;clear:both; text-align: center;background-color: rgb(240, 230, 230) }
+
+header nav {float:right}
+
+main header {
+	color: purple;
+	text-decoration-line: underline overline;
+	margin-bottom: 10px;
+	font-size: 2em;
+}
+
+main {clear:both; width: 60%;float: right;margin-bottom:20px}
+main article {height:200px;}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav li {
+	float: left;
+}
+
+nav li a {
+	display: block;
+	color: rgb(207, 24, 198);
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+	background-color: rgb(241, 163, 248);
+}
+
+nav a.active {
+    background-color: rgb(224, 74, 238);
+    color: white;
+}
+
+body { margin: 5px; }
+
+article, aside, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+nav ul li {display: inline}
+section { color: blue; 
+	background-color: rgb(250, 235, 235) ;
+	font-weight:bold}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="http://code.jquery.com/jquery-3.2.1.js"></script>
+</head>
+
+<body>
+    <p>Some par</p>
+    <p class="answer">Another with answer</p>
+    <script>
+        $(document).ready(function () {
+            $("p.answer").css('background', 'red').click(function () {
+                alert("added event");
+            });
+        });
+        
+    </script>
+</body>
+
+</html>
