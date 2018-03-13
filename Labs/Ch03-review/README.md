@@ -12,6 +12,8 @@ Follow the steps, and if you need additional help yo can refer to the slides, pr
 
 ## Steps:
 
+1. If you need extra practice with Object literals and Arrays in JavaScript, go into the `/JS Review/README.md` and complete that review first. 
+
 1. In the `WIP` folder, create a folder called `ReviewBasics`. You can create this folder by right-clicking the `WIP` folder, and choosing New Folder.
 
 1. Create a file in the new folder. You can right-click the `ReviewBasics` folder and choose New File. Call the file `practice.html`.  
