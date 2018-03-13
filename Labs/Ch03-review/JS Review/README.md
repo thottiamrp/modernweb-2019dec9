@@ -1,4 +1,4 @@
-# Chapter 0: Review
+# Chapter 3: Review JS
 ## Objectives
 * Review concepts of Object literals and Arrays in JavaScript
 
