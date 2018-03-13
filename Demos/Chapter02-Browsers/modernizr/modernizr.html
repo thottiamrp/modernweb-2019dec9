@@ -8,6 +8,8 @@
     <title>Modernizr Demo</title>
     <script src="./modernizr-custom.js"></script>
     <style>
+        div#message {display:none;margin-top:50px;width: 400px;height:50px}
+
         .no-geolocation div#message {
             border: red 2px dashed
         }
@@ -18,11 +20,14 @@
     </style>
 </head>
 
-<body onload="init()">
+<body>
+    <button onclick="check()">Check for geolocation</button>
     <div id="message"></div>
     <script>
-        function init() {
+        function check() {
+
             var message = document.getElementById("message");
+            message.style.display = "block";
 
             if (Modernizr.geolocation) {
                 message.innerHTML = "Geolocations supported";
