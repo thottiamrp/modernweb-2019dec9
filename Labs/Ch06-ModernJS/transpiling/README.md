@@ -50,24 +50,25 @@
 
 1. Open in IE and verify that it does not work.
 
-1. READ: There are several ways to "transpile" code from ES6 down to ES5. One way is using babel. It can be used several ways including from the command line. One approach would be to install babel globally. Installing globally isn't always desirable. It makes it harder to manage the versions of the tools being used and can cause developers more manual work.
+1. READ ONLY (make no changes): There are several ways to "transpile" code from ES6 down to ES5. One way is using babel. It can be used several ways including from the command line. One approach would be to install babel globally. Installing globally isn't always desirable. It makes it harder to manage the versions of the tools being used and can cause developers more manual work.
 
-    If you install at the package level, you can specify CLI tools in the node_modules directory like this: 
+    You can (and will) create a package.json and then add babel to the project. You would be able to specify the CLI tools in the node_modules directory like this: 
     
     ```./node_modules/.bin/babel source.js --out-file source-compiled.js```
     
-    Starting with npm version 5.x.x there is a new tool available called `npx`. 
+    Starting with npm version 5.x.x there is a new tool available called `npx` which simplifies the calls to the package.
 
     Let's use this approach.
 
-1. Ensure npm is up to date. Use this command to get current version:
+1. Ensure npm is up to date. Issue this command to find out the current locally installed version:
 ```npm -v```
 
 1. Use this command to find out the latest version available on the Internet:
 ```npm view npm version```
 
-1. To update: If your npm version is < 5.x use this command:
-```npm i -g npm```
+1. READ: To update npm you can use this command: ```npm i -g npm```
+
+1. Only if your local npm version is < 5.x use the update command in the last step.
 
 1. Now create a `package.json` by using the `npm init` wizard from the command line. Call the package `babel-practice` - and accept all other defaults (keep hitting Return key)
 

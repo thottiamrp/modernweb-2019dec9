@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Label Practice</title>
+    <script>
+        var nameLabel, emailLabel;
+        var nameLabelButton, emailLabelButton;
+        var nameInputButton, emailInputButton;
+        var nameInput, emailInput;
+
+    function init() {
+        nameLabel = document.getElementById("namelabel");
+        nameLabel.disabled = false;
+
+        emailLabel = document.getElementById("emaillabel")
+        emailLabel.disabled = false;
+
+        nameLabelButton = document.getElementById("nameLabelButton");
+        emailButton = document.getElementById("nameLabelButton");
+        var isDisabled = document.getElementById("namelabel").disabled;
+    }
+    function toggleNameLabel() {
+        var label = document.getElementById("namelabel");
+        var button = document.getElementById("nameLabelButton");
+        var isDisabled = document.getElementById("namelabel").disabled;
+        
+        console.log('name label disabled value being set to: ' + (!isDisabled));
+        label.disabled = !isDisabled;
+        var state = '';
+        if (!isDisabled) {
+            state = 'Disable Name Label';
+        } else {
+            state = 'Enable Name Label';
+        }
+        button.innerHTML = state;
+    }
+
+    function toggleNameInput() {
+        var input = document.getElementById("name");
+        var button = document.getElementById("nameInputButton");
+        var isDisabled = document.getElementById("name").disabled;
+        
+        console.log('name input disabled value being set to: ' + (!isDisabled));
+        input.disabled = !isDisabled;
+        var state = '';
+        if (!isDisabled) {
+            state = 'Disable Name Label';
+        } else {
+            state = 'Enable Name Label';
+        }
+        button.innerHTML = state;
+   
+    }
+
+    function toggleEmailLabel() {
+        var value = document.getElementById("emaillabel").disabled;
+        document.getElementById("emaillabel").disabled = !value;
+  
+    }
+    </script>
+    <style>
+        label {display:block}
+        input {display: block}
+        button {margin-bottom:20px}
+    </style>
+</head>
+<body onload="init()">
+    <div>
+        <label id="namelabel" for="name">Name for Label</label>
+        <input type="text" id="name" />
+        <button id="nameLabelButton" onclick="toggleNameLabel()">Disable Name Label</button>
+        <button id="nameInputButton" onclick="toggleNameLabel()">Disable Name Label</button>
+    </div>
+
+    <div>
+            <label id="emaillabel" >Email wrapped Label
+            <input type="text" id="email" />
+            </label>
+            <button id="emailLabelButton" onclick="toggleEmailLabel()">Disable Email Label</button>
+            <button id="emailInputButton" onclick="toggleEmailLabel()">Disable Email Label</button>
+    
+        </div>
+
+</body>
+</html>

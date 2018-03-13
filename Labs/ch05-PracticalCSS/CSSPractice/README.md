@@ -3,13 +3,13 @@
 * Create a page that uses HTML5 semantic elements and use CSS positioning techniques
 
 ### Estimated Completion Time 
-We will take 30 minutes, some students continue to work on this during breaks etc
+We will take 30 minutes, some students continue to work on this during breaks etc.
 
 ## Steps:
 ### CSS Practice
-1. In the `WIP` folder create a folder called `CSSPractice`
+1. In the `WIP` folder create a folder called `CSSPractice`. Do you work in this folder.
 
-1. Create an HTML5 page similar to what was shown on the slide or also viewable in this directory's screenshot.png. 
+1. Create an HTML5 page similar to what was shown on the slide or also viewable in this directory's `screenshot.png`. 
 
 1. You can change up the text and use other design elements. Be creative!  
 
@@ -23,4 +23,6 @@ We will take 30 minutes, some students continue to work on this during breaks et
 
 1. FOR STYLING: You can use basic CSS for floats and positioning.
 
-1. Refer to the solution in `/solution/CSSPractice` for additional help
+1. Refer to the solution in 
+`/Labs/Ch05-PracticalCSS/solution/CSSPractice/`
+for additional help

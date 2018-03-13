@@ -6,6 +6,7 @@ package-lock.json
 
 # IDE Config
 .idea
+.vscode
 
 # Working Directory
 working/
