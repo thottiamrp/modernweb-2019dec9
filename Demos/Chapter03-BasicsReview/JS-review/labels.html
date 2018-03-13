@@ -7,10 +7,10 @@
     <title>Label Practice</title>
     <script>
         var nameLabel, emailLabel;
+        var nameInput, emailInput;
         var nameLabelButton, emailLabelButton;
         var nameInputButton, emailInputButton;
-        var nameInput, emailInput;
-
+        
     function init() {
         nameLabel = document.getElementById("namelabel");
         nameLabel.disabled = false;
@@ -19,8 +19,8 @@
         emailLabel.disabled = false;
 
         nameLabelButton = document.getElementById("nameLabelButton");
-        emailButton = document.getElementById("nameLabelButton");
-        var isDisabled = document.getElementById("namelabel").disabled;
+        emailLabelButton = document.getElementById("emailLabelButton");
+       // var isDisabled = document.getElementById("namelabel").disabled;
     }
     function toggleNameLabel() {
         var label = document.getElementById("namelabel");
