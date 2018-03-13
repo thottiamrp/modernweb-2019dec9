@@ -1,4 +1,4 @@
-# Chapter 2: Exercise: CSS Quiz
+# Chapter 5: Exercise: CSS Quiz
 ## Objectives
 * Use HTML and CSS to create a quiz page which uses CSS hover to reveal an answer
 

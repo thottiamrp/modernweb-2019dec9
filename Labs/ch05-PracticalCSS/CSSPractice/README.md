@@ -1,4 +1,4 @@
-# Chapter 2: Exercise: Using HTML5 and CSS
+# Chapter 5: Exercise: Using HTML5 and CSS
 ## Objectives
 * Create a page that uses HTML5 semantic elements and use CSS positioning techniques
 

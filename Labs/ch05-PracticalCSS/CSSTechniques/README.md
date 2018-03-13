@@ -1,4 +1,4 @@
-# Chapter 2: Exercise: CSS3 Techniques
+# Chapter 5: Exercise: CSS3 Techniques
 
 1. Open the file css3.html in the editor and browser
 2. Read the text in the browser and click to see the effect you will create
