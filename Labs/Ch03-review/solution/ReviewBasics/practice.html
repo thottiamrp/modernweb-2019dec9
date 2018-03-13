@@ -10,7 +10,7 @@
                        'testing',
                        'listening to music'];
         function init() {
-            document.getElementById("name").innerText='Judy';
+            document.getElementById("name").innerText='My Interests';
             var hobbies = '<ul>';
             for (var index = 0; index < hobbiesArray.length; index++) {
                 var element = hobbiesArray[index];
@@ -23,6 +23,11 @@
 
         }
     </script>
+    <style>
+        div#name { color: purple; font-weight: bold; text-align: center}
+        div#hobbies {font-weight: bold;color:rgb(68, 0, 255)}
+        div#hobbies ul {width:200px;margin: 0 auto;}
+    </style>
 </head>
 <body onload="init()">
     <div id="name"></div>
