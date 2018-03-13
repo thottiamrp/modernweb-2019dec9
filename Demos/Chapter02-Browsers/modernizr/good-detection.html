@@ -8,27 +8,27 @@
     <title>Modernizr Demo</title>
     <script src="./modernizr-custom.js"></script>
     <style>
-        .no-geolocation div {
+        .no-geolocation div#message {
             border: red 2px dashed
         }
 
-        .geolocation div {
+        .geolocation div#message {
             border: green 2px solid
         }
     </style>
 </head>
 
-<body>
+<body onload="init()">
     <div id="message"></div>
     <script>
         function init() {
             var message = document.getElementById("message");
 
             if (Modernizr.geolocation) {
-                output.innerHTML = "Geolocations supported";
+                message.innerHTML = "Geolocations supported";
             } else {
                 // not-supported
-                output.innerHTML = "<p>Geolocation is not supported by your browser</p>";
+                message.innerHTML = "<p>Geolocation is not supported by your browser</p>";
                 return;
             }
         }
