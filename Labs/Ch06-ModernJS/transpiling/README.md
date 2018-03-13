@@ -13,13 +13,14 @@
 
 ## Steps:
 
-1. Create a directory in /WIP called `ES6`. You wll do your work in this directory.
+1. Create a directory in /WIP called `ES6`. You will do your work in this directory.
 
 1. Create an `index.html` file which includes a script reference like this:
     ``` javascript
     <script src="myHobbiesSource.js"></script>
     ```
-1. Create the file `myHobbiesSource.js` - create an array of 3 of your hobbies. Each hobby should be represented as an object with a name, and lengthInYearsAtHobby. Similar to this sports array below, only with lengthInYearsAtHobby as a numeric value.
+
+1. Create the file `myHobbiesSource.js` - inside create an array of 3 of your hobbies. Each hobby should be represented as an object with a name, and lengthInYearsAtHobby. Similar to this sports array below, only with lengthInYearsAtHobby as a numeric value.
 
     ``` javascript
     const sportsArray = [
@@ -36,7 +37,7 @@
     }
     ```
 
-1. Now loop through the hobby array items and call the function for each item - similar to this:      
+1. Now loop through the hobby array items and call the function for each item - similar to this for...of loop - which is ES6 notation:      
     ``` javascript
         for (const sport of sportsArray) {
             printInfo(sport);
@@ -45,7 +46,7 @@
 
 1. Run from the command line using `node myHobbiesSource`
 
-1. Open index.html in Chrome and verify in the console that it works.
+1. Open `index.html` in Chrome and verify in the console that it works.
 
 1. Open in IE and verify that it does not work.
 
