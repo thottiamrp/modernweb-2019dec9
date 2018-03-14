@@ -1,14 +1,10 @@
-# Demo Chapter 06 - Browserify Demo
+# Demo Chapter 06 - Browserify Demo with ES6 modules
 ## Overview: Follow the steps to see Browserify in action
 
-1. Notice Browserify in the package.json
-   ` npm install -g browserify `
+1. Use `npm install` to get the dependencies
 
-1. Set up the dependencies:
-    npm install
+1. Use `npm run build` to execute the build script
+notice the file created in the dist directory
 
-1. To bundle the code run
-  `  browserify index.js -o bundle.js `
+1. Open the `text.html` in Chrome and IE
 
-1. To look at the result:
-    Load the test.html in a browser.
