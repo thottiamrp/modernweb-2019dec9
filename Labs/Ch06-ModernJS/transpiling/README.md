@@ -15,7 +15,7 @@
 
 1. Create a directory in /WIP called `ES6`. You will do your work in this directory.
 
-1. From this directory, create an package.json file using 
+1. From this directory, create a package.json file using 
 `npm init --yes` which accepts all the defaults.
 
 1. Create an `index.html` file which includes a script reference like this:
@@ -40,11 +40,13 @@
     }
     ```
 
-1. Now loop through the hobby array items and call the function for each item - similar to this for...of loop - which is ES6 notation:      
+1. Now loop through the hobby array items and call the function for each item - similar to this forEach loop but for hobbies instead of sports.
+
     ``` javascript
-        for (const sport of sportsArray) {
-            printInfo(sport);
-        }
+    sportsArray.forEach(sport => {
+        sportsInfo += (` ${sport.name} is played in ${sport.duration} 
+        <br>  `);
+    });
     ```
 
 1. Run from the command line using `node myHobbiesSource`
@@ -94,7 +96,20 @@
 1. The last thing needed for the setup is a configuration file called `.babelrc` Create this file with this content, which specifies to use the preset we just installed.
     ```
     {
-        "presets": ["env"]
+    "presets": [
+        ["env", {
+        "targets": {
+            "browsers": [
+            "Chrome >= 52",
+            "FireFox >= 44",
+            "Safari >= 7",
+            "Explorer 11",
+            "last 4 Edge versions"
+            ]
+        },
+        "useBuiltIns": true
+        }]
+    ] 
     }
     ```
 
@@ -122,3 +137,4 @@
 1. You can specify different browser versions with babel. Check out
 https://github.com/ai/browserslist 
 
+1. Modify the index.html to print the hobbies to the screen. You can add a function to the script which returns a string, which you use to populate the DOM.

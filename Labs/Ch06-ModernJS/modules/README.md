@@ -8,7 +8,9 @@
 
 ## Steps:
 
-1. create a file called `printHobbies.js` and copy the print function you created into it - and use module.exports as shown:
+1. In /WIP create a folder called modules do your work in this folder.
+
+1. Create a file called `printHobbies.js` and copy the print function you created into it - and use module.exports as shown:
 
     ``` javascript
     function printHobbyInfo(hobby) {
