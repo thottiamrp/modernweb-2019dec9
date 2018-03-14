@@ -2,7 +2,7 @@
 
 <html>
 <head>
-    <title>Using Local Storage</title>
+    <title>Using Session Storage</title>
     <script>
         var submitButton, clearButton, nameTextBox, statesSelect, outputSpan;
 
@@ -19,38 +19,38 @@
         }
 
         function loadSettings() {
-            var name = localStorage.getItem('name');
-            var state = localStorage.getItem('state');
+            var name = sessionStorage.getItem('name');
+            var state = sessionStorage.getItem('state');
             nameTextBox.value = name;
             statesSelect.value = state;
         }
 
         function clearSettings() {  
-              localStorage.clear();
+              sessionStorage.clear();
               loadSettings();
               alert('storage cleared');
         }
         
         function storeSettings() {
-              if (hasLocalStorage) {
+              if (hasSessionStorage) {
                     try {
-                        localStorage.setItem('name', nameTextBox.value);
-                        localStorage.setItem('state',  statesSelect.value);
+                        sessionStorage.setItem('name', nameTextBox.value);
+                        sessionStorage.setItem('state',  statesSelect.value);
                         outputSpan.innerText = 'Settings Saved!';
                     } catch(e) {
                             alert('Storage quota exceeded');
                     } 
                 }
-              else alert('No local storage support');
+              else alert('No session storage support');
         }
         
-        function hasLocalStorage() {
-            return ('localStorage' in window && window['localStorage'] != null);
+        function hasSessionStorage() {
+            return ('sessionStorage' in window && window['sessionStorage'] != null);
         }
     </script>
 </head>
 <body>
-    <h2>Settings</h2>
+    <h2>Name and State in Session Storage</h2>
     <br />
     Name: <input type="text" id="nameTextBoxId"/>
     <br />
@@ -66,5 +66,7 @@
     <button id="clearButton" onclick="clearSettings()">Clear Settings</button>
     <br />
     <span id="outputSpan"></span>
+    <script src="../../scripts/header.js"></script>
+  
 </body>
 </html>
