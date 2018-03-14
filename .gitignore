@@ -1,5 +1,6 @@
 # Dependency directories
 node_modules/
+dist/
 
 # Changes during npm install
 package-lock.json

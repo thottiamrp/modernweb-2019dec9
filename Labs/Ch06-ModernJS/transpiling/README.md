@@ -15,6 +15,9 @@
 
 1. Create a directory in /WIP called `ES6`. You will do your work in this directory.
 
+1. From this directory, create an package.json file using 
+`npm init --yes` which accepts all the defaults.
+
 1. Create an `index.html` file which includes a script reference like this:
     ``` javascript
     <script src="myHobbiesSource.js"></script>
