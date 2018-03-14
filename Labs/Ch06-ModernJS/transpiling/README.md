@@ -6,6 +6,7 @@
 * Create a new node project using npm init
 * Install packages locally 
 * Use babel to compile code from ES6 to ES5
+* EXAMPLES are gven as a guide - but think about what you need to create - do not copy/paste code verbatim.
 
 ### Estimated Completion Time 
 30 minutes
@@ -44,8 +45,7 @@
 
     ``` javascript
     sportsArray.forEach(sport => {
-        sportsInfo += (` ${sport.name} is played in ${sport.duration} 
-        <br>  `);
+       printSportInfo(sport);
     });
     ```
 
