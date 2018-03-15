@@ -6,9 +6,9 @@
 30 minutes
 
 ## Steps:
-1. Open a command window at this directory. (same level as package.json) 
-- From explorer: Hold Shift and right click to open the command prompt
-- From VS Code right click and choose Open in Terminal
+1. Copy this `ajax` directory to `WIP`.
+
+1. Open a command prompt to `/WIP/ajax` 
 
 1. Execute these two commands:
     ```
@@ -17,7 +17,7 @@
     ```
 1. Open the URL: http://localhost:9001
 
-1. Review the file bands.json
+1. Review the file `bands.json`
 
 1. Open index.html and follow the 6 steps in the TODO comments to read the data and display it
 
