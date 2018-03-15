@@ -73,6 +73,7 @@
 		</ul>
 	```
 1. Refresh the browser to see the content you added. 
+
 1. Add the following  inside the  $(document).ready() function:
 	``` javascript
 		$('p').css('font-weight', 'bold');
@@ -95,4 +96,7 @@
 
 1. Use a jQuery class selector to set a background color 
 of lightgrey
+
+1. Add a check to see the version of jQuery being applied.
+	* Hint select anythign such as body and use the property from the slides
 
