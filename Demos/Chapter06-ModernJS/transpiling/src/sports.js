@@ -5,7 +5,6 @@ const sportsArray = [
     { name: 'hockey', duration: 'periods' }
 ];
 
-
 function logSports() {
     sportsArray.forEach(sport => {
         console.log(`  ${sport.name} is played in ${sport.duration} 

@@ -4,10 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>ES6 features</title>
+    <style>
+        table.tableStyle, th, td { border: 1px solid black; padding:5px }
+        table.tableStyle { border-collapse: collapse; }
+    </style>
 </head>
 <body>
-    <script src="myHobbiesSource.js"></script>
-    <script src="myHobbiesTranspiled.js"></script>
+    My hobbies
+    <div id="hobbiesInfo"></div>
+    <!-- <script src="src/myHobbies.js"></script>
+    -->
+    <!-- <script src="src/myHobbies.js"></script>
+     -->
+    
+    <script src="dist/myHobbies.js"></script>
+    
+
+     <script>document.getElementById("hobbiesInfo").innerHTML=returnHobbiesHTML()</script>
 </body>
 </html>
