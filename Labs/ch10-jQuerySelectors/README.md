@@ -78,3 +78,21 @@
 		$('p').css('font-weight', 'bold');
 	```
 1. Refresh your browser and note that the paragraphs are bold.
+
+1. Add a table to your html with columns for artist and genre and 3 rows. Add an id of "artists"
+
+1. Use jQuery to target this table and make the text red.
+	```javascript
+	$("#artists").css('color', 'red');
+	```
+
+
+1. Mark yourself as complete.
+
+## Bonus
+
+1. Add an "odd" class to the 1st and 3rd table row.
+
+1. Use a jQuery class selector to set a background color 
+of lightgrey
+

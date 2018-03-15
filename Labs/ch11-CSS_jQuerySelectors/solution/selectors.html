@@ -3,7 +3,10 @@
 <head>
 
 
-<script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.js"></script>
+<script
+	src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 
 <script>
 	window.jQuery
@@ -13,18 +16,22 @@
 
 <script>
 	$(document).ready(function() {
-
-		console.log($("body").jquery);
-
 		$("p").css('font-weight', 'bold');
 
-		$("#artists").css('color', 'red');
+		$("p:contains('DO NOT')").css('color','red');
+		
+		$("tr:even").css('background-color','rgba(128,128,128,.5)');
+		
+		var myFavorite = $(".favorite").html();
+		$(".favorite").html(myFavorite + ' **favorite');
 
-	
+		
+
+		$('table > tbody > tr').click(function(){
+            $(this).css('background', '#66FF00');
+        });
+		
 	});
-
-
-
 </script>
 
 </head>
@@ -44,7 +51,7 @@
 		<li>Go to the DMV</li>
 	</ul>
 
-	<table id="artists">
+	<table style="border: 1px solid black;">
 		<tr>
 			<th>Artist</th>
 			<th>Genre</th>
