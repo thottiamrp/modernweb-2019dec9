@@ -4,17 +4,15 @@
 
 ## Steps:
 
-1. Open the /Begin/chart.html file and view which script is being included. 
+1. Copy the `CanvasChartWIP` folder to the `/WIP/ES6.canvas` directory. You will work on the files provided as a starting point. 
 
-1. When the document is loaded a JSON object is created that defines chart properties and data that should be rendered by the chart.
+1. Read through the canvasChart.js file and notice that it is an IIFE. 
 
-1. A call is made to canvasChart.render() and the id of the canvas is passed along with the data to render.
+1. Read through the `chart.html` file and notice that the `onload` defines a JavaScript object which is passed to the canvasChart.render function. 
 
-1. View chart.html in the browser and notice that x and y axes are rendered along with a line chart. In the remainder of this exercise you'll add additional functionality to the chart including text for the x and y axes and circles to highlight data points.
+1. Open chart.html in a browser and notice that x and y axes are rendered along with a line chart. In the remainder of this exercise you'll add additional functionality to the chart including text for the x and y axes and circles to highlight data points.
 
-1. View `canvasChart.js` in the editor.  This script represents a re-useable JavaScript object that can be used to render a line chart using the HTML5 canvas API.
-
-1. Locate the render() function and notice that it performs the standard steps needed to render to a canvas including finding the canvas in the DOM and accessing the 2D context.
+1. Locate the `render()` function and notice that it performs the standard steps needed to render to a canvas including finding the canvas in the DOM and accessing the 2D context.
 
 1. Find the `renderChart()` function and note that it makes calls to additional functions to render the chart background, text, lines and labels.
 
