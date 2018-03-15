@@ -133,14 +133,21 @@
 
 1. Reload the IE browser, you should now see output in the dev tools console for both Chrome and IE.
 
-1. Let's add the use of babel in the package.json `build` script so that it is easily repeatable and part of our development build process. Notice you do not need to include node_modules - it will be found as part of npm running the script.
+1. Let's add the use of babel in the package.json `build` script so that it is easily repeatable and part of our development build process. 
 
+    Find the location of the existing `"scripts"` property in `package.json`. You may already have a property there, for example for `test`. 
+    
+    You can have more than one script - as the value is an object, it would need to be comma separated.
+
+    We are not using test yet, you can remove this entry and replace it with `build` as shown. 
     ```
     "scripts": {
         "build": "babel src --watch --presets babel-preset-env --out-dir dist"
     },
     ```
+    Notice you do not need to include the path to `node_modules` - it will be found as part of npm running the script.
 
+  
 1. The `--watch` indicates to watch for changes in the src directory, and keep transpiling whenever a file is added or changed.
 
 1. Start the build process using the command: `npm run build`. Notice that your terminal window does not retun to the prompt because it is listening for changes to your `src` directory. Keep this running as you are about to add more code.
