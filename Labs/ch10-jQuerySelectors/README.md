@@ -25,7 +25,7 @@
 
 1. Compare the uncompressed and compressed versions to see the difference.
 
-1. In your `WIP\jQuery\` directory, create a file named `selectors.html`. 
+1. In your `WIP\jQuery\` directory, create a file named `jq.html`. 
 
 1. READ: A reference to jQuery needs to be added to your HTML file.  This can be done using one of the libraries in your `/scripts` folder, or you can reference a CDN.
 
@@ -48,7 +48,7 @@
 		});
 	</script>
 	```
-1. Open your `selectors.html` in a browser. You should see the alert. If not, use Developer Tools in your browser to see what the issue may be.  Check for syntax errors under the Console
+1. Open your `jq.html` in a browser. You should see the alert. If not, use Developer Tools in your browser to see what the issue may be.  Check for syntax errors under the Console
 
 1. If you were successful the first time, you will now purposely cause an error to see what it looks like. Temporarily set the CDN to have the wrong value , such as `jquery-2.ABC.js`.  Reload the browser, Does your local file work?
 
