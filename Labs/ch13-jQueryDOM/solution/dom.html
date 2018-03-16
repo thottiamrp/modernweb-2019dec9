@@ -15,13 +15,11 @@
 
 <script>
 	$(function() {
-		//selectors
 		$("p").css('font-weight', 'bold');
 		$("#artists").css('color', 'red');
 		$(".favorite").css('background-color', 'yellow');
 		console.log($("body").jquery);
 
-		//CSS 
 		$("ul").css({
 			width: 400,
 			border: '2px dashed pink'
@@ -43,6 +41,20 @@
 		$("p").click(function(){
 			this.title = 'Paragraph Title';
 		});
+
+		//DOM
+		
+   		$("button#resetli").click(function(){
+            $("li").show();
+   		});
+
+	 	$("li.favorite").prepend('Favorite: ');
+   		
+   		$("<span>!</span>").appendTo("li.favorite");
+		   
+		$('li').click(function(){
+            $(this).remove();
+        });
 		
 	});
 </script>

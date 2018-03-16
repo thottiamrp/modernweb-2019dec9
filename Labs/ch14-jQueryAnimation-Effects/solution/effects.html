@@ -29,20 +29,39 @@
 		
 		$("tr:odd").css('background-color','rgba(128,128,128,.5)');
 		
+		//events
 		$('table > tbody > tr').click(function(){
             $(this).css('background', '#66FF00');
 		});
 		
-		$("button").click(function() {
+		$("button#toggleli").click(function() {
 			$("li:even").toggleClass("highlight");	
 		});
+
+		$("p").click(function(){
+			this.title = 'Paragraph Title';
+		});
+
+		//DOM
 		
+		$("li.favorite").prepend('Favorite: ');
+   		
+   		$("<span>!</span>").appendTo("li.favorite");
+   		
+		//EFFECTS
+		$('li').click(function(){
+            $(this).hide();
+        });
+		
+   		$("button#resetli").click(function(){
+            $("li").show();
+   		});
 	});
 </script>
 
 </head>
 <body>
-		<button>Toggle Evens</button>
+		<button id="toggleli">Toggle Evens</button>
 		<p>Things I Like to Do</p>
 		<ul>
 			<li>Wash Car</li>
@@ -56,6 +75,8 @@
 			<li>Start Taxes</li>
 			<li>Go to the DMV</li>
 		</ul>
+
+		<button id="resetli">Reset</button>
 	
 		<table id="artists">
 			<tr>
