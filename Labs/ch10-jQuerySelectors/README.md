@@ -30,7 +30,7 @@
 1. READ: A reference to jQuery needs to be added to your HTML file.  This can be done using one of the libraries in your `/scripts` folder, or you can reference a CDN.
 
 1. Immediately above the closing `</head>` tag add the following script block:
-	``` javascript
+	```html
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
 	<script>    window.jQuery || 
