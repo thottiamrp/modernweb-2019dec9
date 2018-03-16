@@ -3,7 +3,7 @@
 <head>
 <script src="http://code.jquery.com/jquery.js"></script>
 <style>
-
+	.over{background-color:#00FF99}
 
 </style>
 <script>
@@ -13,6 +13,10 @@
 		$("#my-id").click(function() { 
 			console.log('The element my-id was clicked'); 
 		});
+
+		$("p").click(function(e) { 
+			   console.log(e.currentTarget);
+		});
 		
 		//keyup
 		$("#name-text-box").keyup(function(e) { 
@@ -20,7 +24,7 @@
 		});
 		
 		$("#email-text-box").on('click', function() {
-			console.log('You clicked in the email textfield');
+			console.log('You clicked in the email textfield, and now the event is gone');
 			$("#email-text-box").off();
 		  });
 		
@@ -66,9 +70,7 @@
 		    $(this).toggleClass('over'); 
 		});
 		
-		$("p").click(function(e) { 
-			   console.log(e.currentTarget);
-		});
+		
 
 		// $("*").click(function(event) {
 		// 	  console.log("X=" + event.pageX + " Y=" + 
@@ -84,8 +86,20 @@
 </head>
 <body>
 	<h1>Demo of events - view console for results</h1>
-	<p id="my-id">Click me </p>
+	<ul>Actions 
+		<li>Click the 1. paragraph below</li>
+		<li>Click the name text box to see console.log('You pressed ' + e.which); </li>
+		<li>Click the email and phone text boxes - one time events</li>
+		<li>Click button one - view message</li>
+		<li>Double click button one - see color</li>
+		<li>Click button two, now try to click 1 again</li>
+		<li>Click 3 and all button events are gone</li>
 	
+	</ul>		
+
+	<p id="my-id">1. Click me and look in console, 2 messages </p>
+	<p>1. Click this paragraph - one message</p>
+
 	Name: <input id="name-text-box" type="text" /> <br />
 	Email: <input id="email-text-box" type="text" /> <br />
 	Phone: <input id="phone-text-box" type="phone" /> <br />
@@ -98,7 +112,7 @@
 	<br /><hr>
 	<div id="toggle-hover">Toggle Hover</div>
 	<br /><hr>
-	<p>Click this paragraph</p>
+
 	
 	
 	
