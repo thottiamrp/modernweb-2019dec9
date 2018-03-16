@@ -38,17 +38,7 @@
 1. In this same file is the `deleteBand` function. Note its use of `$.ajax` to delete a band from the server.
 
 1. View the usage of `$.ajax` to add a band in `addBand.js`
-    ```javascript
-    $('#add').click(function () {
-        var re = /\,[\s]?/;
-
-        var band = {
-            "name": $('#name').val(),
-            "city": $('#city').val(),
-            "country": $('#country').val(),
-            "yearFormed": $('#yearFormed').val(),
-            "genres": $('#genres').val().split(re)
-        };
+  
 
         $.ajax({
             type: 'POST',
@@ -64,7 +54,7 @@
         });
     });
     ```
-    
+
 1. View the usage of `$.ajax` to modify a band:
     ```javascript
     function modifyBand(id) {
