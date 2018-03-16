@@ -36,18 +36,20 @@
 
 ## Hints
 
+1. TO remove:
+    ```javascript
+ 	    $('li').click(function(){
+            $(this).remove();
+        });
+   	``` 
+
 1. Prefix the html that is in the li marked as favorite with the text "Favorite: "
     ```javascript
  	    $("li.favorite").prepend('Favorite: ');
    	``` 
 
-1. Add an exclamation point:
-  
-    ```javascript
-    $("<span>!</span>").appendTo("li.favorite");
-    ```
 
-1.  Remove li that are clicked
+1.  Append exclamation...
     ```javascript
     $("<span>!</span>").appendTo("li.favorite");
     ```
