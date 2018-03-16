@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Used for JQuery Demo",
   "author": "Judy Lipinski",
+  "script": {
+    "start": "node server.js"
+  },
   "engines": {
     "node": ">=0.10.28"
   },

@@ -5,12 +5,12 @@
 ## Steps:
 
 ### Execute the working app
-1. Navigate to the `End/bands-data-ui` folder.
-1. Open the directory `End/bands-data-ui` in the terminal/command window.
+1. Navigate to the `/bands-data-ui` folder.
+1. Open the directory `/bands-data-ui` in the terminal/command window.
 (Right click the folder in VS Code and choose Open in Terminal)
 1. Use the package.json to install project dependencies by execting this command from the prompt:   `npm install`
 1. Start the server by executing this command from the prompt: `npm start`
-1. In the output you shoud see that the server is running on http://localhost:3010
+1. In the output you should see that the server is running on http://localhost:3010
 1. Click the link `Bands` and then modify a band. Notice the change in working with bands info. (The pop-up and progress bar.) 
 1. Click the link `UI: Band List` and view the use of the plugin.
 1. Click on different band names and see how the data is  presented.  

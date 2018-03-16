@@ -28,18 +28,18 @@
 
 1. Try to add a click event for all immediate tr children of the table element (only immediate children – not all descendants), use this code:
 	``` javascript
-		$('table > body > tr').click(function(){
+		$('table > tbody > tr').click(function(){
 				$(this).css('background', '#66FF00');
 			});
 	```
 
-	Notice the use of `$(this)`. Because we want to call a JQ function we need to wrap this in teh jQuery notation.
+	Notice the use of `$(this)`. Because we want to call a JQ function we need to wrap this in the jQuery notation.
 
 1. Refresh the page in the browser and try selecting a row by clicking it. Once you have the color change working you can move on.
 
-1. Try removing the `> body` part of the selector so that it is just `table > tr` from the last step and refresh the browser. Is the click working?	
+1. Try removing the `> tbody` part of the selector so that it is just `table > tr` from the last step and refresh the browser. Is the click working?	
 
-1. The answer to the above question should be "no, it doesn't work" because tables have an implicit tbody child added inside of the table element by the browser. The tbody element is the immediate child which is why the previous selector doesn't select any tr elements. You can see this in the devtools DOM area. 
+1. The answer to the above question should be "no, it doesn't work" because tables have an implicit `<tbody>` child added inside of the table element by the browser. The `<tbody>` element is the immediate child which is why the previous selector doesn't select any `tr` elements. You can see this in the devtools DOM area. 
 
 1. Change the selector back to `table > tbody > tr` and save the page. Be careful with this if ever working with table selectors and immediate child.
 
