@@ -17,12 +17,13 @@ and use various selection techniques
 1. Continue working with your `WIP\jQuery\jq.html` file. If you were not able to finish the last exercise, you can copy the solution `\Labs\ch10-jQuerySelectors\solution\selectors.html`. 
 
 1. Apply multiple CSS styles to the `<ul>` elements to make the width narrower, and add a border.
-		```javascript
-		$("ul").css({
-			width: 400,
-			border: '2px dashed pink'
-		});
-		```
+
+	```javascript
+	$("ul").css({
+		width: 400,
+		border: '2px dashed pink'
+	});
+	```
 1. Refresh the browser to see the red text.
 
 1. Make the items that you do not like to do have a red font.  You can use:
