@@ -1,24 +1,31 @@
-# Chapter 8: Exercise: Using jQuery Ajax
+# Chapter 15: Using jQuery Ajax
+
 ## Objectives
 * Explore the use of AJAX calls using jQuery for a CRUD application 
 
 ## Steps:
 
 ### Execute the working app
-1. Navigate to the `End/bandsAjax` folder.
-1. View the contents of `package.json`. This project relies on `json-server` to set up a REST based API.
-1. View the contents of `db.json` - this data isused by the server and provides band data.
-1. Open the directory `End/bandsAjax` in the terminal/command window.
-(Right click the folder in VS Code and choose Open in Terminal)
-1. Use the package.json to install project dependencies by executing this command from the prompt:   `npm install`
-1. Start the server by executing this command from the prompt: `npm start`
-1. In the output you shoud see that the server is running on [http://localhost:3008](http://localhost:3008)
+1. Navigate to the `\bandsAjax` folder.
 
+1. View the contents of `package.json`. This project relies on `json-server` to set up a REST based API.
+
+1. View the contents of `db.json` - this data isused by the server and provides band data.
+
+1. Open the directory `\bandsAjax` in the terminal/command window.
+(Right click the folder in VS Code and choose Open in Terminal)
+
+1. Use the package.json to install project dependencies by executing this command from the prompt:   `npm install`
+
+1. Start the server by executing this command from the prompt: `npm start`
+
+1. In the output you should see that the server is running on [http://localhost:3008](http://localhost:3008)
 
 
 ### Examine the code
 1. Expand the public directory. Look at the scripts at the bottom of `index.html`. Notice how jQuery is being included. 
-Using `integrity` in this way is supported by Chrome and Firefox and is one step towards ensuring the CDN content has not been manipulated. You can read more here: [https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity)
+
+    Using `integrity` in this way is supported by Chrome and Firefox and is one step towards ensuring the CDN content has not been manipulated. You can read more here: [https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity)
 
 1. Note the use of getJSON to get the band info from the json server
     ```javascript
@@ -27,7 +34,8 @@ Using `integrity` in this way is supported by Chrome and Firefox and is one step
         });
     ```
 1. Read through the `showBands` function in `script.js`. The data is used to populate the table. Later we will use a plugin to create the table with more features.
-1. In this same file is the `deleteBand` function. Note its use of $.ajax to delete a band from the server.
+
+1. In this same file is the `deleteBand` function. Note its use of `$.ajax` to delete a band from the server.
 
 1. View the usage of `$.ajax` to add a band in `addBand.js`
     ```javascript
@@ -56,6 +64,7 @@ Using `integrity` in this way is supported by Chrome and Firefox and is one step
         });
     });
     ```
+    
 1. View the usage of `$.ajax` to modify a band:
     ```javascript
     function modifyBand(id) {

@@ -37,17 +37,6 @@
       "id": 3
     },
     {
-      "name": "Slipknot",
-      "city": "Des Moines, IA",
-      "country": "USA",
-      "yearFormed": "1995",
-      "genres": [
-        "Heavy Metal",
-        "Nu Metal"
-      ],
-      "id": 4
-    },
-    {
       "name": "Sublime",
       "city": "Long Beach, CA",
       "country": "USA",
