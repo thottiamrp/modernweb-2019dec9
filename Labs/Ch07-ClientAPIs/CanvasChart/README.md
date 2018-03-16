@@ -4,7 +4,7 @@
 
 ## Steps:
 
-1. Copy the `CanvasChartWIP` folder to the `/WIP/ES6.canvas` directory. You will work on the files provided as a starting point. 
+1. Copy the `CanvasChartWIP` folder to the `\WIP\ES6.canvas` directory. You will work on the files provided as a starting point. 
 
 1. Read through the canvasChart.js file and notice that it is an IIFE. 
 

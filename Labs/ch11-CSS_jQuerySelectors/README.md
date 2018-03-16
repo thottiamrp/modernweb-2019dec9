@@ -12,63 +12,12 @@ and use various selection techniques
 * Create jQuery selectors
 * Interact with elements using jQuery
 
-
 ### Estimated Completion Time 
-30 minutes
+20 minutes
 
 ## Steps:
-### Creating an HTML Page and Using jQuery Selectors
-1. In this exercise you will create an HTML page and reference the jQuery script. You'll then work with different jQuery selectors to locate elements in the page.
 
-1. In the `WIP` folder, create a folder named
-`jQuery` with a file named `selectors.html`. 
-
-1. A reference to jQuery needs to be added.  This can be done using a file contained in your site or you can reference a CDN. Immediately above the closing </head> tag add the following script block:
-	``` javascript
-	<script src="https://code.jquery.com/jquery-2.2.2.js"></script>
-
-	<script>    window.jQuery || 
-	document.write('<script src="../../js/jquery-2.2.2.js"><\/script>');
-	</script>
-	```
-1. Place the following script immediately above the closing </head> tag – after the script you just added. 
-	``` javascript
-	<script>
-		$(document).ready(function() {
-			alert('hello');
-		});
-	</script>
-	```
-1. Open your selectors.html in a browser. You should see the alert. If not, use Developer Tools in your browser to see what the issue may be.  Check for syntax errors under the Console
-
-1. If you were successful the first time, you will now purposely cause an error to see
-what it looks like. Temporarily set the CDN to have the wrong value , such as jquery-2.ABC.js.  Reload the browser, Does your local file work?
-
-1. If your local file works, temporarily set it to something invalid.  
-
-1. Once you have seen the error in Developer Tools, fix the script tags to be valid so that you do get the alert.  Once this is working, you can remove the alert.
-
-1. Now inside the <body> tag in selectors.html add two `<ul>` for things you like and things you do not like to do. Include at least 3 items in each list. For example:
-	``` 
-	<p>Things I Like to Do</p>
-		<ul>
-			<li>Wash Car</li>
-			<li>Finish Taxes</li>
-			<li>Vote</li>
-		</ul>
-	<p>Things I DO NOT Like to Do</p>
-		<ul>
-			<li>Wash Dishes</li>
-			<li>Start Taxes</li>
-			<li>Go to the DMV</li>
-		</ul>
-	```
-1. Refresh the browser to see the content you added. 
-1. Add the following  inside the  $(document).ready() function:
-	``` javascript
-		$('p').css('font-weight', 'bold');
-	```
-1. Refresh your browser  and note that the paragraphs are bold.
+1. Continue working with your `WIP\jQuery\selectors.html` file. If you were not able to finish the last exercise, you can copy the solution `\Labs\ch10-jQuerySelectors\solution\selectors.html`. 
 
 1. Make the items that you do not like to do have a red font.  You can use:
 	``` javascript

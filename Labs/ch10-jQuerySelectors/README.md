@@ -1,4 +1,4 @@
-# Chapter 10: Exercise: jQuery Selectors
+# Chapter 10: Exercise: Creating an HTML Page and Using jQuery Selectors
 ## Objectives
 * Create a new HTML page
 * Reference a jQuery script
@@ -9,8 +9,7 @@
 ### Estimated Completion Time 
 15 minutes
 
-## Steps:
-### Creating an HTML Page and Using jQuery Selectors
+## Steps: 
 1. In this exercise you will create an HTML page and reference the jQuery script. You'll then work with different jQuery selectors to locate elements in the page.
 
 1. In the `WIP` folder, create a folder named
@@ -18,11 +17,11 @@
 
 1. Create a subdirectory called `/scripts` 
 
-1. Into `WIP/jQuery/scripts`, download jQuery from the website: `https://jquery.com/download/`
+1. Into `WIP\jQuery\scripts`, download jQuery from the website: `https://jquery.com/download/`
 
 	Get the latest compressed (minified) and uncompressed versions.
 	
-	If you do not have internet access you can also copy the scripts from `/Labs/ch10-jQuerySelectors/scripts`
+	If you do not have internet access you can also copy the scripts from `\555intermediatemodernweb\scripts`
 
 1. Compare the uncompressed and compressed versions to see the difference.
 
@@ -38,13 +37,13 @@
 	document.write('<script src="./scripts/XXXXXXX"><\/script>');
 	</script>
 	```
-
-	Where XXXXXX is a script that you downloaded.
+	Where XXXXXX is a reference to the script that you downloaded.
 
 1. Place the following script immediately above the closing </head> tag – after the script reference you just added. 
-	``` javascript
+	```html
 	<script>
-		$(document).ready(function() {
+		/* Add jQuery code in the handler */
+		$(function() {
 			alert('hello');
 		});
 	</script>

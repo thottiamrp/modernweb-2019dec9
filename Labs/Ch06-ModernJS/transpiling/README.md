@@ -16,7 +16,7 @@
 
 1. Create a directory in `/WIP` called `ES6`. You will do your work in this directory in creating a new project.
 
-1. To manage our new project's dependencies, including for babel, we will create a `package.json` by using the `npm init` wizard from the command line. Be sure to be within `/WIP/ES6` when you execute this command 
+1. To manage our new project's dependencies, including for babel, we will create a `package.json` by using the `npm init` wizard from the command line. Be sure to be within `\WIP\ES6` when you execute this command 
     ```
     npm init --yes
     ``` 
@@ -49,7 +49,7 @@
 
 1. Confirm the script works - that you see the output in the console. ES6 is supported in Node.
 
-1. Create an `index.html` file in the directory of `/WIP/ES6` which includes a script reference like this:
+1. Create an `index.html` file in the directory of `\WIP\ES6` which includes a script reference like this:
     ``` javascript
     <script src="src/myHobbiesSource.js"></script>
     ```
