@@ -1,4 +1,4 @@
-# Chapter 5: Exercise: The jQuery EventModel
+# Chapter 12: Exercise: The jQuery EventModel
 ## Objectives
 * Handle jQuery events
 
@@ -7,13 +7,11 @@
 20 minutes
 
 ## Steps:
-1. In this exercise you will create an HTML page and add a reference to the jQuery script. You'll then add event handlers for various elements in the page.
-
-1. Open events.html. 
-(Alternatively, you can copy your solution from \Labs\ch04-jQuerySelectors\end\selectors.html )
+ 
+1. Continue working with your `WIP\jQuery\jq.html` file. If you were not able to finish the last exercise, you can copy the solution from its solution folder. 
 
 1. Let’s add functionality to make the list items disappear from the display when they are clicked.
-Before the end of the `$(document).ready(function()`  add the following script block:
+Before the end of the `$(function()`  add the following script block:
     ``` javascript
     $('li').click(function(){
                 $(this).hide();

@@ -25,7 +25,7 @@
 
 1. Compare the uncompressed and compressed versions to see the difference.
 
-1. In your `WIP/jQuery/` directory, create a file named `selectors.html`. 
+1. In your `WIP\jQuery\` directory, create a file named `selectors.html`. 
 
 1. READ: A reference to jQuery needs to be added to your HTML file.  This can be done using one of the libraries in your `/scripts` folder, or you can reference a CDN.
 
@@ -79,7 +79,8 @@
 	```
 1. Refresh your browser and note that the paragraphs are bold.
 
-1. Add a table to your html with a row for headers for `artist` and `genre` and 3 data rows. 
+1. Add a table to your html with a row for headers for `artist` and `genre` and 3 data rows. Two rows should have the same genre.
+
 	```html
 	<table><tr><th>Artist</th><th>Genre</th></tr>
 			<tr><td>Stevie Wonder</th><th>Soul</th></tr>...
@@ -92,7 +93,7 @@
 	$("#artists").css('color', 'red');
 	```
 
-1. Add a "favorite" class to one `<li class="favorite">` in your `<ul>` and to one of the table rows. `<tr class="favorite">`
+1. Add a "favorite" class to one `<li class="favorite">` in a `<ul>` and to the second row of data of the table. `<tr class="favorite">`
 
 1. Use jQuery to target the favorites and give a background color of yellow. 
 	```javascript

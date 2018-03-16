@@ -6,8 +6,8 @@
 20 minutes
 
 ## Steps:
-1. Copy your events.html file from \Labs\ch05-EventModel into the \Labs\ch06-DOM\begin folder. Rename it to dom.html. 
-(Alternatively, you can copy the solution from \Labs\ch05-EventModel\end\events.html )
+
+1. Continue working with your `WIP\jQuery\selectors.html` file. If you were not able to finish the last exercise, you can copy the solution from its solution folder. 
 
 1. Recall the previous code for favorites. 
 	``` javascript
