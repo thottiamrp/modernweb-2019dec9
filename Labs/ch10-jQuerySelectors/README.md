@@ -57,8 +57,8 @@
 
 1. Once you have seen the error in Developer Tools, fix the script tags to be valid so that you do get the alert.  Once this is working, you can remove the alert.
 
-1. Now inside the <body> tag in selectors.html add two `<ul>` for things you like and things you do not like to do. Include at least 3 items in each list. For example:
-	``` 
+1. Now inside the <body> tag in `selectors.html` add two `<ul>` for things you like and things you do not like to do. Include at least 3 items in each list. For example:
+	```html 
 	<p>Things I Like to Do</p>
 		<ul>
 			<li>Wash Car</li>
@@ -80,23 +80,30 @@
 	```
 1. Refresh your browser and note that the paragraphs are bold.
 
-1. Add a table to your html with columns for artist and genre and 3 rows. Add an id of "artists"
+1. Add a table to your html with a row for headers for `artist` and `genre` and 3 data rows. 
+	```html
+	<table><tr><th>Artist</th><th>Genre</th></tr>
+			<tr><td>Stevie Wonder</th><th>Soul</th></tr>...
+	```
+
+1. Add an id of "artists" to the opening table tag.
 
 1. Use jQuery to target this table and make the text red.
 	```javascript
 	$("#artists").css('color', 'red');
 	```
 
+1. Add a "favorite" class to one `<li class="favorite">` in your `<ul>` and to one of the table rows. `<tr class="favorite">`
+
+1. Use jQuery to target the favorites and give a background color of yellow. 
+	```javascript
+	$(".favorite").css('background-color', 'yellow');
+	```
 
 1. Mark yourself as complete.
 
 ## Bonus
 
-1. Add an "odd" class to the 1st and 3rd table row.
-
-1. Use a jQuery class selector to set a background color 
-of lightgrey
-
-1. Add a check to see the version of jQuery being applied.
-	* Hint select anythign such as body and use the property from the slides
+1. Use console.log and display the version of jQuery that is being applied. 
+	* Hint select anything such as body and use the property from the slides
 

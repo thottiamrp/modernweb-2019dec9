@@ -1,45 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script src="http://code.jquery.com/jquery-2.2.2.js"></script>
-<style>
-   tr:odd {color: pink}
-</style>
-<script>
+	<title>Simple Select</title>
+	<script src="http://code.jquery.com/jquery-3.3.1-min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$("#changeBlue").click(function () {
+				$(this).css('background-color', 'lightblue');
+			});
 
+			$(".colorPink").css('color', 'pink');
 
-	$(document).ready(function() {
-		
+			$('div').css('border', '1px solid blue');
 
-		$("#changeBlue").click(function() {
-			$(this).css('background-color','lightblue');
 		});
-		
-		$(".colorPink").css('color','pink');
-		
-
-
-		$('div:contains("Inc")').css('font-size', 'small');
-
-		$("td.favorites").css('background-color', 'red');
-
-		$('li').css('color', 'red');
-
-		$('tr:odd').css('background-color', 'grey');
-
-		$('div > span').css('color', 'green');
-
-		$('input[value^="Submit"]').css('color', 'purple');
-		
-		$('span:first-child').css('color','blue');
-		
-		$('div').css('border','1px solid blue');
-		
-		
-	});
-</script>
+	</script>
 
 </head>
+
 <body>
 	<hr />
 	<button id="changeBlue">Change To Blue</button>
@@ -57,12 +35,12 @@
 
 	<hr />
 
-   	<pre>
+	<pre>
 	
 	
 	
 	</pre>
-	
+
 	<table style="width: 200px; border: 1px solid black;">
 		<tr>
 			<th>Artist</th>
@@ -85,13 +63,13 @@
 			<td>Soul</td>
 		</tr>
 	</table>
-	
+
 	<pre>
 	
 	
 	
 	</pre>
-	
+
 	<p>Table with no header</p>
 	<table style="width: 200px; border: 1px solid black;">
 		<tr>
@@ -113,4 +91,5 @@
 
 
 </body>
+
 </html>

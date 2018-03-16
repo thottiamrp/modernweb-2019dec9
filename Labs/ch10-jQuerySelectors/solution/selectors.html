@@ -13,17 +13,16 @@
 
 <script>
 	$(document).ready(function() {
-
-		console.log($("body").jquery);
-
+		
 		$("p").css('font-weight', 'bold');
 
 		$("#artists").css('color', 'red');
 
-	
+		$(".favorite").css('background-color', 'yellow');
+
+		console.log($("body").jquery);
+
 	});
-
-
 
 </script>
 
@@ -53,8 +52,8 @@
 			<td>Stevie Wonder</td>
 			<td>Soul</td>
 		</tr>
-		<tr>
-			<td  class="favorite">Les Claypool</td>
+		<tr class="favorite">
+			<td>Les Claypool</td>
 			<td>Funk Metal</td>
 		</tr>
 		<tr>
