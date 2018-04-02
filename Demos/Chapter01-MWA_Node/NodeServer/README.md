@@ -1,8 +1,6 @@
-# Demo of Executing JavaScript outside of the browser
+# Demo of Starting a server using Node
 
 ## Objectives:
-* Opening terminal/prompt at this directory level
-* Execute a simple JavaScript program
 * Start and stop a server 
 
 ## Steps:
