@@ -1,7 +1,7 @@
 # Chapter 0: Intro
 ## Objectives
-* Practice with Course Setup
-* Practice with VSCode and README.md files
+* Practice with Course Setup, VSCode and README.md files
+* Create a WIP directory that will not be tracked by GIT
 
 ### Estimated Completion Time 
 10 minutes
@@ -30,8 +30,7 @@ Most projects these days rely on using markdown files to share information about
 
 ## Part 2 - Create a WIP directory:
 
-1. You will be running demos and making changes to files. This is safe and you can always return to the original files by clicking the Git icon (The Y looking icon in the vertical menu strip). A number will appear whenever you have made changes.
-Test this now by adding spaces to this files and hitting CTRL-S to save.   
+1. In the /Demos you will be running demos and making changes to files. In the /Labs folders you will be reading instructions and copying files as starting points. This is safe and you can always return to the original files by clicking the Git icon in VSCode (The Y looking icon in the vertical menu strip). A number will appear on this icon whenever you have made changes. Test this now by adding spaces to this files and hitting CTRL-S to save.   
 
 1. You should see a number now. Click the Git icon and you will see the README.md and any other files you have changed listed. You can individually discard changes, or discard all changes from the menu.
 

@@ -1,1 +1,1 @@
-alert('this alert is in main.js');
+console.log('this is a log message');
