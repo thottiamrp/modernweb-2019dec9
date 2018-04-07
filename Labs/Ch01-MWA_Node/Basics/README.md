@@ -1,4 +1,4 @@
-# Chapter 1: Practice with Basics UPDATE make simpler, more details on how to add html usig vscode snippets plugin, typing html in an empty .html file and choosing the template
+# Chapter 1: Practice with Basics of HTML, CSS, and JS
 ## Objectives
 * Create an HTML document with minimal styling and dynamic behavior
 
@@ -49,17 +49,17 @@ Follow the steps, and if you need additional help you can refer to the slides, p
     If you need help ask your instructor or fellow students.
 
 1. In the `<head>`, add opening and closing `<style>` tags.
-```html
-<style>
-    div {
-        width: 300px;
-        padding: 10px;
-        border: 1px solid purple;
-        background-color: grey;
-        color: purple
-    }
-</style>
-```
+    ```html
+    <style>
+        div {
+            width: 300px;
+            padding: 10px;
+            border: 1px solid purple;
+            background-color: grey;
+            color: purple
+        }
+    </style>
+    ```
 
 1. Go back to the browser and reload to see your changes. Your name should now be in a grey box with a purple border.
 
@@ -69,13 +69,14 @@ Follow the steps, and if you need additional help you can refer to the slides, p
 
 1. Try adjusting values for the CSS colors and sizes and refreshign the browser.
 
-1. In the `<script>` tag, create an array of 3 strings called `hobbies`. 
+1. Look at the slides and try to create a JavaScript object with your name and email.
+In the init() function, use the object to set the name and email.
 
-1. In `init()` create a string to hold a `<ul>`, and `<li>` for each of the  hobbies. Loop through the array adding the list items to the string. 
+1. In init() add to the object to include an array of your hobbies. 
+    1. In the HTML create a new div called hobbies.
+    1. In `init()` create a string to hold a `<ul>`, and `<li>` for each of the  hobbies. Loop through the array adding the list items to the string. 
 for each hobby. 
-
-1. Use `document.getElementByID` to select the hobbies `div`, and `innerHTML` to populate the `<div>` with the created string.
-
-1. Style the hobbies div font to be bold and the color of your choice.
+    1. Use `document.getElementByID` to select the hobbies `div`, and `innerHTML` to populate the `<div>` with the created string.
+    1. Style the hobbies div font to be bold and the color of your choice.
 
 
