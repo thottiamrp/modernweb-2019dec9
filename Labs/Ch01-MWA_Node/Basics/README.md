@@ -1,4 +1,4 @@
-# Chapter 1: Practice with Basics
+# Chapter 1: Practice with Basics UPDATE make simpler, more details on how to add html usig vscode snippets plugin, typing html in an empty .html file and choosing the template
 ## Objectives
 * Create an HTML document with styling and dynamic behavior
 
@@ -6,19 +6,17 @@
 20 minutes
 
 ## Overview:
-You will create an html document using VSCode HTML Snippets, and add styling and JavaScript.
+You will create an html document using VSCode HTML Snippets, and add basic styling and basic JavaScript.
 
-Follow the steps, and if you need additional help yo can refer to the slides, previous demos, or the `solution` folder.
+Follow the steps, and if you need additional help you can refer to the slides, previous demos, or the `solution` folder.
 
 ## Steps:
 
-1. If you need extra practice with Object literals and Arrays in JavaScript, go into the `/JS Review/README.md` and complete that review first. 
+1. In the `WIP` folder, create a folder called `Ch01-Practice`. You can create this folder by right-clicking the `WIP` folder, and choosing New Folder.
 
-1. In the `WIP` folder, create a folder called `ReviewBasics`. You can create this folder by right-clicking the `WIP` folder, and choosing New Folder.
+1. Create a file in the new folder. You can right-click the `Ch01-Practice` folder and choose New File. Call the file `practice.html`.  
 
-1. Create a file in the new folder. You can right-click the `ReviewBasics` folder and choose New File. Call the file `practice.html`.  
-
-1. In the empty file, type `html` and pause. You should see a menu with options for html templates. Choose the one that is `html:5`.
+1. In the empty file, type `html` and pause. You should see a menu with options for html templates. Choose the one that is `html:5`. We will review the structure of this file in upcoming chapters.
 
 1. In `<body>`, create two empty `<div>` tags, the first with an id of "name" and the second with an id of "hobbies".
 
