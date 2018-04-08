@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        form {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        First name:
+        <input type="text" name="firstname">
+        <br /> Last name:
+        <input type="text" name="lastname">
+    </form>
+    <form>
+        <input type="radio" name="answer" value="yes" checked> Yes
+        <br />
+        <input type="radio" name="answer" value="no"> No
+        <br />
+        <input type="radio" name="answer" value="other"> Other
+    </form>
+    <form>
+        <input type="radio" name="answer" value="yes" checked> Yes
+        <br />
+        <input type="radio" name="answer" value="no"> No
+        <br />
+        <input type="radio" name="answer" value="other"> Other
+    </form>
+    <form action="/submitform" method="get" target="_blank">
+        Username
+        <input type="text" disabled="disabled" value="admin">
+        <br /> First name:
+        <input type="text" name="firstname">
+        <br /> Last name:
+        <input type="text" name="lastname">
+        <br />
+        <input type="submit" value="Submit" disabled>
+    </form>
+
+    <form action="/submitform" method="get" target="_blank">
+        <fieldset>
+                <legend>Personal information:</legend>
+        Username
+        <input type="text" disabled="disabled" value="admin">
+        <br /> First name:
+        <input type="text" name="firstname">
+        <br /> Last name:
+        <input type="text" name="lastname">
+        <br />
+        <input type="submit" value="Submit" disabled>
+        </fieldset>
+    </form>
+
+
+</body>
+
+</html>
