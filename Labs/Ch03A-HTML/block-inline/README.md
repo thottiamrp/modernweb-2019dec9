@@ -24,5 +24,7 @@ TODO tell the to recreate using h1, h2, p, for each.
 Use abbr for HTML and CSS
 (see demo for example)
 
+use lorem ipsum and add paragraphs for info, headers, and other things
+
 
 
