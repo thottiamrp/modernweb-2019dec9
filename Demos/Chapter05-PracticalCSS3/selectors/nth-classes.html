@@ -7,16 +7,16 @@
 
 	<style>
 		tr:nth-child(odd) {
-			background-color: rgba(122, 122, 122, 0.5);
+			background-color: rgba(122, 122, 122, 0.5);            
 		}
 		
 		tr:nth-child(3) {
 			color: green;
 		}
 		
-		div :first-of-type {
-			background-color: yellow;
-		}
+		div :first-of-type { background-color: yellow;}
+		div :last-child { background-color:pink; }
+		div :last-of-type { color: red;}
 	</style>
 
 </head>
@@ -25,13 +25,13 @@
 
 
 	<div>
-		<h1>First h1</h1>
-		<h1>Second h2</h1>
-		<h2>First h2</h2>
-		<p>First paragraph</p>
-		<p>Second Paragraph</p>
+		<h1>Displayed Page Title</h1>
+		<h1>Wait, another h1?</h1>
+		<h2>About Section</h2>
+		<p>Sometimes you just want a paragraph</p>
+		<p>Sometimes you just want another paragraph</p>         
 		<p>
-			Third paragraph <span>first span</span>
+			Why not have <span>three</span> paragraphs?
 		</p>
 		<p>Last paragraph</p>
 	</div>
