@@ -18,11 +18,11 @@ Follow the steps, and if you need additional help you can refer to the slides, p
 
 1. In the empty file, type `html` and pause. You should see a menu with options for html templates. Choose the one that is `html:5`. We will review the structure of this file in upcoming chapters.
 
-1. In `<head>` and then in `<title>` modify it to loo like this:
+1. In `<head>` and then in `<title>` modify it to look like this:
     ```html
     <title>Basics of HTML, CSS and JavaScript</title>
     ```
-1. After title, and before the closing `</head>` tag, add an opening and closing `<script>` tag and write a function called init(). In the function use `document.getElementByID` to select the name `div`, and `innerHTML` to populate the `<div>` with YOUR name.
+1. After title, and before the closing `</head>` tag, add an opening and closing `<script>` tag and write a function called init(). In the function use `document.getElementById` to select the name `div`, and `innerHTML` to populate the `<div>` with YOUR name.
 
     Try typing the following code, notice as you type, the editor offers autocompletion.
 
@@ -34,7 +34,7 @@ Follow the steps, and if you need additional help you can refer to the slides, p
         </script>
     ```            
 
-1. In `<body>`, add this line of code, notice the div element has an attribute of name, this is what teh JavaScript will target with your name.
+1. In `<body>`, add this line of code, notice the div element has an attribute of name, this is what the JavaScript will target with your name.
     ```html
     <div id="name"></div>
     ```
@@ -44,7 +44,7 @@ Follow the steps, and if you need additional help you can refer to the slides, p
     <body onload="init()">
     ```
 
-1. Open the file in the browser and check that your name is displayed. You can right-click the html file and choose open in browser, or use the shortcut ALT-B. Make any necessary fixes - make sure your name is displayed befor you move on.
+1. Save and then open the file in the browser and check that your name is displayed. You can right-click the html file and choose open in browser, or use the shortcut ALT-B. Make any necessary fixes - make sure your name is displayed before you move on.
 
     If you need help ask your instructor or fellow students.
 
@@ -67,7 +67,7 @@ Follow the steps, and if you need additional help you can refer to the slides, p
 
 ## Bonus:
 
-1. Try adjusting values for the CSS colors and sizes and refreshign the browser.
+1. Try adjusting values for the CSS colors and sizes and refreshing the browser.
 
 1. Look at the slides and try to create a JavaScript object with your name and email.
 In the init() function, use the object to set the name and email.
@@ -76,7 +76,7 @@ In the init() function, use the object to set the name and email.
     1. In the HTML create a new div called hobbies.
     1. In `init()` create a string to hold a `<ul>`, and `<li>` for each of the  hobbies. Loop through the array adding the list items to the string. 
 for each hobby. 
-    1. Use `document.getElementByID` to select the hobbies `div`, and `innerHTML` to populate the `<div>` with the created string.
+    1. Use `document.getElementById` to select the hobbies `div`, and `innerHTML` to populate the `<div>` with the created string.
     1. Style the hobbies div font to be bold and the color of your choice.
 
 
