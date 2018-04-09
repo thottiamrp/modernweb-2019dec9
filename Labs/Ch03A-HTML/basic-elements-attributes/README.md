@@ -12,6 +12,8 @@ Change the comments for the character encoding and reload
 
 1. In your /WIP folder create a file called htmlbasics.html
 
+1. In this empty file start typing html and use the pop-up. 
+
 1. Follow the slide and add a favicon to your document created in the last lab
 
 1. Copy some intenational characters into a `<p>` element on your page. Try using different character encodings.
