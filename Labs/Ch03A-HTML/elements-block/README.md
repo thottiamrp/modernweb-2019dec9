@@ -1,4 +1,4 @@
-# Chapter 3A: Practice with Basics of HTML elements
+# Chapter 3A: Practice with block level elements
 
 ## Objectives
 * Add block level elements to your document
@@ -53,11 +53,16 @@ Cut into bars.
 
 1. Use HTML markup tags to make it look more readable. Not pre!
 
-    * Use heading tags for sections use br fo line breaks,
+    * Use heading tags for sections 
     * Use paragraphs for the intro
     * Group ingredients and direction using div tags, identify by using id values
-    * Use an unorderd list for the ingredients
+    * Use an unordered list for the ingredients
     * Use an ordered list for the steps
+    * use br if you need to
+
+1. Add your own favorite or copy another recipe from online and mark it up. You can also copy and paste the code you made so that you have multiple recipes that you must scroll to see all of them. 
+
+1. Ensure that each recipe has a unique id value. (this will be used in the future) 
 
 1. Mark your work as complete
 
@@ -66,5 +71,7 @@ Cut into bars.
 1. In your `/WIP/html` create a new file called  `class-outline.html`.
 
 1. Recreate the image from the slides with course information.
+
+1. Update the ingredients to use html entities for displaying 1/2 as a fraction.
 
 1. Practice!
