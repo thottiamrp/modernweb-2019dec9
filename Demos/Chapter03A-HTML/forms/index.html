@@ -34,6 +34,7 @@
         <br />
         <input type="radio" name="answer" value="other"> Other
     </form>
+
     <form action="/submitform" method="get" target="_blank">
         Username
         <input type="text" disabled="disabled" value="admin">
@@ -47,16 +48,38 @@
 
     <form action="/submitform" method="get" target="_blank">
         <fieldset>
-                <legend>Personal information:</legend>
-        Username
-        <input type="text" disabled="disabled" value="admin">
-        <br /> First name:
-        <input type="text" name="firstname">
-        <br /> Last name:
-        <input type="text" name="lastname">
-        <br />
-        <input type="submit" value="Submit" disabled>
+            <legend>Personal information:</legend>
+            Username
+            <input type="text" disabled="disabled" value="admin">
+            <br /> First name:
+            <input type="text" name="firstname">
+            <br /> Last name:
+            <input type="text" name="lastname">
+            <br />
+            <input type="submit" value="Submit" disabled>
         </fieldset>
+    </form>
+
+    <form>
+        <label>
+
+            First Name:
+            <input type="text" name="fname" />
+
+        </label>
+        <br/>
+        <br/>
+        <br/>
+
+        <label for="lname">Last Name</label>
+        <input id="lname" type="text" name="fname" />
+
+        <br />
+
+        <label>
+            Enter lots of text here:<br />
+            <textarea name="textarea" rows="3" cols="30">Default Text here</textarea>
+        </label>
     </form>
 
 
