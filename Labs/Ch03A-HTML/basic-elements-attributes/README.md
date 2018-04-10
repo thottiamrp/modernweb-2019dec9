@@ -6,17 +6,19 @@
 ### Estimated Completion Time 
 10 minutes
 
-1. Navigate to \Demos\Chapter03A-HTML\basics\meta.html
+1. Navigate to `\Demos\Chapter03A-HTML\basics\meta.html`
 Load the page and view the Japanese characters
 Change the comments for the character encoding and reload
 
-1. In your /WIP folder create a file called htmlbasics.html
+1. In your `/WIP` folder create a file called `htmlpractice.html`
 
-gi1. In this empty file start typing html and use the pop-up. 
+1. In this empty file start typing html and use the pop-up to choose the html5 template.
 
-1. Follow the slide and add a favicon to your document created in the last lab
+1. Follow the slide and add a favicon to this document.
 
-1. Copy some intenational characters into a `<p>` element on your page. Try using different character encodings.
+1. Add an h1 element with the text 
+
+1. Copy some international characters into a `<p>` element on your page. Try using different character encodings.
 
 1. Google for Mozilla Developer Network and read the search results description.
 
