@@ -14,11 +14,11 @@ Switch the usage of character encoding by commenting out the usage of UTF-8 and 
 
     Reload the page and view the differences.
 
-1. In your `/WIP` folder create a folder called `html` and a file called `htmlpractice.html`. You will do you work in this `WIP/html` directory and file.
+1. In your `/WIP` folder create a folder called `html` and a file inside called `mysite.html`. You will do you work in this `WIP/html` directory and file.
 
 1. In this empty file start typing html and use the pop-up in VScode to choose the html5 template. View the generated code.
 
-1. Search for a PNG image using Google image search, specifying a custom size of 260x260. Download the file into your `WIP/html` directory.
+1. Search for a PNG image you like using Google image search, specifying a custom size of 260x260. Download the file into your `WIP/html` directory.
 
 1. Visit the website: https://realfavicongenerator.net/ and upload your image into tool. 
 

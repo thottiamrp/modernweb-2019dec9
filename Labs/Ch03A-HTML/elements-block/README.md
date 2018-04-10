@@ -5,18 +5,66 @@
 
 ### Estimated Completion Time 
 10 minutes
+ 
 
-1. In your `/WIP` folder continue with your file called `htmlpractice.html`
+1. In your `/WIP/html` create a new file called  `recipes.html`
 
-1. Add an h1 element with the text 
+1. Copy this content into your file.
 
-1. Copy some international characters into a `<p>` element on your page. Try using different character encodings.
+```
+Lemon Bars
 
-1. Google for Mozilla Developer Network and read the search results description.
+These lemon squares are a delightful recipe. I've been serving it for many years. This lemon bar recipe has a wonderful tangy flavor, and they're always a hit. The color and shape make them a nice addition to a platter of cookies.
 
-1. Visit the website. Right click in browser and choose View Source.  Use control-F to find the meta description, you should see the same text as what was displayed on Google.  
+READY IN: 1hr 10mins	SERVES: 8-12
+YIELD: 12 bars or so	UNITS: US
 
-can update use of entitited cent	¢ U+00A2 (162)	HTML 3.2	HTMLlat1 ISOnum	cent sign
-pound	£	U+00A3 (163)	HTML 3.2 HTMLlat1	ISOnum	pound sign
-curren	¤	U+00A4 (164)	HTML 3.2 HTMLlat1	ISOnum	currency sign
-yen
+
+
+INGREDIENTS 
+
+FOR BASE
+2 cups sifted flour
+1⁄2 cup powdered sugar
+1 cup butter
+
+FOR TOP
+4 large beaten eggs
+2 cups white sugar
+1⁄3 cup lemon juice
+1⁄4 cup flour
+1⁄2 teaspoon baking powder
+1⁄2 teaspoon fresh lemon rind (optional)
+
+DIRECTIONS
+For the base mix the butter into the flour and sugar.
+Mix with hands until it clings together.
+Press into a 13 x 9 x 2-inch pan.
+Bake at 350°F for 20-25 minutes or until lightly browned.
+For the filling, beat together eggs, sugar and lemon juice.
+Sift together flour and baking powder.
+Stir into egg mixture.
+Pour over baked, cooled crust.
+Bake at 350°F for 25 minutes.
+Cool and sprinkle with powdered sugar.
+Cut into bars.
+```
+
+
+1. Use HTML markup tags to make it look more readable. Not pre!
+
+    * Use heading tags for sections use br fo line breaks,
+    * Use paragraphs for the intro
+    * Group ingredients and direction using div tags, identify by using id values
+    * Use an unorderd list for the ingredients
+    * Use an ordered list for the steps
+
+1. Mark your work as complete
+
+## Bonus
+
+1. In your `/WIP/html` create a new file called  `class-outline.html`.
+
+1. Recreate the image from the slides with course information.
+
+1. Practice!
