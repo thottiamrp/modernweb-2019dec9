@@ -30,6 +30,8 @@ Switch the usage of character encoding by commenting out the usage of UTF-8 and 
 
 1. If you open the browser now, you might see an error in the browser console. The generated code is assuming you are working on a server, and the / before the name of the file looks for the root. When using file:/ the root is c:\ !  Fix this by removing the slash from the href value.
 
+1. Reload the browser and you should see the icon in the browser tab.
+
 1. Google for Mozilla Developer Network and read the Google search results description.
 
 1. Visit the website. Right click in browser and choose View Source.  Use control-F to find the meta description, you should see the same text as what was displayed on Google.  
