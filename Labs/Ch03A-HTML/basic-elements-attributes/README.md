@@ -1,13 +1,22 @@
-create a page for hobbies
+# Chapter 3A: Practice with Basics of HTML elements
 
-Navigate to \Demos\Chapter03A-HTML\basics\meta.html
+## Objectives
+* Create an HTML document with markup containing text
+
+### Estimated Completion Time 
+10 minutes
+
+1. Navigate to \Demos\Chapter03A-HTML\basics\meta.html
 Load the page and view the Japanese characters
 Change the comments for the character encoding and reload
 
-create and add a favicon
+1. In your /WIP folder create a file called htmlbasics.html
 
+gi1. In this empty file start typing html and use the pop-up. 
 
-copy some characters for character encoding
+1. Follow the slide and add a favicon to your document created in the last lab
+
+1. Copy some intenational characters into a `<p>` element on your page. Try using different character encodings.
 
 1. Google for Mozilla Developer Network and read the search results description.
 
