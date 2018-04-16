@@ -11,14 +11,14 @@
             width: 400px;
         }
 
-        label {
+        div > label {
             clear: both;
             float: left;
             width: 150px;
             margin-bottom: 10px
         }
 
-        input {
+        label > input {
             margin-left: 5px;
             margin-bottom: 10px;
             width: 250px;
@@ -53,28 +53,21 @@
 
 
     <main>
-        <form onSubmit="validate()" action="register" method="POST">
+        <form onSubmit="validate()" action="search" method="GET">
             <fieldset>
-                    <legend>Registration</legend>
-                <div>
-                    <label for="username">Username</label>
-                    <input type="text" id="username" />
-                    <!-- <span>That username is already being used</span>
-           -->
-          
-                </div>
+                    <legend>Search</legend>
+                <p>Search Archive Records?
+                   <input type="radio" name="archive" value="y" />
+                   <label for="archive">Yes</label>
+                 
+                   <input type="radio" name="archive"  value="n" />
+                   <label for="archive">No</label>
+                </p>
 
-                <div>
-                    <label for="username">Password</label>
-                    <input type="password" id="password" />
-                    <span id="badpassword">That password does not meet criteria</span>
-                </div>
-
-                <div>
-                    <label for="username">Email</label>
-                    <input type="text" id="email" />
-                    <span id="bademail">That email is already being used.</span>
-                </div>
+                <p>
+                    <label for="username">Minimum Age</label>
+                    <input type="text" id="email" name="minage" />
+                </p>
 
                 <div style="text-align: center">
                     <button>Submit</button>

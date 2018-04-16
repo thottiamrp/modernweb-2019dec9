@@ -1,10 +1,10 @@
 # Chapter 0: Intro
 ## Objectives
-* Practice with Course Setup
-* Practice with VSCode and README.md files
+* Practice with Course Setup, VSCode and README.md files
+* Create a WIP directory that will not be tracked by GIT
 
 ### Estimated Completion Time 
-10 minutes
+15 minutes
 
 ## Overview:
 Most projects these days rely on using markdown files to share information about projects. By default, .md files open in edit mode. You will practice various ways of opening markdown files in an easier to read formatted way. 
@@ -28,15 +28,26 @@ Most projects these days rely on using markdown files to share information about
 
 1. You can also open the GitHub repository and browse to the directory containing the README.md files.
 
-## Part 2 - Create a WIP directory:
+## Part 2 - Practice with Git and discard changes:
 
-1. You will be running demos and making changes to files. This is safe and you can always return to the original files by clicking the Git icon (The Y looking icon in the vertical menu strip). A number will appear whenever you have made changes.
-Test this now by adding spaces to this files and hitting CTRL-S to save.   
+1. In the `/Demos` you will be running demos and making changes to files. In the `/Labs` folders you will be reading instructions and copying files as starting points. 
+
+    This is safe, because the Demos and Labs folders are tracked by Git. If you make changes to these files, the VSCode source control icon (The Y looking icon in the vertical menu strip) will display a number for each file changed. 
+    
+    You can always revert to the original files by clicking this icon, seeing the list of files that have been changed,and discarding the changes from one or all files. Test this now by adding spaces to this README file and hitting CTRL-S to save.   
 
 1. You should see a number now. Click the Git icon and you will see the README.md and any other files you have changed listed. You can individually discard changes, or discard all changes from the menu.
 
-1. Files and directories listed in the .gitignore file will be ignored. (and not counted among those files changed) Open the .gitignore file and notice that a directory called /WIP will be ignored. Use VSCode to create this directory. You can right-click in the space under the current files/directories, and choose New Folder.    You will be working in this directory. 
+1. Files and directories listed in the .gitignore file will be ignored. (and not counted among those files changed) Open the .gitignore file and notice that a directory called /WIP will be ignored. 
 
-1. At the end of class, you will be able to zip this directory and transfer it off of the lab machine.
+## Part 3 - Use VSCode to create the `WIP` directory:
+
+1. Ensure that the folder you have opened in VSCode is the one for this course. At the root of this folder are the `/Demos` and `/Labs` directories. The name of the folder is what is displayed in bold,  after the list of Open Editors:
+
+    Ex. 155IntroModernWeb, 555IntermediateModernWeb, etc.
+    
+1. Once you are sure you are in this folder, You can right-click in the space under the current files/directories, and choose New Folder. Name the new Folder `WIP`. You will be working in this directory for much of the course. 
+
+1. If working on a Lab machine, you will be able to zip this directory and transfer it off of the lab machine to peserve your work.
 
 

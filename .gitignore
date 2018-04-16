@@ -9,6 +9,9 @@ package-lock.json
 .idea
 .vscode
 
+# OS specifics
+.DS_Store
+
 # Working Directory
 working/
 WIP/
