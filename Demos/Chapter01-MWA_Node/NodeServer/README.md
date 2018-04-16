@@ -6,14 +6,6 @@
 ## Steps:
 1. Open the terminal window at the same location as this file. You can do this by right-clicking on the README.md file and choosing Open in Command Prompt. (terminal)
 
-1. Execute the program hello.js, using the node command
-`node hello` or `node hello.js`
-
-    Always be mindful where you are running your commands from!
-
-
-1. Use an editor to modify `hello.js` to add your name to the console.log and re-run
-
 1. In the editor, view the contents of `serverExample.js`
 
 1. Use node to run this example. `node serverExample`
