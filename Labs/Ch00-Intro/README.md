@@ -4,7 +4,7 @@
 * Create a WIP directory that will not be tracked by GIT
 
 ### Estimated Completion Time 
-15 minutes
+10 minutes
 
 ## Overview:
 Most projects these days rely on using markdown files to share information about projects. By default, .md files open in edit mode. You will practice various ways of opening markdown files in an easier to read formatted way. 
