@@ -11,10 +11,12 @@
 1. In your `/WIP/html` open your file `mysite.html`.
 
 1. Near the top of the document add a link to the 
- `recipes.html` - using the anchor tag, a relative link, and the text Recipes. If you did any bonus pages link these too.
+ `class-outline.html` - using the anchor tag, a relative link, and the text Class Outline. If you did any bonus pages link these too.
 
-1. Test your updates and that clickign the link opens the other page. Notice when you hover over the links the link is displayed in the bottom left.
+1. Test your updates and that clicking the link opens the other page. Notice when you hover over the links the link is displayed in the bottom left.
  
+ 1. If you did not complete the bonus in the last exercise, copy the solution from the last exercise labeled `bonus.html` into youe html directory and name it `recipes.html`.
+
  1. Modify your `/WIP/html/recipes.html` by adding  internal links to the individual recipes. Use the # symbol and id value for the internal link - and display the name of the recipe to be clicked.  
 
 1. Add content near the top of the page asking viewers if they need to convert the measurements. Make the words convert the measurements clickable to open this page in another browser tab: `https://www.free-online-calculator-use.com/recipe-conversion-calculator.html`
