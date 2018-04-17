@@ -15,9 +15,18 @@
 
 1. Test your updates and that clicking the link opens the other page. Notice when you hover over the links the link is displayed in the bottom left.
  
- 1. If you did not complete the bonus in the last exercise, copy the solution from the last exercise labeled `bonus.html` into youe html directory and name it `recipes.html`.
+ 1. If you did not complete the bonus in the last exercise, with at least 3 recipes and one starting below the fold (off the page at the bottom) copy the solution from the last exercise labeled `bonus.html` into your `WIP/html` directory and name it `recipes.html`.
 
- 1. Modify your `/WIP/html/recipes.html` by adding  internal links to the individual recipes. Use the # symbol and id value for the internal link - and display the name of the recipe to be clicked.  
+ 1. Modify `/WIP/html/recipes.html` by adding internal links at the top of the page, to the individual recipes. Use the # symbol and id value for the internal link - and display the name of the recipe to be clicked. 
+    For example off the page there should be one recipe surrounded bya div with a unique id value:
+    ```html
+        <div id="chicken">
+    ```
+
+    In your links at the top, you can link to it like this:
+    ```html
+
+    ```
 
 1. Add content near the top of the page asking viewers if they need to convert the measurements. Make the words convert the measurements clickable to open this page in another browser tab: `https://www.free-online-calculator-use.com/recipe-conversion-calculator.html`
 
