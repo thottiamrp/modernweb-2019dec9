@@ -62,12 +62,20 @@
     * add 3-5 child paragraphs of content from the generator websites
     * add a `<footer>` before the closing article tag with a link to the generator website
         * You can type a, wait and see a drop down to get the basic structure
-    * update the nav links to link to the article 
-
-1. Test your links, you may need to copy a few paragraphs to get an article to start "below the fold" so that you see the page scroll when you click the link for that article.
     
 ## Bonus
 
+1. Update the nav links in the top of the page to link to each article 
+
+1. You will test your internal links, but may need to add in a lot of content. For now, add this code to the `<head>` of your document:
+    ```html
+    <style>
+        p {width:50%}
+    </style>
+    ```
+
+1. Test your links, you may need to copy a few paragraphs to get an article to start "below the fold" so that you see the page scroll when you click the link for that article.
+    
 1. If done before others, create a copy of your Lorem Ipsum file and call it DynamicLoremIpsum.html. (Ctrl-C and Ctrl-V)
 
 1. Include a JS file which defines an array of Lorem Ipsum text
