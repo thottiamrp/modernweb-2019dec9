@@ -6,6 +6,34 @@
 ### Estimated Completion Time 
 10 minutes
  
+1. In your `/WIP/html` create a new file called  `class-outline.html`.
+
+1. Copy the text below into your HTML file
+
+    ```
+    Intro to Modern Web Development
+    Featuring HTML5, CSS3, JavaScript (ES6+)
+
+    Chapter 1: Modern Web Apps & Node
+    Discuss browser clients calling servers using AJAX and Rest APIs
+
+    Chapter 2: Working with Browsers
+    Even experienced developers can be more productive using the browser developer tools
+
+    Firefox
+    Based on Firebug
+
+    Chrome
+    Looks like Firebug too
+    ```
+
+1. Mark up the text with appropriate elements
+    * Use headings h1, h2, and h3 as appropriate
+    * Use paragraphs for content
+
+1. Mark your work as complete
+
+## Bonus
 
 1. In your `/WIP/html` create a new file called  `recipes.html`
 
@@ -62,16 +90,7 @@ Cut into bars.
 
 1. Add your own favorite or copy another recipe from online and mark it up. You can also copy and paste the code you made so that you have multiple recipes that you must scroll to see all of them. 
 
-1. Ensure that each recipe has a unique id value. (this will be used in the future) 
+1. Ensure that each recipe has a unique id value. (this will be used in future bonuses) 
 
-1. Mark your work as complete
+1. Mark your bonus work as complete
 
-## Bonus
-
-1. In your `/WIP/html` create a new file called  `class-outline.html`.
-
-1. Recreate the image from the slides with course information.
-
-1. Update the ingredients to use html entities for displaying 1/2 as a fraction.
-
-1. Practice!
