@@ -43,9 +43,9 @@ please rename your work with an extension such as lorem-ipsum-WIP.html and copy 
 1. Perform the following using CSS, check after each step: (modify HTML as needed)
     * Target all h2 to be green (should affect the text `let's show some content` and h2 in articles) 
     * Target just the h2 in the header to be black
-    * Target the third letter of the first generator's h2 to also be black (add span, use id and descendent)
+    * Target the third letter of the first generator's h2 to also be black. Add a span, use id and descendent). So style the span, in the h2, in the article with the id you chose for the first generator. 
     * Target all paragraphs to be blue
-    * Target the second paragraphs of each to be black (use class)
+    * Target the second paragraphs of each to be black (add a class="two" to each article's second paragraph)
     
 ## Make printing better and cheaper
 
