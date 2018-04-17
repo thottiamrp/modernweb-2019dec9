@@ -8,6 +8,10 @@
  
 1. In your `/WIP/html` create a new file called  `class-outline.html`.
 
+1. If you haven't already install the VSCode extension HTMLTagWrap.
+    * Click extensions, look for HTMLTagWrap and install | reload
+    * it will make it easy to highlight a block of text, hit Alt+W then adjust the tags being used to wrap the content.
+
 1. Copy the text below into your HTML file
 
     ```
