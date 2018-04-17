@@ -7,43 +7,29 @@
 20 minutes
 
 ## Create page and include CSS
- 
-1. In your `/WIP/` directory create a new directory called `CSS` and a file inside `CSSpractice.html`. 
 
-1. Type html and choose the template that is just labeled html. View slide for screenshot of which to use.
 
-1. Notice:
-    * that the title tag is highlighted - type CSSPractice.
-    * that there is a link to an external stylesheet main.css that has media set to screen. Change this value to all.
-    * that there is a script tag - remove it
+1. If you needed to step away or otherwise did not finish the Lorem Ipsum content exercise,
+please rename your work with an extension such as lorem-ipsum-WIP.html and copy the solution file from `\Labs\ch04-html5-tags\Semantic\solution` into your `/WIP/LoremIpsum` directory.
+
+1. Ensure your file has 
+    * a link to an external stylesheet main.css that has media set to `all`.
+        * you may need to update this value
 
 1. Create the `main.css` file being referred to in the HTML at the same level as your html file. 
     * Inside of this css file, add this statement:
     ```css
     @import url('halloween.css');
     ```
-    * create a halloween.css and set `<header>` elements to have an orange background color.
+    * create a `halloween.css` and set `<header>` elements to have an orange background color.
     ```css
     header {background-color: orange;}
     ```    
 
-1. In the HTML file's `body` tag, create a `<header>` element.
-
-1. In header,  
-    * Create an `h1` element with the text `Lorem Ipsum Generators`
-    * Create an `h2` element with the text `let's show some content`
-   
-1. Load the page - there should be a header in progress now with an orange background.
+1. Reload the page - the header in your document should have an orange background.
     * If not - check your CSS and use of import.
 
-1. After h2, add a `<nav>` tag and 3 list items with anchors.  You can use this Emmet abbreviation in VSCode to create this dynamically:
-    ```
-    nav>ul>li*3>a
-    ```
-
-    For now just add short words to each list item for display. 
-
-1. You can add styles in your `main.css` if you have enough screen space you may wish to open your editor in Split mode (upper right icon in VSCode) to see both HTML and CSS at once. Or you may wish to put your CSS in embedded `<style>` tags.
+1. You can continue to add styles in your `main.css` if you have enough screen space you may wish to open your editor in Split mode (upper right icon in VSCode) to see both HTML and CSS at once. Or you may wish to put your CSS in embedded `<style>` tags.
     * target the body tag and make text red
 
 1. Reload your page, what color is the displayed h1,h2 and anchor text? 
@@ -51,37 +37,9 @@
 
 1. Continue the following steps refreshing the browser when you want to check work that you are doing.
 
-## Adding more content and styles
 
-1. After header, add an `<main>` element with the text MAIN AREA   
-
-1. After main, create a footer with this content. 
-    ```html
-    <footer>
-            &copy; 2018 - Karmoxie Consulting <a href="mailto:judy@karmoxie.com?subject=CSS%20Exercise">judy@karmoxie.com</a> or <a href="tel:412-353-9161">412-353-9161</a>
-    </footer>
-    ```
-
-    Offering phone links is helpful for users viewing web documents and laptops connected to phones. Load your page and look at the links. Test the mail link works and say Hello!
-
-## Add and style Lorem Ipsum
-    
-1. Take 2-3 minutes for this step:
-    * open this website https://loremipsum.io/ultimate-list-of-lorem-ipsum-generators/
-    * choose 3 sites generators of interest into new browser tabs - right click to open in new tab if you need to
-    * interact with these generators. Some have nice features for generating content. 
-
-1. For each generator you chose:
-    * create an `<article>` inside of main
-    * give it an id value to represent the generator you are assigning
-    * create a child h2 element that describes that generator
-    * add 3-5 child paragraphs of content from the generator websites
-    * add a `<footer>` before the closing article tag with a link to the generator website
-        * You can type a, wait and see a drop down to get the basic structure
-    * update the nav links to link to the article 
-
-1. Test your links, you may need to copy a few paragraphs to get an article to start "below the fold" so that you see the page scroll when you click the link for that article.
-
+## Add style to Lorem Ipsum
+  
 1. Perform the following using CSS, check after each step: (modify HTML as needed)
     * Target all h2 to be green (should affect the text `let's show some content` and h2 in articles) 
     * Target just the h2 in the header to be black
@@ -158,8 +116,4 @@ these by using this CSS - we will talk about other values later.
 
 ## Continuing Bonus
 
-1. If done before others, create a copy of the CSSPractice.html file you created and call it DynamicLoremIpsum.html
-
-1. Create a JSON fle with your content to be loaded by using JSON-server.
-    * take a look at the docs to understand how to format and add id values
-    * Google npm json-server or refer to the Demos in Ch01 
+1. Create a button that when clicked updates some of the CSS values we have used so far.
