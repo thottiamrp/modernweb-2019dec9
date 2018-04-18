@@ -8,6 +8,8 @@
 1. Continue working in `CSS` 
 
 1. Center align the content of the header. Resize your browser and see how it adjusts. If you need a hint, or to continue, scroll down.
+
+1. Transform the nav text to uppercase.
     ```
 
 

@@ -24,6 +24,7 @@
 
     header h2, #bacon h2 span {color: black}
 
+    nav {text-transform: uppercase }
 
     nav a:link {color: white; background-color:red}
     nav a:hover {color:red;background-color:white}
