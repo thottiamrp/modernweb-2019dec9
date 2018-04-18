@@ -30,7 +30,9 @@
     nav ul li a {
         text-decoration:none;
         display: inline-block;
-        width: 9em; height: 1.25em;
+        width: 9em; 
+        height: 1.25em;
+        padding: 2px;
     }
 
     header h2, #hipster h2 span {color: black}
@@ -41,11 +43,14 @@
     nav a:hover {color:red;background-color:white}
 
 
-    p {color: blue; font-size: 18px; padding:2px; }
+    p {
+        color: blue; 
+        font-size: 18px; 
+        padding:2px; }
 
     p.two {
         color: black;
-        font:15px Arial, bold, sans-serif;
+        font: 15px Arial, bold, sans-serif;
     }
 
     footer { font-weight:bold; padding:5px 0; }

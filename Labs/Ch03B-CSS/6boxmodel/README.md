@@ -12,4 +12,4 @@
 1. Change your nav links to look more like buttons
     * change the display to inline-block
     * give a width and height 
-    * use passing to make the text more readable 
+    * use padding to make the text more readable 
