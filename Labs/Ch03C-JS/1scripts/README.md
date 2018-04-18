@@ -23,7 +23,7 @@
 
 1. Add another set of script tags inside of the `<head>`
 
-1. Inside, use console.log 
+1. Inside, use console.log to print out Hello World.  
 
 1. Use document.write to display an h1 element with the text Welcome to class and a p saying Check the console.
 
