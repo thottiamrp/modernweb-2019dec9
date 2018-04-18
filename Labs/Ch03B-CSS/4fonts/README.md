@@ -1,16 +1,14 @@
-# Chapter 3B: Working with Text
+# Chapter 3B: Working with Fonts
 
 ## Objectives
-* Add CSS to text
+* Add CSS to style fonts
 
  
-1. Continue working in your `CSSpractice.html`. 
-    * center text in h1
-    * center h2
-
 1. If you were unable to complete the exercise, you can copy the solution as your starting point.
 
-1. Here you will learn how to use CSS to make changes to fonts.
+1. Continue working in your Lorem Ipsum project. 
+
+1. Here you will practice using CSS to make changes to fonts.
 
 1. Things you can change: font-family, font-style, font-size, font-weight, and font-variant
 
@@ -36,6 +34,6 @@
 
 1. Change the font-variant of li to small-caps
 
-1. Use font to change all font veriables of p.two to 15px arial, bold, sans-serif
+1. Use font to change all font variables of p.two to 15px Arial, bold, sans-serif
 
 1. Play around with different options to see how this all works.  
