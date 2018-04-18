@@ -53,7 +53,7 @@
     ``` 
 
 1. Remove the link styling
-  ```
+    ```
 
 
 
@@ -97,47 +97,47 @@
     nav ul li {text-decoration:none}
     ``` 
 
-1. The bullets look really weird, huh? Turn them off. 
-  ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+1. The underlining of links looks strange for navigation, turn this off. 
     ```
-    ```CSS
-    nav ul li {text-decoration:none}
-    ``` 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      ```
+      ```CSS
+      nav ul li {text-decoration:none}
+      ``` 
