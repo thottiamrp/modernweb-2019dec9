@@ -18,7 +18,10 @@
         font-size:1.5em; 
     }
 
-    header {text-align: center}
+    header {
+        text-align: center; 
+        background-image: linear-gradient(blue, green) 
+    }
 
     nav ul li a {text-decoration:none}
 
@@ -40,6 +43,8 @@
     footer { font-weight:bold; }
     
     li { font-variant: small-caps; }
+
+    article h2 { background-image: linear-gradient(red, orange) }
 
     /* li {
         font-variant: small-caps;
