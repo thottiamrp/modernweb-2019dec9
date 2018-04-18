@@ -1,0 +1,77 @@
+/* @import url('halloween.css'); */
+
+/* @media screen { */
+
+
+    body {
+        color: red;
+        font-size: 100%;
+        background-color: yellow;
+    }
+
+    h1 { 
+        font-family: 'Courier New', Courier, monospace; 
+        font-size:10vw;
+        padding:5px;
+    }
+
+    h2 {color: green; 
+        font-style:italic; 
+        font-size:1.5em;
+        padding:3px;
+    }
+
+    header {
+        text-align: center; 
+        background-image: linear-gradient(blue, green);
+        padding:3px;
+    }
+
+    nav ul li a {
+        text-decoration:none;
+        display: inline-block;
+        width: 9em; 
+        height: 1.25em;
+        padding: 2px;
+    }
+
+    header h2, #hipster h2 span {color: black}
+
+    nav {text-transform: uppercase; padding:3px; }
+
+    nav a:link {color: white; background-color:red}
+    nav a:hover {color:red;background-color:white}
+
+
+    p {
+        color: blue; 
+        font-size: 18px; 
+        padding:2px; }
+
+    p.two {
+        color: black;
+        font: 15px Arial, bold, sans-serif;
+    }
+
+    footer { font-weight:bold; padding:5px 0; }
+    
+    li { font-variant: small-caps; }
+
+    article { border-bottom: 1px solid black; padding:5px; }
+    article h2 { background-image: linear-gradient(red, orange) }
+
+    /* li {
+        font-variant: small-caps;
+        color:red;
+    }
+    h1 {
+        color: blue;
+        text-align: center;
+    } */
+    
+   
+   
+
+/* } */
+
+

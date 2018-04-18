@@ -6,7 +6,7 @@
 
 1. Add a CSS gradient to the header of your page
 
-1. Add a CSS gradient to the header of the sections 
+1. Add a CSS gradient to the h2 tags of the articles 
 
 ## Bonus
 
