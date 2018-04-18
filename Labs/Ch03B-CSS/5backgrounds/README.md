@@ -7,3 +7,7 @@
 1. Add a CSS gradient to the header of your page
 
 1. Add a CSS gradient to the header of the sections 
+
+## Bonus
+
+1. Add an image for the links. 
