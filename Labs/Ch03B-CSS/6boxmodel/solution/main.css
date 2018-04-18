@@ -27,6 +27,7 @@
         padding:3px;
     }
 
+    nav ul li { list-style-type:none; }
     nav ul li a {
         text-decoration:none;
         display: inline-block;
