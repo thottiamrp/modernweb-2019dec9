@@ -51,7 +51,7 @@
 
 1. Create an `index.html` file in the directory of `\WIP\ES6` which includes a script reference like this:
     ``` javascript
-    <script src="src/myHobbiesSource.js"></script>
+    <script src="src/myHobbies.js"></script>
     ```
 
 1. Open `index.html` in Chrome and verify in the console that it works.
