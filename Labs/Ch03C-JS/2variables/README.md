@@ -21,5 +21,5 @@
 
 1. Print the value using console.log - is it what you expect?
 
-1. Use console.log the comparison and the result of x == y. 
+1. Use console.log to see the comparison and the result of x == y. 
 
