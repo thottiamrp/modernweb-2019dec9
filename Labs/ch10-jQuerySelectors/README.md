@@ -4,8 +4,6 @@
 * Reference a jQuery script
 * Create jQuery selectors
 * Add some simple styling
-
-
 ### Estimated Completion Time 
 15 minutes
 
@@ -56,7 +54,7 @@
 
 1. Once you have seen the error in Developer Tools, fix the script tags to be valid so that you do get the alert.  Once this is working, you can remove the alert.
 
-1. Now inside the <body> tag in `selectors.html` add two `<ul>` for things you like and things you do not like to do. Include at least 3 items in each list. For example:
+1. Now inside the <body> tag in `jq.html` add two `<ul>` for things you like and things you do not like to do. Include at least 3 items in each list. For example:
 	```html 
 	<p>Things I Like to Do</p>
 		<ul>
