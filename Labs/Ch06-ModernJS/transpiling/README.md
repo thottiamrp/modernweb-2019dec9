@@ -27,7 +27,7 @@
 
 1. Inside `myHobbies.js` create a `hobbiesArray` with 3 hobby objects. Each hobby should be represented as an object with properties for `name` and `lengthInYearsAtHobby`.   
 
-1. READ: The `Array.prototype.forEach` function takes an anonymous function which iterates over the array allowing you to do something with each element. It is one of the examples of using the `Array.prototype` functions to not need to write a for loop on your own, just to iterate over every element. Most of the `Array.prototype` fuctions process the array using the callback function that you supply.  
+1. READ: The `Array.prototype.forEach` function takes an anonymous function which iterates over the array allowing you to do something with each element. It is one of the examples of using the `Array.prototype` functions to not need to write a for loop on your own, just to iterate over every element. Most of the `Array.prototype` functions process the array using the callback function that you supply.  
 
     Now with ES6 notation, we can use an arrow function for specifying the callback function. View the following example used in the /Demos section. Notice how a local variable is set for sport, to represent the single sport being processed during that iteration of the loop - processing each element of the `sportsArray.` 
 
@@ -51,7 +51,7 @@
 
 1. Create an `index.html` file in the directory of `\WIP\ES6` which includes a script reference like this:
     ``` javascript
-    <script src="src/myHobbiesSource.js"></script>
+    <script src="src/myHobbies.js"></script>
     ```
 
 1. Open `index.html` in Chrome and verify in the console that it works.
@@ -150,7 +150,7 @@
   
 1. The `--watch` indicates to watch for changes in the src directory, and keep transpiling whenever a file is added or changed.
 
-1. Start the build process using the command: `npm run build`. Notice that your terminal window does not retun to the prompt because it is listening for changes to your `src` directory. Keep this running as you are about to add more code.
+1. Start the build process using the command: `npm run build`. Notice that your terminal window does not return to the prompt because it is listening for changes to your `src` directory. Keep this running as you are about to add more code.
 
 1. Modify your html page to create a `div` to hold the hobbies, and add JavaScript to call a function to update the div.
     ```
@@ -172,7 +172,7 @@
     }
     ```
 
-1. When you save the JS file, notice the console indicating that the dist folderis updated. 
+1. When you save the JS file, notice the console indicating that the dist folder is updated. 
 
 1. Test in Chrome and IE. When it is working, mark your work as complete. 
 
@@ -182,7 +182,7 @@
 
 1. Add a style attribute to the table to add styling. 
 
-1. npx also allows you to execute tools not installed. One-off. They take a littlelonger to run because they are downloaded, but then you don't have to clean up your npm local repos or package.json file. Try these out:
+1. npx also allows you to execute tools not installed. One-off. They take a little longer to run because they are downloaded, but then you don't have to clean up your npm local repos or package.json file. Try these out:
     ```
     npx cowsay Say something
 
