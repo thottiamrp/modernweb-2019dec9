@@ -12,6 +12,7 @@
 
     header {text-align: center}
 
+    nav ul li { list-style-type:none; }
     nav ul li a {text-decoration:none}
 
     header h2, #hipster h2 span {color: black}

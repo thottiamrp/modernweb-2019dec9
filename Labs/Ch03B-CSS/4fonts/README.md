@@ -26,9 +26,8 @@
 
 1. Change the font-size of h2 to 1.5em
 
-1. Change the font-size of h1 to 10vw
-    1. Viewport is the browser window size. 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm.
-    1. Responsive - resize window & watch
+1. Change the font-size of h1 to 2em
+
 
 1. Change the font-weight of footer to bold
 

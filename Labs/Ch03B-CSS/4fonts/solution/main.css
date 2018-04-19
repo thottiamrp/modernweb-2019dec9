@@ -10,7 +10,7 @@
 
     h1 { 
         font-family: 'Courier New', Courier, monospace; 
-        font-size:10vw; 
+        font-size:2em; 
     }
 
     h2 {color: green; 
@@ -20,6 +20,7 @@
 
     header {text-align: center}
 
+    nav ul li { list-style-type:none; }
     nav ul li a {text-decoration:none}
 
     header h2, #hipster h2 span {color: black}
