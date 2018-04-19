@@ -44,6 +44,18 @@
            console.groupEnd();
 
 
+           function add(a,b) {
+               if  ( (typeof b) != 'undefined' ) {
+                   //no op
+               }
+               else {
+                   b = 2;
+               }
+
+               b = ( (typeof b) != 'undefined' ) ? b : 2;
+           }
+
+
 
         //     var smallNum = Number.MIN_VALUE;
         //     var trySmaller = (smallNum * 200); console.log("Too Small? " +trySmaller);
