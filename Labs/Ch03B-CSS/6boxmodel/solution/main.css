@@ -28,14 +28,14 @@
     }
 
     nav ul li { 
-        list-style-type:none; 
+        list-style-type: none; 
         display: inline-block;
     }
     nav ul li a {
         text-decoration:none;
         width: 9em; 
         height: 1.25em;
-        padding: 2px;
+        padding: 5px;
     }
 
     header h2, #hipster h2 span {color: black}
