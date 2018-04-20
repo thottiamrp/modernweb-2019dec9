@@ -3,7 +3,6 @@
 ### Estimated Completion Time 
 10 minutes
  
-1. Add a background color to the page.
 
 1. Add a bottom border to all articles to provide a visual separation.
 

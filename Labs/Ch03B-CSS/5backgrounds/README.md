@@ -10,6 +10,8 @@
     
 1. Add a CSS gradient to the h2 tags of the articles 
 
+1. Add a background color to the page.
+
 ## Bonus
 
 1. Add an image for the links. 
