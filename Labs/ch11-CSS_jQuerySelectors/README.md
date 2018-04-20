@@ -14,7 +14,7 @@ and use various selection techniques
 
 ## Steps:
 
-1. Continue working with your `WIP\jQuery\jq.html` file. If you were not able to finish the last exercise, you can copy the solution `\Labs\ch10-jQuerySelectors\solution\selectors.html`. 
+1. Continue working with your `WIP\jQuery\jq.html` file. If you were not able to finish the last exercise, you can copy the solution `\Labs\ch10-jQuerySelectors\solution\selectors.html` ovr your jq.html file. 
 
 1. Apply multiple CSS styles to the `<ul>` elements to make the width narrower, and add a border.
 
@@ -41,7 +41,7 @@ and use various selection techniques
 
 1. Add a `<style></style>` section in the head. Add a class called `highlight` which applies a yellow background.
 
-1. Add a button before your list items with and id of `toggleli` and the text  `Toggle Evens`. 
+1. Add a button before your list items with and id of `toggleli` and the text  `Toggle Events`. 
 
 1. Use jQuery to add a click event for this button. In the callback function toggle the highlight class for even li's. 
 
@@ -50,4 +50,3 @@ and use various selection techniques
 ### Bonus
 
 1. If time permits, visit http://codylindley.com/jqueryselectors  and experiment with different selectors.
-

@@ -1,4 +1,4 @@
-# Chapter 5: Exercise: CSS3 Techniques
+# CSS3 Techniques
 
 1. Open the file `css3.html` in this folder in both the editor and browser
 

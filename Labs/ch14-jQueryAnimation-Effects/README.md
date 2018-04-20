@@ -55,9 +55,14 @@
 
 ### BONUS
 
-1. You will modify your previous work on the CSS quiz application to use jQuery. Remove the CSS hover effect you had used previoulsy. `OR` - you can copy the file from `begin\quiz-jquery.html` to your `WIP\jQuery` and work on it there.
+1. Take a look at the solution to the CSS Quiz in `PracticeBonusProblems`.  Notice how the hover effect works.
+
+1. You can achieve this and more using jQuery. 
+
+1. Copy the `/Begin/quiz-jquery.html` file into your WIP folder.
 
 1. Use jQuery to add multiple effects for the different questions and their answers.
 
 1. Use different events for the different questions: (click, dblclick, hover) to reveal the answer (show, slideDon etc.) 
+
 1. Use different events and effects to hide the answer - either on the questions or the answers.
