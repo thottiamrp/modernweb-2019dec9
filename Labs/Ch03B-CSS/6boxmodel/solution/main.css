@@ -27,10 +27,12 @@
         padding:3px;
     }
 
-    nav ul li { list-style-type:none; }
+    nav ul li { 
+        list-style-type:none; 
+        display: inline-block;
+    }
     nav ul li a {
         text-decoration:none;
-        display: inline-block;
         width: 9em; 
         height: 1.25em;
         padding: 2px;

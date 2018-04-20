@@ -12,3 +12,4 @@
     * change the display to inline-block
     * give a width and height 
     * use padding to make the text more readable 
+    * Make them display in a single line
