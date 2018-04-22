@@ -5,7 +5,7 @@ var aMusician = {
 }
 
 console.log(aMusician.name + ' plays ' + 
-        aMusician.instrument + ' in ' + bands[0]);
+        aMusician.instrument + ' in ' + bands[1]);
 
 
         
