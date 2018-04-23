@@ -6,13 +6,15 @@
 ### Estimated Completion Time 
 10 minutes
 
-1. Navigate to `\Demos\Chapter03A-HTML\basics\meta.html`
-Load the page in Chrome and view the Japanese characters
-Switch the usage of character encoding by commenting out the usage of UTF-8 and removing the comment from ISO. 
+1. Open this file in the editor `\Demos\Chapter03A-HTML\basics\meta.html`
 
-    You save time doing this in VSCode by having your cursor on the line or lines to comment and hitting ctrl + /
+1. Load the page in Chrome and view the Japanese characters.
 
-    Reload the page and view the differences.
+1. In the editor, switch the usage of character encoding by commenting out the usage of UTF-8 and removing the comment from ISO. 
+
+    * You can save time doing this in VSCode by having your cursor on the line or lines to comment or uncomment and hitting ctrl + /
+
+    * Reload the page and view the differences.
 
 1. In your `/WIP` folder create a folder called `html` and a file inside called `mysite.html`. You will do your work in this `WIP/html` directory and file.
 
