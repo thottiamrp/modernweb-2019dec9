@@ -1,6 +1,5 @@
 ## Starting VSCode
-
-* Open from prompt:  code .
+* Open from prompt:  `code .`
 
 ## Working with Code
 * Clean-up / indent code properly with SHIFT-ALT-F
@@ -12,3 +11,8 @@
 ## Stopping servers
 * Ctrl-C kills process and leaves the terminal available
 * Trashcan kills process AND the window
+
+## Helpful Extensions
+* Open in Browser - by TechER
+* HTMLHint - must also run command from instructions
+* htmltagwrap - Brad Gashler
