@@ -9,9 +9,9 @@
 
 1. If not already open, open your `index.html` in the Chrome Browser. Recall Alt-B from within the file being opened in VSCode, or right-clicking in the VSCode Explorer menu to open in default browser.
 
-1. Open the dev tools by right-clicking on the displayed name, and choosing Inspect. 
+1. Open the dev tools by right-clicking on the displayed name in the browser, and choosing Inspect. 
 
-1. This should bring up the tools with the div highlighted in the left side and the CSS on the right.
+1. This should bring up the tools with the div highlighted in the left side and the CSS on the right. You can also access the CSS from the DOM by clicking name in the <body>.
 
 1. In the CSS, practice changing the width of the box around your name, by:
     * clicking 400px to highlight it
