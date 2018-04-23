@@ -26,7 +26,7 @@
 
 1. Visit the website: https://realfavicongenerator.net/ and upload your image into tool. 
 
-    Notice how it generates icons for usage not just in a desktop browser but also for mobile. Choose to keep in same folder, and generate the code and icons.
+    Notice how it generates icons for usage not just in a desktop browser but also for various mobile environments. Choose to keep in same folder, and generate the code and icons.
 
     Copy the code into the head section of your html file.
 

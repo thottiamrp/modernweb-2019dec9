@@ -7,13 +7,7 @@
  
 1. In your `/WIP/html` add a file `bands-table.html` 
 
-
-
-1. Open the image `bands-table.png`
-
-1. Recreate this rendered table using HTML.
-    * Add a caption
-    * Use <th> for headers
+1. Open the image `bands-table.png`.  You will re-create this rendered table using EMMET abbreviations with a caption and <th> for headers.
 
 1. Choose an element and add the attribute `title` with a value that describes the field - you can then hover over this in the browser for a tool tip type display.
 
