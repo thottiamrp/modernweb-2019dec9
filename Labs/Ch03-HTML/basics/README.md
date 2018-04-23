@@ -6,7 +6,7 @@
 ### Estimated Completion Time 
 10 minutes
 
-1. Navigate to `\Demos\Chapter03A-HTML\basics\meta.html`
+1. Navigate to `\Demos\Chapter03-HTML\basics\meta.html`
 Load the page in Chrome and view the Japanese characters
 Switch the usage of character encoding by commenting out the usage of UTF-8 and removing the comment from ISO. 
 
