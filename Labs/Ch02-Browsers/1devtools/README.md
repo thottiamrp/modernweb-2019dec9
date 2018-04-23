@@ -11,7 +11,7 @@
 
 1. Open the dev tools by right-clicking on the displayed name, and choosing Inspect. 
 
-1. This should bring up the tools with the div highlighted in the left side and the CSS on the right.
+    This should bring up the tools with the div highlighted in the left side and the CSS on the right.
 
 1. In the CSS, practice changing the width of the box around your name, by:
     * clicking 400px to highlight it
