@@ -6,7 +6,7 @@
 ### Estimated Completion Time 
 10 minutes
 
-1. Open this file in the editor `\Demos\Chapter03A-HTML\basics\meta.html`
+1. Open this file in the editor `\Demos\Chapter03-HTML\basics\meta.html`
 
 1. Load the page in Chrome and view the Japanese characters.
 
