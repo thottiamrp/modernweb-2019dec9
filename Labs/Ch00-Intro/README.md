@@ -38,7 +38,7 @@ Most projects these days rely on using markdown files to share information about
 
 1. You should see a number now. Click the Git icon and you will see the README.md and any other files you have changed listed. You can individually discard changes, or discard all changes from the menu.
 
-1. Files and directories listed in the .gitignore file will be ignored. (and not counted among those files changed) Open the .gitignore file and notice that a directory called /WIP will be ignored. 
+1. Files and directories listed in the `.gitignore` file will be ignored. (and not counted among those files changed) Open the `.gitignore` file and notice that a directory called `/WIP` will be ignored. 
 
 ## Part 3 - Use VSCode to create the `WIP` directory:
 

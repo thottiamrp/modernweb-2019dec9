@@ -13,11 +13,9 @@ Follow the steps, and if you need additional help you can refer to the slides, p
 ### Create a basic page with VSCode
 
 
-1. In the `WIP` folder, create a folder called `Ch01-Practice`. You can create this folder by right-clicking the `WIP` folder, and choosing New Folder.
+1. In the `WIP` folder, create a file called `index.html`. You can create this folder by right-clicking the `WIP` folder, and choosing New File.
 
-1. Create a file in the new folder. You can right-click the `Ch01-Practice` folder and choose New File. Call the file `basics.html`.  
-
-1. In the empty file, type `html` and pause. You should see a menu with options for html templates. Choose the one that is `html:5`. We will review the structure of this file in upcoming chapters.
+1. In the empty `index.html` file, type `html` and pause. You should see a menu with options for html templates. Choose the one that is `html:5`. We will review the structure of this file in upcoming chapters.
 
 1. In `<head>` and then in `<title>` modify it to look like this:
     ```html
@@ -28,7 +26,7 @@ Follow the steps, and if you need additional help you can refer to the slides, p
 
 1. After title, and before the closing `</head>` tag, add opening and closing `<script></script>` tags.
 
-1. In between the start and end tags for script, write a function called init() which uses `document.getElementById` to select the element with the id of `name`, andset that element's `innerHTML` property to YOUR name. Like the following code:
+1. In between the start and end tags for script, write a function called init() which uses `document.getElementById` to select the element with the id of `name`, and set that element's `innerHTML` property to YOUR name. Like the following code:
 
     Try typing the following code, notice as you type, the editor offers autocompletion.
 
@@ -50,7 +48,7 @@ Follow the steps, and if you need additional help you can refer to the slides, p
     <div id="name"></div>
     ```
 
-1. Save and then open the file in the Chrome browser and check that your name is displayed. You can right-click the html file and choose open in browser, or use the shortcut ALT-B (i you have installed the Open In Browser extension). The first time you use Open in Browser you will be prompte for which browser to set as the default.
+1. Save and then open the file in the Chrome browser and check that your name is displayed. You can right-click the html file and choose open in browser, or use the shortcut ALT-B (i you have installed the Open In Browser extension). The first time you use `Open in Browser` you will be prompted for which browser to set as the default.
 
 1. Is the page displaying your name as expected? 
 
@@ -58,11 +56,11 @@ Follow the steps, and if you need additional help you can refer to the slides, p
 
     Make any necessary fixes - make sure your name is displayed before you move on. Ask fellow students or your instructor for help if needed. (answering questions is a great way to learn!)
 
-1. If you did not get a chance to see and correct an error, add one now. Change your function to be named `init2`. Reload the page, and open the browser dev tools (see details in the last step) to see the error message.  
+1. If you did not get a chance to see and correct an error, add one now. Change your function to be named `init2`. Reload the page, and open the browser dev tools (see details in the last step) to see the error message.  Fix the problem and make sure your site is working, then move to the next step.
 
     ### Add some style with CSS
 
-1. In the `<head>`, add opening and closing `<style>` tags. You can copy the following code, or if typing see how VSCode recommends autocompletion.
+1. In the `<head>`, add opening and closing `<style>` tags. You can copy the following code, or if typing - see how VSCode recommends autocompletion.
 
     ```html
     <style>
