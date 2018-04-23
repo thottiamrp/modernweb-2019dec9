@@ -12,7 +12,9 @@
 
 1. In the editor, switch the usage of character encoding by commenting out the usage of UTF-8 and removing the comment from ISO. 
 
-    * You can save time doing this in VSCode by having your cursor on the line or lines to comment or uncomment and hitting ctrl + /
+    * You can save time doing this in VSCode by having your cursor on the line or lines to comment and hitting ctrl + /
+
+    * You can do the same thing to uncomment - but cant do both at once.
 
     * Reload the page and view the differences.
 
