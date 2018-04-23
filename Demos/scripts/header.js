@@ -8,7 +8,7 @@ myElemDiv.innerHTML = `
         <header style="padding-bottom:20px">
             <h1>${myTitle}</h1>
             <a href="../../">
-                Back to Demos index</a>   
+                Demos index</a>   
         </header>
         <hr />
 `;

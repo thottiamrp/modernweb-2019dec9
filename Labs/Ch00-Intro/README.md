@@ -22,7 +22,7 @@ Most projects these days rely on using markdown files to share information about
 
 1. Another way to open the formatted view is by right-clicking the .md file in the Explorer view and choosing Open Preview. 
 
- 1. While in Preview mode, if you double-click an area of the file, you will be taken back to the source markdown file for editing. 
+ 1. While in Preview mode, if you double-click an area of the file, you will be taken back to the source markdown file for editing. `(As of 4/23/2018 this is still a bug. It has been logged.)` 
 
 1. While viewing in the markdown edit view, switch to the formatted view by pressing Ctrl+Shift+V in the editor. 
 
