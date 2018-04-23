@@ -2,8 +2,6 @@
 ## Objectives
 * Create an HTML document with minimal styling and dynamic behavior
 
-### Estimated Completion Time 
-20 minutes
 
 ## Overview:
 You will create an html document using VSCode HTML Snippets, and add basic styling and basic JavaScript.
@@ -11,6 +9,9 @@ You will create an html document using VSCode HTML Snippets, and add basic styli
 Follow the steps, and if you need additional help you can refer to the slides, previous demos, or the `solution` folder.
 
 ## Steps:
+
+### Create a basic page with VSCode
+
 
 1. In the `WIP` folder, create a folder called `Ch01-Practice`. You can create this folder by right-clicking the `WIP` folder, and choosing New Folder.
 
@@ -22,33 +23,47 @@ Follow the steps, and if you need additional help you can refer to the slides, p
     ```html
     <title>Basics of HTML, CSS and JavaScript</title>
     ```
-1. After title, and before the closing `</head>` tag, add an opening and closing `<script>` tag and write a function called init(). In the function use `document.getElementById` to select the name `div`, and `innerHTML` to populate the `<div>` with YOUR name.
+
+    ### Add some JavaScript
+
+1. After title, and before the closing `</head>` tag, add opening and closing `<script></script>` tags.
+
+1. In between the start and end tags for script, write a function called init() which uses `document.getElementById` to select the element with the id of `name`, andset that element's `innerHTML` property to YOUR name. Like the following code:
 
     Try typing the following code, notice as you type, the editor offers autocompletion.
 
     ```html
-    <script>
+        <script>
             function init() {
                 document.getElementById("name").innerHTML = 'Put your name in here';
             }
         </script>
     ```            
 
+1. Modify the existing `<body>` tag to add an attribute `onload` and set it to call the `init()` function. This is what will trigger the function, after the rest of the page has been loaded.
+    ```html
+    <body onload="init()">
+    ```
+
 1. In `<body>`, add this line of code, notice the div element has an attribute of name, this is what the JavaScript will target with your name.
     ```html
     <div id="name"></div>
     ```
 
-1. Modify the `<body>` tag to add an attribute `onload` and set it to call the `init()` function. This is what will trigger the function. after the rest of the code has been loaded.
-    ```html
-    <body onload="init()">
-    ```
+1. Save and then open the file in the Chrome browser and check that your name is displayed. You can right-click the html file and choose open in browser, or use the shortcut ALT-B (i you have installed the Open In Browser extension). The first time you use Open in Browser you will be prompte for which browser to set as the default.
 
-1. Save and then open the file in the browser and check that your name is displayed. You can right-click the html file and choose open in browser, or use the shortcut ALT-B. Make any necessary fixes - make sure your name is displayed before you move on.
+1. Is the page displaying your name as expected? 
 
-    If you need help ask your instructor or fellow students.
+    If not, are there any errors? You can find out by opening the browser dev tools. Right click in the browser and choose Inspect. The brings up the dev tools and may point to possible errors including which line number to focus in on. 
 
-1. In the `<head>`, add opening and closing `<style>` tags.
+    Make any necessary fixes - make sure your name is displayed before you move on. Ask fellow students or your instructor for help if needed. (answering questions is a great way to learn!)
+
+1. If you did not get a chance to see and correct an error, add one now. Change your function to be named `init2`. Reload the page, and open the browser dev tools (see details in the last step) to see the error message.  
+
+    ### Add some style with CSS
+
+1. In the `<head>`, add opening and closing `<style>` tags. You can copy the following code, or if typing see how VSCode recommends autocompletion.
+
     ```html
     <style>
         div {
