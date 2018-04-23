@@ -11,12 +11,10 @@
 
 1. Open the dev tools by right-clicking on the displayed name in the browser, and choosing Inspect. 
 
-<<<<<<< HEAD
-1. This should bring up the tools with the div highlighted in the left side and the CSS on the right. You can also access the CSS from the DOM by clicking name in the <body>.
-=======
-    This should bring up the tools with the div highlighted in the left side and the CSS on the right.
->>>>>>> 54e6e529e84acf2efec1979c8a3a8a4405684a04
+    This should bring up the tools with the div highlighted in the left side (DOM elements) and the applied CSS on the right.
 
+    Besides right-clicking and inspecting what is displayed - you can also click elements in the DOM section of the dev tools. 
+    
 1. In the CSS, practice changing the width of the box around your name, by:
     * clicking 400px to highlight it
     * hit up/down arrows to see changes go up and down
