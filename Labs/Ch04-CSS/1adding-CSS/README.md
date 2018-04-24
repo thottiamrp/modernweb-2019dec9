@@ -1,4 +1,4 @@
-# Chapter 3B: Adding CSS to pages
+# Chapter 4: Adding CSS to pages
 
 ## Objectives
 * Add CSS and some simple styling to pages
@@ -10,7 +10,7 @@
 
 
 1. If you needed to step away or otherwise did not finish the Lorem Ipsum content exercise,
-please rename your work with an extension such as lorem-ipsum-WIP.html and copy the solution file from `\Labs\ch04-html5-tags\Semantic\solution` into your `/WIP/LoremIpsum` directory.
+please rename your work with an extension such as lorem-ipsum-WIP.html and copy the solution file from `\Labs\ch03-html5\Semantic\solution` into your `/WIP/LoremIpsum` directory.
 
 1. Ensure your file has 
     * a link to an external stylesheet main.css that has media set to `all`.

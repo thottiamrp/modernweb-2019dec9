@@ -1,4 +1,4 @@
-# Chapter 3B: Working with the Box Model
+# Chapter 4: Working with the Box Model
 
 ### Estimated Completion Time 
 10 minutes

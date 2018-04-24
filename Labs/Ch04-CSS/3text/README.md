@@ -1,4 +1,4 @@
-# Chapter 3B: Working with Text properties
+# Chapter 4: Working with Text properties
  
 ### Estimated Completion Time 
 5 minutes

@@ -1,4 +1,4 @@
-# Chapter 3B: Working with Fonts
+# Chapter 4: Working with Fonts
 
 ## Objectives
 * Add CSS to style fonts

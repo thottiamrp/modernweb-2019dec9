@@ -1,4 +1,4 @@
-# Chapter 3B: Working with Backgrounds
+# Chapter 4: Working with Backgrounds
 
 ### Estimated Completion Time 
 10 minutes

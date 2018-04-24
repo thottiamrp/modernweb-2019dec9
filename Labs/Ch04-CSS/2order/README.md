@@ -1,4 +1,4 @@
-# Chapter 3B: Order is important!
+# Chapter 4: Order is important!
 
 ### Estimated Completion Time 
 5 minutes
