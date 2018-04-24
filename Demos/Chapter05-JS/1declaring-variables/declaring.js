@@ -3,23 +3,32 @@
             slashes is a comment.
             */
 
+
+
             console.groupCollapsed('Declarations and Initializations...');                         
             
-            var varString = 'hello world';
-            let letString = 'hello universe';
-            const constString = 'constString can only point at me!'; 
-            
+               
             var someVariable = 1;
             var someVariable = 'a'; //Can happen when combining scripts
             someVariable = true;    //Was this meant to be changed?
 
-            let anotherVariable = 2;
-            anotherVariable = false;
-           // CANT DO THIS --> let anotherVariable = 'Tuesday';
-
-            const cantPointToSomethingElse = new Date();
-           // cantPointToSomethingElse = 3;
+            let working = false;
             
+            const day = new Date().getDay();
+            // 6 = Saturday, 0 = Sunday
+            if (day==6 || day== 0); {
+                working = false;
+            }  
+
+            console.log(working);
+            
+            const cantPointToSomethingElse = new Date();
+            cantPointToSomethingElse = 3;
+            
+                 
+                
+            
+
 
             
             

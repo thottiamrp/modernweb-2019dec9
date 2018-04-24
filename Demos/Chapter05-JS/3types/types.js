@@ -5,13 +5,11 @@
 
             console.groupCollapsed('Declarations and Initializations...');                         
             
-            var varString = 'hello world';
-            let letString = 'hello universe';
-            const constString = 'constString can only point at me!'; 
             
-            let x = 3;  console.log(typeof x);
-            x = 'abc';  console.log(typeof x);
-            x = true;  console.log(typeof x);
+            let x; console.log(typeof x);  // undefined
+            x = 3;  console.log(typeof x);  // number
+            x = 'abc';  console.log(typeof x); // string
+            x = true;  console.log(typeof x); // boolean
 
             var someVariable = 1;
             var someVariable = 'a';
@@ -24,12 +22,21 @@
             const cantPointToSomethingElse = new Date();
            // cantPointToSomethingElse = 3;
             
-
-            
-            
             let y;   console.log(typeof y);
+
+            y = new Date();  console.log(typeof y);
             y = null; console.log(typeof y);
             console.groupEnd();
+
+            let message = 'Hello World';
+            console.log(typeof message);  
+
+            console.log(message + ' is a ' + (typeof message));
+
+            let today = new Date();
+            console.log(typeof today);
+            console.log(today);
+
 
             //undefined and null
             console.groupCollapsed('Undefined')
