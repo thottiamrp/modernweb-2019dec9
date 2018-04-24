@@ -6,13 +6,26 @@
 ### Estimated Completion Time 
 10 minutes
  
-1. Continue working in file `JSpractice.html`. 
+1. In `WIP` create a new folder called `js`
 
-1. Inside of your script tags:
-    * declare variables x,y,z
-    * Set the value of x to 10, y to '10' (string) and z to 30
+1. Create a file called `variables.js` 
+
+1. Declare variables x,y,z
+    ```javascript
+    let x,y,z;
+    ```
+
+1. Set the value of x to 10, y to '10' (string) and z to 30
+    ```javascript
+    x=10;
+    y = '10';
+    z=30;
+    ```
 
 1. Use the `typeof` operator to check the types of each variable, printing the result to the console.
+ ```javascript
+    console.log(`x is ${typeof x}`);
+    ```
 
 1. Add this code:
 ```javascript

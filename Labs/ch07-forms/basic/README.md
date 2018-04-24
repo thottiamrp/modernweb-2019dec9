@@ -1,7 +1,7 @@
-# Chapter 3A: Practice with forms
+# Chapter 7: Practice with forms
 
 ## Objectives
-* Add inline level elements to your document
+* Add a form to your document
 
 ### Estimated Completion Time 
 15 minutes
