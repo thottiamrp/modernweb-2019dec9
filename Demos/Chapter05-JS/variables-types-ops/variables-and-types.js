@@ -1,45 +1,49 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Variables and Types</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body>
-        <p>Read through the code and compare to what is in the console</p>
-        <script>
             /*
             Everything in between the stars and 
             slashes is a comment.
             */
 
-            console.groupCollapsed('Declarations and Initializations...');      
-            var x = 3;  console.log(typeof x);
+            console.groupCollapsed('Declarations and Initializations...');                         
+            
+            var varString = 'hello world';
+            let letString = 'hello universe';
+            const constString = 'constString can only point at me!'; 
+            
+            let x = 3;  console.log(typeof x);
             x = 'abc';  console.log(typeof x);
             x = true;  console.log(typeof x);
+
+            var someVariable = 1;
+            var someVariable = 'a';
+            someVariable = true;
+
+            let anotherVariable = 2;
+            anotherVariable = false;
+           // CANT DO THIS --> let anotherVariable = 'Tuesday';
+
+            const cantPointToSomethingElse = new Date();
+           // cantPointToSomethingElse = 3;
             
-            var y;   console.log(typeof y);
+
+            
+            
+            let y;   console.log(typeof y);
             y = null; console.log(typeof y);
             console.groupEnd();
 
             //undefined and null
             console.groupCollapsed('Undefined')
-            var abc;
+            let abc;
             console.log(abc);
             console.groupEnd();
 
             console.groupCollapsed('Numbers...');
-            var z = 3.13; console.log(typeof z);
-            var divideByZero = (z/+0);  console.log('(z/+0)=' + divideByZero);
+            let z = 3.13; console.log(typeof z);
+            let divideByZero = (z/+0);  console.log('(z/+0)=' + divideByZero);
                 divideByZero = (z/-0);  console.log('(z/-0)=' +divideByZero);
 
-            var bigNum = Number.MAX_VALUE; 
-            var tryBigger = bigNum * 2; console.log("Too big? " + tryBigger);
+            let bigNum = Number.MAX_VALUE; 
+            let tryBigger = bigNum * 2; console.log("Too big? " + tryBigger);
 
            console.groupEnd();
 
@@ -90,10 +94,4 @@
         // console.log('is the true?' + Boolean('hello'));
         // console.log('is the true?' + Boolean(''));
         // console.groupEnd();
-          
-        </script>
-        <script src="../../scripts/header.js"></script>
-        <script src="../../scripts/consoleDirections.js"></script>      
-    
-    </body>
-</html>
+     
