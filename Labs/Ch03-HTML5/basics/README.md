@@ -1,16 +1,33 @@
 # Chapter 3: Practice with Basics of HTML 
 
 ## Objectives
-* Create an HTML document with markup containing text
+* Practice with a HTML `<head>` child elements
+* Comment / Uncomment code
+* 
 
 ### Estimated Completion Time 
 10 minutes
 
-1. Open this file in the editor `\Demos\Chapter03-HTML\basics\meta.html`
+1. In your `/WIP` folder create a folder called `html`.
 
-1. Load the page in Chrome and view the Japanese characters.
+1. Add an HTML file by right-clicking the html folder and choosing `new file`.
 
-1. In the editor, switch the usage of character encoding by commenting out the usage of UTF-8 and removing the comment from ISO. 
+1. In the file start typing `html`, and choose the template with html:5 as in this directories screenshot `choose-template.png`
+
+1. You will do your work in this `WIP/html` directory and file.
+
+1. Copy this code and paste it into the `<body>` element.
+    ```html
+
+    ```
+
+1. Load the page in Chrome and view the characters.
+
+1. Comment out the following line in your index.html by clicking the line, and using the keyboard shortuct of control+/  (forward slash)
+    ```html
+    <meta charset="UTF-8">
+    ```
+ In switch the usage of character encoding by commenting out the usage of UTF-8 and removing the comment from ISO. 
 
     * You can save time doing this in VSCode by having your cursor on the line or lines to comment and hitting ctrl + /
 
@@ -18,7 +35,6 @@
 
     * Reload the page and view the differences.
 
-1. In your `/WIP` folder create a folder called `html` and a file inside called `mysite.html`. You will do your work in this `WIP/html` directory and file.
 
 1. In this empty file start typing html and use the pop-up in VSCode to choose the html5 template. View the generated code.
 
