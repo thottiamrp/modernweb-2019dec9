@@ -72,10 +72,7 @@ Most projects these days rely on using markdown files to share information about
     
     b. In the empty space at the bottom of the list, right-click and choose New Folder.
     
-    c. Name this folder WIP.
-        
-    * This is short for Work In Progress.
-    * This folder will not be pushed if you push changes to GitHub.
+    c. Name the new Folder `WIP` - capitalized. You will be working in this directory for much of the course. 
 
 4. If working on a Lab machine, you will be able to zip this directory and transfer it off of the lab machine to preserve your work.
 
