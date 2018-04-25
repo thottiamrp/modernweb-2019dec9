@@ -38,7 +38,7 @@ Your work will be similar to this example
             yearFormed : 1965,
             genres : ["Progressive rock", "psychedelic rock", "art rock"]
         }
-        band1.genres = new Array("Progressive rock2", "psychedelic rock2", "art rock2");
+    band1.genres = new Array("Progressive rock2", "psychedelic rock2", "art rock2");
     ```
 
 1. Create another object for a band of your choice. Use the new Object() notation and then add the same properties using the dot notation.
