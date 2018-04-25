@@ -6,10 +6,10 @@ function modifyBand(id) {
 }
 
 function updateForm(jsonData) {
-    var band = jsonData;
+    const band = jsonData;
 
     // Start html output
-    var out = '<h4>' + band.name + '</h4><form id="updateForm" name="updateForm">';
+    let out = '<h4>' + band.name + '</h4><form id="updateForm" name="updateForm">';
 
     // Build form for html output
     out += `<div>
@@ -44,9 +44,9 @@ function updateForm(jsonData) {
 }
 
 function updateBand(id) {
-    var re = /\,[\s]?/;
+    const re = /\,[\s]?/;
 
-    var band = {
+    const band = {
         "name": $('#name').val(),
         "city": $('#city').val(),
         "country": $('#country').val(),

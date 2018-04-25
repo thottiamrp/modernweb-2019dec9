@@ -12,19 +12,28 @@
             var someVariable = 'a'; //Can happen when combining scripts
             someVariable = true;    //Was this meant to be changed?
 
-            
+            let changingValue = true;
+            const pi = 3.14;
+            const myMother = {
+                name: 'Mary',
+                age: 82
+            }
+
             const cantPointToSomethingElse = new Date();
-            cantPointToSomethingElse = 3;
+            // cantPointToSomethingElse = 3;
             
-                 
+            {
+                let x = 23;
+                var y = 24;
+                const z = 25; 
+            }
+            
+            // X is not defined console.log('​x', x);
+            // Z is not defined console.log('​z', z);
+            console.log('​y', y);     
                 
-            
-
-
-            
-            
-            let y;   console.log(typeof y);
-            y = null; console.log(typeof y);
+            let b;   console.log(typeof b);
+            b = null; console.log(typeof b);
             console.groupEnd();
 
             //undefined and null

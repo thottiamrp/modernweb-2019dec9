@@ -9,13 +9,13 @@ let moonLanding = new Date(1969,6,20,20,18,0,0);
 console.log(`moonLanding: ${moonLanding}`);
 
 // using Date objects
-var start = Date.now();
+const start = Date.now();
 
 console.log(`start: ${start}`);
 // delay for 3 seconds
 setTimeout(function () {
-        var end = Date.now();
-        var elapsed = end - start; // elapsed time in milliseconds
+        const end = Date.now();
+        const elapsed = end - start; // elapsed time in milliseconds
         console.log(`${elapsed} milliseconds elapsed`);
 }, 1000);
 

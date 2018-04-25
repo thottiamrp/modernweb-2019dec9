@@ -31,7 +31,7 @@ Your work will be similar to this example
 
 1. Create an object literal to represent one band:
     ```javascript
-    var band1 = {
+    let band1 = {
             name : "Pink Floyd",
             city : "London" ,
             country : "England",

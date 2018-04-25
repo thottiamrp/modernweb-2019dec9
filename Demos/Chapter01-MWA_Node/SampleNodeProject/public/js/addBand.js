@@ -1,7 +1,7 @@
 $('#add').click(function () {
-    var re = /\,[\s]?/;
+    const re = /\,[\s]?/;
 
-    var band = {
+    const band = {
         "name": $('#name').val(),
         "city": $('#city').val(),
         "country": $('#country').val(),
