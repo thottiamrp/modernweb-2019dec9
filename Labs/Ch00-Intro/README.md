@@ -46,7 +46,9 @@ Most projects these days rely on using markdown files to share information about
 
     Ex. 155IntroModernWeb, 555IntermediateModernWeb, etc.
     
-1. Once you are sure you are in this folder, You can right-click in the space under the current files/directories, and choose New Folder. Name the new Folder `WIP`. You will be working in this directory for much of the course. 
+1. Once you are sure you are in this folder, You can right-click in the space under the current files/directories, and choose New Folder. (Please see screenshot in this directory)
+
+1. Name the new Folder `WIP` - capitalized. You will be working in this directory for much of the course. 
 
 1. If working on a Lab machine, you will be able to zip this directory and transfer it off of the lab machine to preserve your work.
 
