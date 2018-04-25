@@ -54,7 +54,7 @@
 
     Copy the code into the `<head>` element of your html file. IN between the start and end tags for `head`.
 
-1. Download the zip file and use Windows Explorer to extract the files. (You can right click and choose open in Explorer in Windows). Ensure the files are moved into the same directory level as the html file.
+1. Download the zip file and use Windows Explorer to extract the files into a new directory `WIP\html\favicon`. Ensure the files are moved into the same directory level as the html file.
 
     ## adjust relative paths
 
