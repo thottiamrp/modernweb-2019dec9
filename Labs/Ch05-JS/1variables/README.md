@@ -1,4 +1,4 @@
-# Chapter 3C: JS variables
+# Chapter 5: JS variables
 
 ## Objectives
 * Practice with JS variables
@@ -23,9 +23,17 @@
     ```
 
 1. Use the `typeof` operator to check the types of each variable, printing the result to the console.
- ```javascript
+    ```javascript
     console.log(`x is ${typeof x}`);
     ```
+
+1. Check your work, first by using node to run your code from the command line:
+    * right-click the file, choose open in command prompt
+    * use this command: `node variables`
+    
+1. Now install the VSCode extension called Code Runner.
+    * After the install, reload VSCode
+    * highlight your lines of code, right-click and choose Run Code 
 
 1. Add this code:
 ```javascript
@@ -36,3 +44,7 @@
 
 1. Use console.log to see the comparison and the result of x == y. 
 
+## Bonus
+
+1. Calculate and print an employees salary. 
+    * Create variables for Set their 
