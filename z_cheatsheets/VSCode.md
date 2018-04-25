@@ -16,3 +16,6 @@
 * Open in Browser - by TechER
 * HTMLHint - must also run command from instructions
 * htmltagwrap - Brad Gashler
+
+## Tips and Tricks
+https://code.visualstudio.com/docs/getstarted/tips-and-tricks
