@@ -17,18 +17,16 @@ Follow the steps, and if you need additional help you can refer to the slides, p
 
 1. In the empty `index.html` file, type `html` and pause. You should see a menu with options for html templates. Choose the one that is `html:5`. We will review the structure of this file in upcoming chapters.
 
-1. In `<head>` and then in `<title>` modify it to look like this:
+1. In `<head>` look for `<title>` modify it's content so that it looks like this:
     ```html
     <title>Basics of HTML, CSS and JavaScript</title>
     ```
 
     ### Add some JavaScript
 
-1. After title, and before the closing `</head>` tag, add opening and closing `<script></script>` tags.
+1. After `<title>`, and before the closing `</head>` tag, add opening and closing `<script></script>` tags.
 
-1. In between the start and end tags for script, write a function called init() which uses `document.getElementById` to select the element with the id of `name`, and set that element's `innerHTML` property to YOUR name. Like the following code:
-
-    Try typing the following code, notice as you type, the editor offers autocompletion.
+1. Type in the following code, notice as you type, the editor offers autocompletion.
 
     ```html
         <script>
@@ -38,15 +36,16 @@ Follow the steps, and if you need additional help you can refer to the slides, p
         </script>
     ```            
 
-1. Modify the existing `<body>` tag to add an attribute `onload` and set it to call the `init()` function. This is what will trigger the function, after the rest of the page has been loaded.
+1. Modify the `<body>` start tag as shown. It will trigger the function, after the rest of the page has been loaded.
     ```html
     <body onload="init()">
     ```
 
-1. In `<body>`, add this line of code, notice the div element has an attribute of name, this is what the JavaScript will target with your name.
+1. In `<body>`, add this line of code, 
     ```html
     <div id="name"></div>
     ```
+    Notice the div element has an attribute of id, with a value of name. this is what the JavaScript will target.
 
 1. Save and then open the file in the Chrome browser and check that your name is displayed. You can right-click the html file and choose open in browser, or use the shortcut ALT-B (i you have installed the Open In Browser extension). The first time you use `Open in Browser` you will be prompted for which browser to set as the default.
 
