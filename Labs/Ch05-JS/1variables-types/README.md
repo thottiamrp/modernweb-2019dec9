@@ -8,7 +8,7 @@
  
 1. In `WIP` create a new folder called `js`
 
-1. Create a file called `variables.js` 
+1. In `WIP/js` create a file called `variables.js` 
 
 1. Declare variables x,y,z
     ```javascript
@@ -46,5 +46,6 @@
 
 ## Bonus
 
-1. Calculate and print an employees salary. 
-    * Create variables for Set their 
+1. Write code to convert from Celsius to Fahrenheit.
+
+ 

@@ -1,8 +1,8 @@
-# Chapter 5: Lab 3 Create and call functions
+# Chapter 5: Conditionals and Looping
 
 ## Steps
 
-1. Create a function displayName(name)
+1. In `WIP/js` create a file called `conditionals.js` 
 
 1. You can call the incoming data anything you want, it is your local reference to the data being passed in. 
          

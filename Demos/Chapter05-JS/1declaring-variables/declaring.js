@@ -12,15 +12,6 @@
             var someVariable = 'a'; //Can happen when combining scripts
             someVariable = true;    //Was this meant to be changed?
 
-            let working = false;
-            
-            const day = new Date().getDay();
-            // 6 = Saturday, 0 = Sunday
-            if (day==6 || day== 0); {
-                working = false;
-            }  
-
-            console.log(working);
             
             const cantPointToSomethingElse = new Date();
             cantPointToSomethingElse = 3;
