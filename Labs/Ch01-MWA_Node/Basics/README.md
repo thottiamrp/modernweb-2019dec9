@@ -75,7 +75,10 @@ Follow the steps, and if you need additional help you can refer to the slides, p
 
 1. Go back to the browser and reload to see your changes. Your name should now be in a grey box with a purple border.
 
-1. Mark your work as complete. If you are done before others, continue to the Bonus.
+1. Mark your work as complete in the class spreadsheet.
+http://moxie.pro/201mssheet 
+
+1. If you are done before others, continue to the Bonus.
 
 ## Bonus:
 
