@@ -41,7 +41,6 @@ http://moxie.pro/201mssheet
 1. Try being more specific in your CSS so that only your name is centered - not hobbies.
     If you do not have hobbies, try to finish that bonus from ch1, or copy the solution from `Ch01-MWA_Node\Basics\solution`
 
-
 1. Use this in the CSS to target the element with the id value of name
     ```CSS
     #name { text-align: center}
