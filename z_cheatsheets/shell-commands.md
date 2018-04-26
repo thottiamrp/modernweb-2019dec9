@@ -2,6 +2,8 @@ cd = change directory
 ./ = current directory
 ../ = up one directory
 ls = list files
+dir = windows list of files
+
 ls -la = long list format and don't hide files starting with .
 pwd = print working directory
 mkdir = create a new directory
