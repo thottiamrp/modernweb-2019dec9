@@ -14,19 +14,22 @@
 
 1. In your `/WIP/html` open your file `index.html`.
 
-1. Immediately after the starting `<body>` tag add this content:
+1. Immediately after the starting `<body>` tag add this content which creates an area for links to other pages:
     ```html
     <nav>
             <ul>
                 <li>
                     <a href="course-outline.html">Course Outline</a>
-
                 </li>
+                 <li>
+                    <a href="recipes.html">Recipes</a>
+                </li>
+
             </ul>
     </nav>
     ```
 
-1. Test your updates and that clicking the link opens the other page. Notice when you hover over the links the link is displayed in the bottom left of the browser window.
+1. Test your updates and that clicking the link for Course Outline opens the other page. Notice when you hover over the links the link is displayed in the bottom left of the browser window.
  
 1. Copy the bonus solution file from 
  `\Labs\Ch03-HTML5\elements-block\solution\recipes.html` into your 
