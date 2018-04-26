@@ -76,7 +76,7 @@
 
 1. In your recipes file, find the location of `<div id="lemon-bars">`
 
-1. Immediately inside of this div, start typing 
+1. Immediately inside of this div element - so after the start tag of div before the first child of  `<h2 class="recipe-name"` start typing 
     ```html
     <img src=>
     ```
