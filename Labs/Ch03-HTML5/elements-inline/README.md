@@ -97,7 +97,7 @@ http://moxie.pro/201mssheet
 
 ## Bonus
 
-1. Add a link in index.html to `recipes.html`
+1. Add a link in index.html to `myrecipes.html` if you created it
 
 1. Add images for the other recipes. Display them smaller at the top of the page and wrap an anchor tag, to href to the recipe below. 
 
