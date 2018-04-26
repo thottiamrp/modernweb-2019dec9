@@ -6,12 +6,21 @@
 ### Estimated Completion Time 
 10 minutes
 
-1. In your `/WIP/html` open your file `mysite.html`.
+1. In your `/WIP/html` open your file `index.html`.
 
-1. Near the top of the document add a link to the 
- `class-outline.html` - using the anchor tag, a relative link, and the text Class Outline. If you did any bonus pages link these too.
+1. Immediately after the starting `<body>` tag add this content:
+    ```html
+    <nav>
+            <ul>
+                <li>
+                    <a href="course-outline.html">Course Outline</a>
 
-1. Test your updates and that clicking the link opens the other page. Notice when you hover over the links the link is displayed in the bottom left.
+                </li>
+            </ul>
+    </nav>
+    ```
+
+1. Test your updates and that clicking the link opens the other page. Notice when you hover over the links the link is displayed in the bottom left of the browser window.
  
  1. If you did not complete the bonus in the last exercise, with at least 3 recipes and one starting below the fold (off the page at the bottom) copy the solution from the last exercise labeled `bonus.html` into your `WIP/html` directory and name it `recipes.html`.
 
