@@ -1,12 +1,10 @@
-# Chapter 3A: Practice with inline elements
+# Chapter 3: Practice with inline elements
 
 ## Objectives
 * Add inline level elements to your document
 
 ### Estimated Completion Time 
 10 minutes
- 
-
 
 1. In your `/WIP/html` open your file `mysite.html`.
 

@@ -1,7 +1,8 @@
 # Chapter 3: Practice with block level elements
 
 ## Objectives
-* Add block level elements to your document
+* Add markup to your document
+* leverage HTMLWrap plugin
 
 ### Estimated Completion Time 
 10 minutes
