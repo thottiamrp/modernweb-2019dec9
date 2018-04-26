@@ -7,6 +7,7 @@
 ## Helpful shortcuts
 * Open Command Pallette, command-shift-P
 * Open integrated terminal window, Ctrl+`
+* Switch README.md from edit to preview: ctrl-shift-v
 
 ## Stopping servers
 * Ctrl-C kills process and leaves the terminal available

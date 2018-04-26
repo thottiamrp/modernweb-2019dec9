@@ -9,10 +9,12 @@
 ## Overview:
 Most projects these days rely on using markdown files to share information about projects. By default, .md files open in edit mode. You will practice various ways of opening markdown files in an easier to read formatted way. 
 
-## Part 1 - Viewing Markdown files:
-1. If you are opening this file just by double-clicking it in VS Code, then you are viewing it as pure markdown.
+## Part 1 - Viewing Markdown files in Edit & Preview Mode:
+1. If you are opening this file by double-clicking it from Explorer in VS Code, then you are viewing it as pure markdown. (edit mode)
     * Hash marks are used for formatting.
-    * Every list item will show as a 1. This will be replaced in the preview mode with the correct item number.  This makes it easy to add items in between and not need to renumber.
+    * Every item is marked as a 1 in edit mode. 
+    * In preview mode the numbers will increment correctly.
+    * This makes it easy to add items in between in edit mode, and not need to renumber.
 
 1. Open this README.md (markdown) file in formatted view in VSCode by clicking the icon in the upper-right which says open Preview to the Side.   
     * Notice that you can see both source and formatted version side by side. 
