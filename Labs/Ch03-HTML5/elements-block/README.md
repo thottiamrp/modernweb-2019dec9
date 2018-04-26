@@ -96,13 +96,13 @@ http://moxie.pro/201mssheet
 
     * Use heading tags for sections 
     * Use paragraphs for the intro
-    * Group ingredients and direction using div tags, identify by using id values
+    * Group ingredients and direction using div tags, identify by using class values for ingredients and directions
     * Use an unordered list for the ingredients
     * Use an ordered list for the steps
     * use br if you need to
 
 1. Add your own favorite or copy another recipe from online and mark it up. You can also copy and paste the code you made so that you have multiple recipes that you must scroll to see all of them. 
 
-1. Ensure that each recipe has a unique id value. (this will be used in future bonuses) 
+1. Ensure that each recipe is wrapped in a div that has a unique id value. (this will be used in future bonuses) 
 
 
