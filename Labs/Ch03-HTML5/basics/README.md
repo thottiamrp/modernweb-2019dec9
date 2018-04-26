@@ -28,6 +28,10 @@
         <li>Bosnian - Dobrodošli</li>
         <li>Italian - Benvenuto</li>
         <li>Chinese (Mandarin) - 欢迎</li>
+        <li>German - herzlich willkommen</li>
+        <li>French - Bienvenue</li>
+        <li>Turkish - Hoşgeldiniz</li>
+        <li>Russian - Здра́вствуйте! </li>
     </ul>
     ```
 
