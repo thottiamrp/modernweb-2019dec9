@@ -9,9 +9,11 @@
 
 1. Change the link to the `table.css` you copied, instead of `main.css`.
 
-1. Open the image in this folder called `bands-table.png`.  You will re-create this rendered table using EMMET abbreviations with a caption and <th> for headers.
+1. Open the image in this folder called `contact-info.png`.  
 
-1. In the body area of your html file, copy this line. It really activates when you are typing so, after you paste the following, hit the backspace and recreate the last character 3:
+1. You will re-create this rendered table using EMMET abbreviations with a caption and <th> for headers.
+
+    In the body area of your html file, copy the following line. It really activates when you are typing so, after you paste the following, hit the backspace and recreate the last character 3:
     ```
     table>tr*3>td*3
     ```
