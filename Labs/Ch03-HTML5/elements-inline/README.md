@@ -12,7 +12,7 @@
 ### Estimated Completion Time 
 15 minutes
 
-1. In your `/WIP/html` open your file `index.html`.
+1. In your `/WIP/html` open your file `index.html` which you created which had Welcome in different languages.
 
 1. Immediately after the starting `<body>` tag add this content which creates an area for links to other pages:
     ```html
