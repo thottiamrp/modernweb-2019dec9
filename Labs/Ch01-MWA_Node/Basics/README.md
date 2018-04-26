@@ -70,6 +70,7 @@ Follow the steps, and if you need additional help you can refer to the slides, p
             background-color: grey;
             color: purple
         }
+
     </style>
     ```
 
@@ -84,14 +85,25 @@ http://moxie.pro/201mssheet
 
 1. Try adjusting values for the CSS colors and sizes and refreshing the browser.
 
-1. Look at the slides and try to create a JavaScript object with your name and email.
-In the init() function, use the object to set the name and email.
+1. In init() hard-code a JS object with your info like this:
+    ```js
+    me = {name: 'Judy', email: 'judy@karmoxie.com'}
+    ```
 
-1. In init() add to the object to include an array of your hobbies. 
-    1. In the HTML create a new div called hobbies.
-    1. In `init()` create a string to hold a `<ul>`, and `<li>` for each of the  hobbies. Loop through the array adding the list items to the string. 
-for each hobby. 
-    1. Use `document.getElementById` to select the hobbies `div`, and `innerHTML` to populate the `<div>` with the created string.
-    1. Style the hobbies div font to be bold and the color of your choice.
+1. Use `document.elementById()` as above, to now update `name` by using the object. Create a dov to target for `email` and use the object to populate the email as well.
+
+1. Once both name and email are working, update the object to include an array of your hobbies. 
+
+1. In the HTML create a new div with an id value of hobbies.
+
+1. In `init()` create a string that starts with `<ul>`.
+
+1. Create a loop based on the hobbies array length and during each loop, add to the string a new `<li>` for the current hobby. 
+
+1. Close the string with a `</ul>`
+ 
+1. Use `document.getElementById` to select the hobbies `div`, and use `innerHTML` to populate the `<div>` with the created string.
+
+1. Style the hobbies div font to be bold and the color of your choice.
 
 
