@@ -47,7 +47,7 @@ http://moxie.pro/201mssheet
 
 ## Bonus
 
-1. In your `/WIP/html` create a new file called  `recipes.html`
+1. In your `/WIP/html` create a new file called  `myrecipes.html`
 
 1. Copy this content into your file.
 
