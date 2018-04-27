@@ -1,7 +1,7 @@
 # Chapter 2: DevTools
 
 ## Objectives
-* Practice with the browser dev tools
+* Practice with the browser dev tools so that you will be comfortable using dev tools when debugging future coding exercises.
 
 ## Steps:
 
@@ -9,11 +9,11 @@
 
 1. If not already open, open your `index.html` in the Chrome Browser. Recall Alt-B from within the file being opened in VSCode, or right-clicking in the VSCode Explorer menu to open in default browser.
 
-1. Open the dev tools by right-clicking on the displayed name in the browser, and choosing Inspect. 
+1. Open the dev tools by right-clicking on your displayed name in the browser, and choosing Inspect. 
 
     This should bring up the tools with the div highlighted in the left side (DOM elements) and the applied CSS on the right.
 
-    Besides right-clicking and inspecting what is displayed - you can also click elements in the DOM section of the dev tools. 
+    Besides right-clicking in the browser display, and inspecting - you can also navigate and click on elements in the DOM section of the dev tools. 
     
 1. In the CSS, practice changing the width of the box around your name, by:
     * clicking 400px to highlight it
@@ -21,22 +21,25 @@
 
 1. Change the background color, by clicking the color value (#eeeeee) and choosing from color picker. 
 
-1. Center the text by adding a new property. Click on the value that is for the last property in the list (probably purple after color: ). Then hit the tab key.
-
-1. Add this property:   
+1. Center the text by adding a new property. 
+    * Click on the `value` that is for the last property in the list (probably `purple` after `color:` )
+    * Then hit the tab key which takes you to a new line to add a new property and value
+    * Add this property:   
     ```CSS
     text-align:center
     ```
 
-1. Once this works in dev tools, go back and update the source file.
+1. Once your CSS added in dev tools works as you like, you would need to  go back and update the source file with the same properties and values.
 
-1. When your name is centered, mark your work as complete.  If you are done before others, help people near you, and continue to the Bonus.
+1. When your name is centered, mark your work as complete.  
+http://moxie.pro/201mssheet
+
+1. If you are done before others, help people near you, and continue to the Bonus.
 
 ## Bonus:
 
 1. Try being more specific in your CSS so that only your name is centered - not hobbies.
     If you do not have hobbies, try to finish that bonus from ch1, or copy the solution from `Ch01-MWA_Node\Basics\solution`
-
 
 1. Use this in the CSS to target the element with the id value of name
     ```CSS
