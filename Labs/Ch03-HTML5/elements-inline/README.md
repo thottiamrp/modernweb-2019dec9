@@ -18,7 +18,7 @@
  1. If you did not complete the bonus in the last exercise, with at least 3 recipes and one starting below the fold (off the page at the bottom) copy the solution from the last exercise labeled `bonus.html` into your `WIP/html` directory and name it `recipes.html`.
 
  1. Modify `/WIP/html/recipes.html` by adding internal links at the top of the page, to the individual recipes. Use the # symbol and id value for the internal link - and display the name of the recipe to be clicked. 
-    For example off the page there should be one recipe surrounded bya div with a unique id value:
+    For example off the page there should be one recipe surrounded by a div with a unique id value:
     ```html
         <div id="chicken">
     ```
