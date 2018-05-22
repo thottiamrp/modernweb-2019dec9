@@ -15,5 +15,7 @@
 ## Helpful Extensions
 * Open in Browser - by TechER (Alt-B to open the document)
 
-* HTMLHint - must also run command from instructions
+* HTMLHint - must also run command to install globally
+    * npm install -g htmlhint
+
 * htmltagwrap - Brad Gashler
