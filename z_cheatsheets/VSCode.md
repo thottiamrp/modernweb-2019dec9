@@ -13,6 +13,7 @@
 * Trashcan kills process AND the window
 
 ## Helpful Extensions
-* Open in Browser - by TechER
+* Open in Browser - by TechER (Alt-B to open the document)
+
 * HTMLHint - must also run command from instructions
 * htmltagwrap - Brad Gashler
