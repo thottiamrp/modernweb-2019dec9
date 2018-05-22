@@ -8,7 +8,7 @@
  
 
 
-1. In your `/WIP/html` open your file `mysite.html`.
+1. In your `/WIP/html` open your file `index.html`.
 
 1. Near the top of the document add a link to the 
  `class-outline.html` - using the anchor tag, a relative link, and the text Class Outline. If you did any bonus pages link these too.
