@@ -1,23 +1,70 @@
-# Chapter 5: Conditionals and Looping
-
+# Chapter 5: Conditionals 
 ## Steps
 
-1. In `WIP/js` create a file called `conditionals.js` 
+1. In `WIP/js` create a file called `conditionals.js` and do your work in this file. 
 
-1. You can call the incoming data anything you want, it is your local reference to the data being passed in. 
-         
-1. In the function, print out the name by concatenating a string using + symbols with your variable to say:
+1. Declare numOne to be a numeric 1.
+(Scroll for answer and to continue)
+
+    ```javascript
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    let numOne = 1;
     ```
-    Hello, name-you-passed-in
+
+1. Declare stringOne to be a string '1'.
+(Scroll for answer and to continue)
+
+    ```javascript
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    let stringOne = '1';
     ```
 
-## Bonus
+1. Think about the ouput will be for these two statements. RAdd these to your code and run - is it as you expect?
+    ```javascript
+    console.log('double ==', numOne == stringOne);
+    console.log('triple ===', numOne === stringOne);
+    ```
 
-1. Look up the formulas to convert between Celsius and Fahrenheit, and vice-versa:
-https://en.wikipedia.org/wiki/Fahrenheit
 
-1. Write functions to take in one value and convert to the other.
-
-1. Name them well, and inputs, and test that: 
-    1. 212°F is 100°C
-    1. 60°C is 140 °F

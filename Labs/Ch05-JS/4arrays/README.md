@@ -1,27 +1,54 @@
-# Chapter 3C: Array practice
+# Chapter 5: Arrays practice
 
 ## Steps
  
+1. Create a string array with 3 of your favorite hobbies.
 
-1. Continue with your practice file.
-
-1. Add a `<div id="hobbies"></div>` to your page
-
-1. Create an onload event for the page that calls a function called init()
-
-1. In init() function
-    * hard-code a string array with some (3-5) favorite hobbies.
-    * declare a variable output and set its value to what is returned form a new function called printHobbies, that you pass the array into
-
-1. In the new function:
-    * create a string variable to store output
-    * Loop through the passed in array, updating the string to create a final string of the format:
+1. Create a function called printHobbies. It should produce the following type of output to the console (Scroll down for a hint and to continue:)
     ```
-    I like 4 things: x, and y, and z
+    I like 3 things: 
+    I like x
+    I like y
+    I like z
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     ```
-    * return the new string
 
-1. In init() set the innerHTML property of document.getElementById to your new output string
+    ```javascript
+    function printHobbies(passedArray) {
+        console.log(`I like ${passedArray.length} things`);
+        for (let index = 0; index < hobbiesArray.length; index++) {
+            let element = hobbiesArray[index];
+            console.log('I like ' + element);
+        }  
+    }
+    ```
 
-1. Create a new div with a new id.  Write a new function which creates an unordered list of items displayed in the new id.
+1. Now call your function passing the array you created.
+
+   printHobbies(hobbiesArray);
 
