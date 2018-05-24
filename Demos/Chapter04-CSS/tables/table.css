@@ -30,6 +30,10 @@ html {
   tr:nth-child(odd) td {
     background-color: rgb(245,245,245);
   }
+
+  tr:nth-child(1) td {
+    color:red;
+  }
   
   caption {
     padding: 10px;

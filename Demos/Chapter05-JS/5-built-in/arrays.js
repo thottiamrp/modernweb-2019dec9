@@ -7,6 +7,10 @@ var ages = new Array(45, 41, 1);
 console.log(simpleNameArray[1] + ' is ' +
     ages[1] + ' years old');
 
+console.log(`${simpleNameArray[1]} is ${ages[1]} years old`);
+
+console.log(simpleNameArray.join('|'));
+
 var output = '';
 for (var index = 0; index < simpleNameArray.length; index++) {
     var element = simpleNameArray[index];

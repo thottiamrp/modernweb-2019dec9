@@ -1,6 +1,6 @@
 @import url('halloween.css');
 
-/* @media screen { */
+@media screen {
 
 
     body {
@@ -10,7 +10,8 @@
 
     h2 {color: green}
 
-    header h2, #hipster h2 span {color: black}
+    header h2, 
+    #hipster h2 span {color: black}
 
     p {color: blue}
 
@@ -32,5 +33,5 @@
    
    
 
-/* } */
+}
 
