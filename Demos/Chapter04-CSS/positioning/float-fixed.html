@@ -11,16 +11,17 @@ p {
 	border: 1px solid black
 }
 
-p.a {
+p.a, p.c, p.e,p.f {
 	float: left;
 }
 
-p.b {
+p.b, p.d,p.g {
 	float: right
 }
 
-p.c {
-	float: right
+.clearbox {
+	clear:left;
+	background-color: pink
 }
 
 .clearfix {
@@ -39,6 +40,11 @@ p.c {
 		<p class="a">A</p>
 		<p class="b">B</p>
 		<p class="c">C</p>
+		<p class="d">D</p>
+		<p class="e">E</p>
+		<p class="f">F</p>
+		<p class="clearbox">CLEAR BOX</p>
+		
 		<br class="clearfix" /> 
 	</div>
 

@@ -18,9 +18,11 @@
 
 1. Change body font size to 100%
     1. Note: font-size takes many different options: 
-            - px = pixels - very specific and static
-            - em = multiplier - Changes element default size by multiplier - *most used by developer & w3c recommended - most responsive
-            - percent = Same as em but usually used in combination with em for total size control of all text
+        * px = pixels - very specific and static
+        * em = multiplier - Changes element default size by multiplier
+            *most used by developer & w3c recommended 
+            &most responsive
+        * percent = Same as em but usually used in combination with em for total size control of all text
 
 1. Change the font-size of p to 18px
 
@@ -28,11 +30,11 @@
 
 1. Change the font-size of h1 to 2em
 
-
 1. Change the font-weight of footer to bold
 
 1. Change the font-variant of li to small-caps
 
 1. Use font to change all font variables of p.two to 15px Arial, bold, sans-serif
+    * Use shortcut
 
 1. Play around with different options to see how this all works.  
