@@ -36,7 +36,7 @@ Most projects these days rely on using markdown files to share information about
     
     You can always revert to the original files by clicking this icon, seeing the list of files that have been changed,and discarding the changes from one or all files. Test this now by adding spaces to this README file and hitting CTRL-S to save.   
 
-1. You should see a number now. Click the Git icon and you will see the README.md and any other files you have changed listed. You can individually discard changes, or discard all changes from the menu.
+1. You should see a number now. Click the Git icon and you will see the README.md and any other files you have changed listed. You can individually discard changes, or discard all changes from the menu. Choose one and do this now, so there is no number on the Git ion.
 
 1. Files and directories listed in the `.gitignore` file will be ignored. (and not counted among those files changed) Open the `.gitignore` file and notice that a directory called `/WIP` will be ignored. 
 
