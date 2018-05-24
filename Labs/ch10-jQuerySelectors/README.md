@@ -71,7 +71,7 @@
 	```
 1. Refresh the browser to see the content you added. 
 
-1. Add the following  inside the  $(document).ready() function:
+1. Add the following code where the hello alert was, add this code:
 	``` javascript
 		$('p').css('font-weight', 'bold');
 	```
