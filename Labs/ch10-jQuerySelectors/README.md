@@ -80,8 +80,9 @@
 1. Add a table to your html with a row for headers for `artist` and `genre` and 3 data rows. Two rows should have the same genre.
 
 	```html
-	<table><tr><th>Artist</th><th>Genre</th></tr>
-			<tr><td>Stevie Wonder</th><th>Soul</th></tr>...
+	<table>
+		<tr><th>Artist</th><th>Genre</th></tr>
+		<tr><td>Stevie Wonder</td><td>Soul</td></tr>
 	```
 
 1. Add an id of "artists" to the opening table tag.

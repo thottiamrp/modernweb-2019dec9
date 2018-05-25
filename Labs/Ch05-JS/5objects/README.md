@@ -2,10 +2,7 @@
 
 ## Steps
  
-
-1. Continue with your practice page. 
-
-1. In a file called myHobbies.js - create an array of 3 of your hobbies. Each hobby should be represented as an object with a name, and lengthInYearsAtHobby. Similar to the following sports array, only with lengthInYearsAtHobby as a numeric value.
+1. Continue with yoru JS file. Create an array of 3 of your hobbies. Each hobby should be represented as an object with a name, and lengthInYearsAtHobby. Similar to the following sports array, only with lengthInYearsAtHobby as a numeric value.
 
     ``` javascript
     const sportsArray = [
@@ -29,6 +26,10 @@ Your work will be similar to this example
 
 1. Run from the command line using `node myHobbies`
 
+1. Once working mark your work as complete.
+
+##Bonus
+
 1. Create an object literal to represent one band:
     ```javascript
     let band1 = {
@@ -45,4 +46,4 @@ Your work will be similar to this example
 
 1. Create a bands array and add the two objects.
 
-1. Create a function to process this array. Update a targeted div element to create a multi-level list.  An unordered list for each band, and within the band, an ordered list for the genres.
+1. Create a function to process this array. 

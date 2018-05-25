@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Review Objects and Arrays</title>
-<script>
+
 	var band1 = {
 		"name" : "Pink Floyd",
 		"city" : "London" ,
@@ -62,31 +57,4 @@
 			console.log(`key is ${key} value is ${band[key]}`);
 		}
 	}
-</script>
 
-
-</head>
-
-
-<body>
-View Console to see use of objects and arrays
-
-<div id="output">
-
-</div>
-<script>
-	
-	console.log("**** Print band objects to the screen ****");
-	var outstring = "";
-
-	for	(index = 0; index < bands.length; index++) {
-	    var band = bands[index];
-		//ES6
-		outstring += `${band['name']}<br/>`;
-	}
-
-	document.getElementById('output').innerHTML = outstring;
-
-</script>
-</body>
-</html>

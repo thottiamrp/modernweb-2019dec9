@@ -2,13 +2,36 @@
 
 ## Steps
 
-1. Create a function displayName(name)
-
-1. You can call the incoming data anything you want, it is your local reference to the data being passed in. 
-         
-1. In the function, print out the name by concatenating a string using + symbols with your variable to say:
+1. Create a function called displayName which takes in a variable and displays the following message using console.log(). You can call the incoming data anything you want, it is your local reference to the data being passed in. If you need help, or to continue, scroll down.
     ```
     Hello, name-you-passed-in
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    ```
+    ```javascript         
+    function displayName(name) {
+        console.log('Hello, ' + name)
+    }
+    ```
+
+1. Execute this function by adding this line after its definition:
+    ```javascript
+    displayName("Your name");
     ```
 
 ## Bonus
