@@ -24,7 +24,7 @@ and use various selection techniques
 		border: '2px dashed pink'
 	});
 	```
-1. Refresh the browser to see the red text.
+1. Refresh the browser to see the changes.
 
 1. Make the items that you do not like to do have a red font.  You can use:
 	``` javascript
