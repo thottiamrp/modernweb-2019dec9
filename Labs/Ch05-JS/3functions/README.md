@@ -2,7 +2,9 @@
 
 ## Steps
 
-1. Create a function called displayName which takes in a variable and displays the following message using console.log(). You can call the incoming data anything you want, it is your local reference to the data being passed in. If you need help, or to continue, scroll down.
+1. In `WIP/js` create a file called `functions.js` and do your work in this file. 
+
+1. Create a function called `displayName` which takes in a variable and displays the following message using console.log(). You can call the incoming data anything you want, it is your local reference to the data being passed in. If you need help, or to continue, scroll down.
     ```
     Hello, name-you-passed-in
     

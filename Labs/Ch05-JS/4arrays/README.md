@@ -2,6 +2,8 @@
 
 ## Steps
  
+1. In `WIP/js` create a file called `arrays.js` and do your work in this file. 
+
 1. Create a string array with 3 of your favorite hobbies. For help and to continue, scroll down.
     ```javascript
 

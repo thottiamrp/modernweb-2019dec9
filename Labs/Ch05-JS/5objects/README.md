@@ -2,7 +2,9 @@
 
 ## Steps
  
-1. Continue with yoru JS file. Create an array of 3 of your hobbies. Each hobby should be represented as an object with a name, and lengthInYearsAtHobby. Similar to the following sports array, only with lengthInYearsAtHobby as a numeric value.
+1. In `WIP/js` create a file called `objects.js` and do your work in this file. 
+ 
+1. Create an array of 3 of your hobbies. Each hobby should be represented as an object with a name, and lengthInYearsAtHobby. Similar to the following sports array, only with lengthInYearsAtHobby as a numeric value.
 
     ``` javascript
     const sportsArray = [
