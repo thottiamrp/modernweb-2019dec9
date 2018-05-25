@@ -41,7 +41,7 @@ and use various selection techniques
 
 1. Add a `<style></style>` section in the head. Add a class called `highlight` which applies a yellow background.
 
-1. Add a button before your list items with and id of `toggleli` and the text  `Toggle Events`. 
+1. Add a button before your list items with an id of `toggleli` and the text  `Toggle Events`. 
 
 1. Use jQuery to add a click event for this button. In the callback function toggle the highlight class for even li's. 
 
