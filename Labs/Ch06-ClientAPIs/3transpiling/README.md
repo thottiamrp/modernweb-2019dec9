@@ -1,4 +1,4 @@
-# Chapter 6: Exercise: Transpiling (UPDATED)
+# Chapter 6: Exercise: Transpiling
 
 ## Objectives
 * In this lab, you will write code using ES6 notation
@@ -23,31 +23,8 @@
     
     The `--yes`, or `-y` accepts all the defaults from the wizard.
 
-1. Create a `src` directory for scripts, and to this directory add a new file `myHobbies.js`.
+1. Create a `src` directory for scripts, and to this directory, copy the `hobbies.js` file you worked on in the last chapter. If you need to, you can copy this from the last chapter's solution.
 
-1. Inside `myHobbies.js` create a `hobbiesArray` with 3 hobby objects. Each hobby should be represented as an object with properties for `name` and `lengthInYearsAtHobby`.   
-
-1. READ: The `Array.prototype.forEach` function takes an anonymous function which iterates over the array allowing you to do something with each element. It is one of the examples of using the `Array.prototype` functions to not need to write a for loop on your own, just to iterate over every element. Most of the `Array.prototype` functions process the array using the callback function that you supply.  
-
-    Now with ES6 notation, we can use an arrow function for specifying the callback function. View the following example used in the /Demos section. Notice how a local variable is set for sport, to represent the single sport being processed during that iteration of the loop - processing each element of the `sportsArray.` 
-
-    ``` javascript
-     sportsArray.forEach(sport => {
-        console.log(`  ${sport.name} is played in ${sport.duration} `);
-    });
-    ```
-
-1. Now, you will use the `forEach` method with your own array. Create a `logHobbies` function with no inputs which uses the `forEach` method for looping, and prints a message using ES6 backticks with string template references for the properties. 
-
-   Example output:
-
-   volleyball: A hobby for 25 years
-
-1. After the function definition, add a call to the `logHobbies` function.
-
-1. Run your .js file from the command line using `node myHobbies` - be sure you are in the correct directory! Recall - you can right-click files or directories and open in the integrated terminal window to the correct location.
-
-1. Confirm the script works - that you see the output in the console. ES6 is supported in Node.
 
 1. Create an `index.html` file in the directory of `\WIP\ES6` which includes a script reference like this:
     ``` javascript
