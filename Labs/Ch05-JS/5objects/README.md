@@ -34,7 +34,8 @@
     ];
     ```            
 
-1. Create a function that takes in one hobby and prints it to console.log. Use ES6 backticks. Check out how cool backticks are!  you can concatenate without the plus symbol.  It uses ${ }  with the variable name inside. Your work will be similar to this example:
+1. Create a function that takes in one hobby and prints it to console.log. Use ES6 backticks to concatenate without the plus symbol.  Use ${ }  with the variable name inside. Scroll down for help and to continue:
+
     ``` javascript
     function printSportInfo(sport) {
         console.log(` ${sport.name} is played in ${sport.duration} `)
