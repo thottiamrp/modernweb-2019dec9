@@ -48,13 +48,13 @@
 	```
 1. Open your `jq.html` in a browser. You should see the alert. If not, use Developer Tools in your browser to see what the issue may be.  Check for syntax errors under the Console
 
-1. If you were successful the first time, you will now purposely cause an error to see what it looks like. Temporarily set the CDN to have the wrong value , such as `jquery-2.ABC.js`.  Reload the browser, Does your local file work?
+1. If you were successful the first time, and saw the hello message - you will now purposely cause an error to see what it looks like. Temporarily set the CDN to have the wrong value, such as `jquery-3.3.1.ABC.js`.  Reload the browser, do you still see the hello message? If so your local file is working.
 
 1. If your local file works, temporarily set it to something invalid.  
 
-1. Once you have seen the error in Developer Tools, fix the script tags to be valid so that you do get the alert.  Once this is working, you can remove the alert.
+1. Once you have seen the error in Developer Tools, fix the script tags to be valid so that you do get the hello alert.  Once this is working, you can remove this annoying alert.
 
-1. Now inside the <body> tag in `jq.html` add two `<ul>` for things you like and things you do not like to do. Include at least 3 items in each list. For example:
+1. Now inside the `<body>` tag in `jq.html` add two `<ul>` for things you like and things you do not like to do. Include at least 3 items in each list. For example:
 	```html 
 	<p>Things I Like to Do</p>
 		<ul>
@@ -71,7 +71,7 @@
 	```
 1. Refresh the browser to see the content you added. 
 
-1. Add the following  inside the  $(document).ready() function:
+1. Add the following code where the hello alert was, add this code:
 	``` javascript
 		$('p').css('font-weight', 'bold');
 	```
