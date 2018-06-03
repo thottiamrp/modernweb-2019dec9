@@ -1,14 +1,14 @@
-var hobbies = [
-    { name: 'volleyball', duration: 20 },
-    { name: 'cooking', duration: 5},
-    { name: 'swimming', duration: 11}
+const hobbiesArray = [
+    { name: 'volleyball', lengthInYearsAtHobby: 25 },
+    { name: 'cooking', lengthInYearsAtHobby: 15 },
+    { name: 'swimming', lengthInYearsAtHobby: 11 }
 ];
 
 
 function printHobbyInfo(hobby) {
-console.log(` ${hobby.name} has been an interest for ${hobby.duration} years`)
+    console.log(` ${hobby.name} has been an interest for ${hobby.lengthInYearsAtHobby} years`)
 }
 
-for (var hobby of hobbies) {
+for (let hobby of hobbies) {
     printHobbyInfo(hobby);
 }
