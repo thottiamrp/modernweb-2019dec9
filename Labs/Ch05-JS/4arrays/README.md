@@ -1,27 +1,93 @@
-# Chapter 3C: Array practice
+# Chapter 5: Arrays practice
 
 ## Steps
  
+1. In `WIP/js` create a file called `arrays.js` and do your work in this file. 
 
-1. Continue with your practice file.
+1. Create a string array with 3 of your favorite hobbies. For help and to continue, scroll down.
+    ```javascript
 
-1. Add a `<div id="hobbies"></div>` to your page
 
-1. Create an onload event for the page that calls a function called init()
 
-1. In init() function
-    * hard-code a string array with some (3-5) favorite hobbies.
-    * declare a variable output and set its value to what is returned form a new function called printHobbies, that you pass the array into
 
-1. In the new function:
-    * create a string variable to store output
-    * Loop through the passed in array, updating the string to create a final string of the format:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    let hobbiesArray = ['coding',
+    'testing',
+    'listening to music'];
+
     ```
-    I like 4 things: x, and y, and z
+
+1. Create a function called printHobbies. It should produce the following type of output to the console (Scroll down for a hint and to continue:)
     ```
-    * return the new string
+    I like 3 things: 
+    I like x
+    I like y
+    I like z
+    
 
-1. In init() set the innerHTML property of document.getElementById to your new output string
 
-1. Create a new div with a new id.  Write a new function which creates an unordered list of items displayed in the new id.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ```
+
+    ```javascript
+    function printHobbies(passedArray) {
+        console.log(`I like ${passedArray.length} things`);
+        for (let index = 0; index < hobbiesArray.length; index++) {
+            let element = hobbiesArray[index];
+            console.log('I like ' + element);
+        }  
+    }
+    ```
+
+1. Now call your function passing the array you created.
+   ```javascript
+   printHobbies(hobbiesArray);
+    ```
+
+1. Mark your work as complete.
+
+## Bonus
+
+1. Create an array of objects. Each object has a sport name and a duration. Loop through and print so that you have output similar to this:
+    ```
+    Baseball is played in innings
+    Hockey is played in periods
+    ```

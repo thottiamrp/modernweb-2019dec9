@@ -1,4 +1,4 @@
-# Chapter 3B: JS practice
+# Chapter 6: JS practice
 
 ## Objectives
 * Practice with JS
@@ -6,7 +6,7 @@
 ### Estimated Completion Time 
 5 minutes
  
-1. In your `/WIP/` directory create a `JS` folder and a file `JSpractice.html`. 
+1. In your `/WIP/` directory, if not already created, add a `JS` folder and a file `JSpractice.html`. 
 
 1. Type html and choose the template that is just labeled html.
 

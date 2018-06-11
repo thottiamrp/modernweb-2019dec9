@@ -1,4 +1,4 @@
-# Chapter 4: Using Semantic Tags
+# Chapter 3: Using Semantic Tags
 
 ## Objectives
 * Add Semantic Tags to a page and content

@@ -49,12 +49,16 @@ Most projects these days rely on using markdown files to share information about
     
     b. Save this file by clicking File then Save or by hitting CTRL-S to save.  
 
+<<<<<<< HEAD
     c. Now that you change has been saved, Look at the Source Control icon in the upper left navigation bar. You should see a number now. 
     
     d. Click on this icon.  To the right in the panel, you will see a list of files that have been changed.  You will only see the README.md listed. 
         
     * You can discard changes made in a single file by clicking on the undo icon.
     * You can discard all changes by clickin on the undo icon to the right of the word Changes at the top of the list.
+=======
+1. You should see a number now. Click the Git icon and you will see the README.md and any other files you have changed listed. You can individually discard changes, or discard all changes from the menu. Choose one and do this now, so there is no number on the Git ion.
+>>>>>>> 049b52295ce4840d99dd8985f35e038e80c5f90b
 
 1. Telling Git to ignore files in a directory. 
     
