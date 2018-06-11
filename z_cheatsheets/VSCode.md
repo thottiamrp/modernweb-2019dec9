@@ -1,6 +1,8 @@
 ## Starting VSCode
 * Open from prompt:  `code .`
 
+hello class!
+
 ## Working with Code
 * Clean-up / indent code properly with SHIFT-ALT-F
 
