@@ -32,7 +32,6 @@
 1. Once your CSS added in dev tools works as you like, you would need to  go back and update the source file with the same properties and values.
 
 1. When your name is centered, mark your work as complete.  
-http://moxie.pro/201mssheet
 
 1. If you are done before others, help people near you, and continue to the Bonus.
 

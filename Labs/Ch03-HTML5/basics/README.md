@@ -85,7 +85,6 @@
 1. While viewing the MDN website, right click in displayed browser window and choose `View Source`.  Scroll or use control-F to find the meta description - you should see the same text as what was displayed in the search results. 
 
 1. Mark your work as complete and help others. We retain more by helping others!
-http://moxie.pro/201mssheet
 
 ## Bonus
 
