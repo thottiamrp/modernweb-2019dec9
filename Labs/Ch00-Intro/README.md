@@ -79,5 +79,3 @@ Most projects these days rely on using markdown files to share information about
 
 1. If working on a Lab machine, you will be able to zip this directory and transfer it off of the lab machine to preserve your work.
 
-1. Please mark your work as complete.
-http://moxie.pro/201mssheet 
