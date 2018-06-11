@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,16 +11,16 @@
             document.getElementById("name").innerHTML = 'Judy';
 
             // BONUS
-           var outputString = '<ul>';
-           var hobbies = ['gardening', 'running'];
-           for (let index = 0; index < hobbies.length; index++) {
-               const element = hobbies[index];
-              
-               outputString += '<li>' + element + '</li>'
-           }
-           outputString += '</ul>';
+            var outputString = '<ul>';
+            var hobbies = ['gardening', 'running'];
+            for (let index = 0; index < hobbies.length; index++) {
+                const element = hobbies[index];
 
-           document.getElementById("hobbies").innerHTML = outputString;
+                outputString += '<li>' + element + '</li>'
+            }
+            outputString += '</ul>';
+
+            document.getElementById("hobbies").innerHTML = outputString;
 
         }
     </script>
@@ -31,10 +32,15 @@
                 background-color: #eeeeee;
                 color: purple
             }
+
+            div#hobbies {font-weight: bold; color:green}
+
         </style>
 </head>
+
 <body onload="init()">
     <div id="name"></div>
     <div id="hobbies"></div>
 </body>
+
 </html>

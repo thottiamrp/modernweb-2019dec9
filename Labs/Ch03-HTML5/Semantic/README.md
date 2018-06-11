@@ -8,7 +8,7 @@
 
 ## Create page and include CSS
  
-1. In your `/WIP/` directory create a new directory called `LoremIpsum` and a file inside `lorem-ipsum.html`. 
+1. In your `/WIP/` directory create a new directory called `LoremIpsum`. Inside of this new directory create a new file `lorem-ipsum.html`. 
 
 1. Type html and choose the template that is just labeled html. View slide for screenshot of which to use.
 
