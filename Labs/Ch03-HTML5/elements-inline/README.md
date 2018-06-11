@@ -102,7 +102,6 @@
     ```
 
 1. Mark your work as complete.  
-http://moxie.pro/201mssheet
 
 ## Bonus
 
