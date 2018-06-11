@@ -4,4 +4,4 @@ let z = 3 * 8;
 
 let today = new Date();
 
-console.log('Hello from pittsburgh.', z, today);
+console.log('Hello', z, today);
