@@ -16,10 +16,12 @@
     Besides right-clicking in the browser display, and inspecting - you can also navigate and click on elements in the DOM section of the dev tools. 
     
 1. In the CSS, practice changing the width of the box around your name, by:
-    * clicking 400px to highlight it
-    * hit up/down arrows to see changes go up and down
+    * clicking the value 400px to highlight it
+    * hitting the up/down arrows to increment/decrement the value
 
-1. Change the background color, by clicking the color value (#eeeeee) and choosing from color picker. 
+1. Change the background color:
+    * click the color value (#eeeeee) or the square of color - to launch the color picker 
+    * choose a new color from color picker. 
 
 1. Center the text by adding a new property. 
     * Click on the `value` that is for the last property in the list (probably `purple` after `color:` )
