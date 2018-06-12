@@ -14,7 +14,6 @@
 
 1. In your `/WIP/html` open your file `index.html` which you created which had Welcome in different languages.
 
-<<<<<<< HEAD
 1. Immediately after the starting `<body>` tag add this content which creates an area for links to other pages:
     ```html
     <nav>
@@ -25,9 +24,6 @@
                  <li>
                     <a href="recipes.html">Recipes</a>
                 </li>
-=======
-1. In your `/WIP/html` open your file `index.html`.
->>>>>>> 049b52295ce4840d99dd8985f35e038e80c5f90b
 
             </ul>
     </nav>
@@ -48,7 +44,6 @@
                 <a href="#lemon-bars">Lemon Bars</a>
             </li>
 
-<<<<<<< HEAD
             <li>
                 <a href="#salmon">Salmon</a>
             </li>
@@ -59,10 +54,6 @@
     ```
  
 1. `Note` how these internal links with the `#` symbol match the id values below such as: 
-=======
- 1. Modify `/WIP/html/recipes.html` by adding internal links at the top of the page, to the individual recipes. Use the # symbol and id value for the internal link - and display the name of the recipe to be clicked. 
-    For example off the page there should be one recipe surrounded by a div with a unique id value:
->>>>>>> 049b52295ce4840d99dd8985f35e038e80c5f90b
     ```html
         <div id="chicken">
     ```
