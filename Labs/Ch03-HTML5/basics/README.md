@@ -58,7 +58,7 @@
     ## favicon
 1. Under `WIP/html` directory create a new directory called `favicon`.
 
-1. Use Explorer to look in the same folder as this readme file `\Labs\Ch03-HTML5\basics` and find the file `favicon.ico`.
+1. In the Explorer sidebar of VSCode look in the same folder as this readme file `\Labs\Ch03-HTML5\basics` and find the file `favicon.ico`.
 
 1. Add this file to your project by
     * clicking on this file in explorer menu
