@@ -11,7 +11,7 @@
 
 1. Transform the nav text to uppercase.
 
-1. Remove the bullet points from the navigation links.
+1. Center align the header text.
     ```
 
 
