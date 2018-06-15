@@ -9,9 +9,6 @@
 
 1. Center align the content of the header. Resize your browser and see how it adjusts. If you need a hint, or to continue, scroll down.
 
-1. Transform the nav text to uppercase.
-
-1. Remove the bullet points from the navigation links.
     ```
 
 

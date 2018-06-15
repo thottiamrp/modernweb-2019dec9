@@ -43,8 +43,7 @@ Remember to use the html:5 template. If you forget, go back to last exercise for
     * Use headings h1, h2, and h3 as appropriate
     * Use paragraphs for content
 
-1. Mark your work as complete.  
-http://moxie.pro/201mssheet
+1. Mark your work as complete. 
 
 ## Bonus
 

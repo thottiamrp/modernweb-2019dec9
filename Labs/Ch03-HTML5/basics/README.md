@@ -58,7 +58,7 @@
     ## favicon
 1. Under `WIP/html` directory create a new directory called `favicon`.
 
-1. Use Explorer to look in the same folder as this readme file `\Labs\Ch03-HTML5\basics` and find the file `favicon.ico`.
+1. In the Explorer sidebar of VSCode look in the same folder as this readme file `\Labs\Ch03-HTML5\basics` and find the file `favicon.ico`.
 
 1. Add this file to your project by
     * clicking on this file in explorer menu
@@ -85,7 +85,6 @@
 1. While viewing the MDN website, right click in displayed browser window and choose `View Source`.  Scroll or use control-F to find the meta description - you should see the same text as what was displayed in the search results. 
 
 1. Mark your work as complete and help others. We retain more by helping others!
-http://moxie.pro/201mssheet
 
 ## Bonus
 
