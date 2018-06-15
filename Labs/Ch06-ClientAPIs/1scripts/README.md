@@ -8,7 +8,7 @@
  
 1. In your `/WIP/` directory, if not already created, add a `JS` folder and a file `JSpractice.html`. 
 
-1. Type html and choose the template that is just labeled html.
+1. Type html and choose the template that has the white box with dotted underline.
 
 1. Notice:
     * that the title tag is highlighted - type JSPractice.
@@ -23,7 +23,8 @@
 
 1. Add another set of script tags inside of the `<head>`
 
-1. Inside, use console.log to print out Hello World.  
+1. Inside, use console.log to print out Hello Universe.  
 
+//BONUS
 1. Use document.write to display an h1 element with the text Welcome to class and a p saying Check the console.
 

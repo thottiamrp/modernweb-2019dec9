@@ -1,4 +1,4 @@
-# Chapter 8: Demo: AJAX JSON Data
+# Chapter 6: Demo: AJAX JSON Data
 
 ## Objective
 * View the usage of AJAX
