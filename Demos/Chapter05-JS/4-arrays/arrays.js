@@ -4,6 +4,14 @@ console.log('Numbers length ' + numbers.length);
 var simpleNameArray = ['Adam', 'Judy', 'Cody'];
 var ages = new Array(45, 41, 1);
 
+let jName = simpleNameArray.find ( 
+    function(currentElementThatIsBeingEvaluated) {
+        return (currentElementThatIsBeingEvaluated.startsWith('J'))
+    }
+);
+
+console.log(`Found ${jName}`);
+
 console.log(simpleNameArray[1] + ' is ' +
     ages[1] + ' years old');
 

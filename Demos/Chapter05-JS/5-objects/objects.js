@@ -47,6 +47,25 @@ var bands = [
               }
             ];
 
+const keys = Object.keys(bands[0]);
+console.log(keys);
+
+for (let index = 0; index < keys.length; index++) {
+   const key = keys[index]; 
+   console.log(`${key} is ${bands[0][key]}`);
+}
+
+for (let index = 0; index < bands.length; index++) {
+    const name = bands[index].name;
+    const variableName = "city";
+    const country = bands[index][variableName];
+    console.log(name, country);
+}
+
+
+
+
+
 console.log("**** key values of band objects in bands array ****");
 for	(index = 0; index < bands.length; index++) {
     var band = bands[index];
