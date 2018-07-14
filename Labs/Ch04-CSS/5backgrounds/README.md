@@ -3,6 +3,11 @@
 ### Estimated Completion Time 
 10 minutes
  
+
+1. If you were unable to complete the exercise, you can copy the solution from the last exercise as your starting point.
+
+1. Continue working in `LoremIpsum`
+ 
 1. Visit the website: http://www.colorzilla.com/gradient-editor/
 
 1. Play with the controls and create a gradient to be used in the header.

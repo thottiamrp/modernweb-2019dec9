@@ -4,6 +4,10 @@
 10 minutes
  
 
+1. If you were unable to complete the exercise, you can copy the solution from the last exercise as your starting point.
+
+1. Continue working in `LoremIpsum` 
+
 1. Add a bottom border to all articles to provide a visual separation.
 
 1. Add padding - everywhere! it just looks better.
