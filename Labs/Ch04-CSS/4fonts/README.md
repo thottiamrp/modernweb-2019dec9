@@ -4,7 +4,7 @@
 * Add CSS to style fonts
 
  
-1. If you were unable to complete the exercise, you can copy the solution as your starting point.
+1. If you were unable to complete the exercise, you can copy the solution from the last exercise as your starting point.
 
 1. Continue working in your Lorem Ipsum project. 
 
@@ -34,7 +34,10 @@
 
 1. Change the font-variant of li to small-caps
 
-1. Use font to change all font variables of p.two to 15px Arial, bold, sans-serif
-    * Use shortcut
+1. Mark your work as complete
 
-1. Play around with different options to see how this all works.  
+## Bonus 
+1. Use shortcut notation of font to target `p.two` to be 15px Arial, bold, and sans-serif
+    
+
+  
