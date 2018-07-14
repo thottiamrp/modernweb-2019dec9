@@ -10,7 +10,7 @@
  
 1. In your `/WIP/` directory create a new directory called `LoremIpsum`. Inside of this new directory create a new file `lorem-ipsum.html`. 
 
-1. Type html and choose the template that is just labeled html. View slide for screenshot of which to use.
+1. In this file, type html and from the template choose the template with the word html in a white box with dotted bottom border. (View the screenshot in this directory if needed).
 
 1. Notice:
     * that the title tag is highlighted - type Lorem Ipsum.
