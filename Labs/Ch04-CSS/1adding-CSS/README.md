@@ -10,9 +10,11 @@
 
 
 1. If you needed to step away or otherwise did not finish the Lorem Ipsum content exercise,
-please rename your work with an extension such as lorem-ipsum-WIP.html and copy the solution file from `\Labs\ch03-html5\Semantic\solution` into your `/WIP/LoremIpsum` directory.
+please rename your LoremIpsum folder (or delete if you do not want to keep it). You can then copy the solution folder `\Labs\ch03-html5\Semantic\solution\LoremIpsum` into your `/WIP/` directory.
 
-1. Ensure your file has 
+1. Continue working in `LoremIpsum` 
+
+1. If using your work - ensure your lorem-ipsum.html file has 
     * a link to an external stylesheet main.css that has media set to `all`.
         * you may need to update this value
 

@@ -6,7 +6,7 @@
  
 1. If you were unable to complete the exercise, you can copy the solution from the last exercise as your starting point.
 
-1. Continue working in your Lorem Ipsum project. 
+1. Continue working in `LoremIpsum` 
 
 1. Here you will practice using CSS to make changes to fonts.
 
