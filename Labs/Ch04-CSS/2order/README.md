@@ -3,9 +3,9 @@
 ### Estimated Completion Time 
 5 minutes
  
-1. If you needed to step away or otherwise did not finish the exercise, please rename your CSS directory to CSSIncomplete, and copy solution from last chapter into your WIP directory to continue from there 
+1. If you needed to step away or otherwise did not finish the exercise, you can rename or delete your folder, and copy the solution from last exercise into your WIP directory to continue from there. 
 
-1. Continue working in `CSS` 
+1. Continue working in `LoremIpsum` 
 
 1. It is no longer fake Halloween - comment out that stylesheet.
 
