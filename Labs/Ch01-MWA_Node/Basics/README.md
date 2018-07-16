@@ -15,7 +15,9 @@ Follow the steps, and if you need additional help you can refer to the slides, p
 
 1. In the `WIP` folder, create a file called `index.html`. You can create this file by right-clicking the `WIP` folder, and choosing New File.
 
-1. In the empty `index.html` file, type `html` and pause. You should see a menu with options for html templates. Choose the one that is `html:5`. We will review the structure of this file in upcoming chapters.
+1. In the empty `index.html` file, type `html` and pause. You should see a menu with options for html templates. Choose the one that is `html:5` - you can refer to the screenshot `choose-template.png` in this directory.
+
+We will review the structure of this file in upcoming chapters.
 
 1. In `<head>` look for `<title>` modify it's content so that it looks like this:
     ```html

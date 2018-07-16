@@ -8,7 +8,7 @@
 10 minutes
  
 1. In your `/WIP/html` create a new file called  `class-outline.html`. You will work in this file.
-Remember to use the html:5 template. If you forget, go back to last exercise for help.
+Remember to use the html:5 template. If you forget how, go back to last exercise for help.
 
 1. If you haven't already install the VSCode extension HTMLTagWrap.
     * Click extensions, look for HTMLTagWrap by Brad Gashler,and install | reload
