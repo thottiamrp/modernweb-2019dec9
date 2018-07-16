@@ -1,16 +1,16 @@
-# Chapter 7: Exercise: Use Web Storage
+# Chapter 6: Exercise: Use Web Storage
 ## Objectives
 * Store data locally using local storage
 * Retrieve local data stored in local storage
 
 ### Estimated Completion Time 
-20 minutes
+15 minutes
 
 ## Steps:
 ### Save Preferences in Local Storage
 1. Create a folder in `/WIP` called `WebStorage`.
 
-1. Copy `favoriteMusic.html` to this folder, then open it in the browser and editor.
+1. Copy `favoriteMusic.html` to this new folder, then open it in the browser and editor.
     * You will notice an alert when the page loads, from code in window.onload 
     * Click the save and clear buttons and notice the code that is called. 
     * You will implement the logic to save, load and clear from local storage.
@@ -45,7 +45,7 @@
                 alert('data saved');
             }
             catch (e) {
-                //can assume storage error
+                /* can assume storage error */
                 alert('Storage quota exceeded');
             }
         }
@@ -88,3 +88,9 @@
             }
     ```
 1. Click the `Clear Info` button and then close and open the browser again. If you check local storage the values will no longer be there.
+
+1. Mark your work as complete
+
+##Bonus
+
+If done before others, implement checkboxes for favorite genres. Save and load these using web storage.

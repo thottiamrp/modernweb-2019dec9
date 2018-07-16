@@ -1,4 +1,4 @@
-# Chapter 6: JS practice
+# Chapter 6: JS in browser practice
 
 ## Objectives
 * Practice with JS
@@ -25,6 +25,6 @@
 
 1. Inside, use console.log to print out Hello Universe.  
 
-//BONUS
+## BONUS
 1. Use document.write to display an h1 element with the text Welcome to class and a p saying Check the console.
 

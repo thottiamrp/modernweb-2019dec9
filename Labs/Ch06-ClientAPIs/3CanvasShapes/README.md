@@ -1,4 +1,4 @@
-# Chapter 7: Canvas Shapes
+# Chapter 6: Canvas Shapes
 
 ## Objectives
 * In this lab, you will use canvas to draw some shapes
@@ -25,4 +25,10 @@
 
 1. Open the file in the browser.
 
-1. Refer to the `/Demo` folder for additional help.
+1. Refer to the `/Demos` folder for additional help.
+
+1. Mark your work as complete
+
+## Bonus
+
+1. Follow the steps in the README.md in \Labs\Ch06-ClientAPIs\4CanvasChart/
