@@ -6,9 +6,14 @@ const hobbiesArray = [
 
 
 function printHobbyInfo(hobby) {
-    console.log(` ${hobby.name} has been an interest for ${hobby.lengthInYearsAtHobby} years`)
+    console.log(`${hobby.name} has been an interest for ${hobby.lengthInYearsAtHobby} years`)
 }
 
-for (let hobby of hobbies) {
+for (let hobby of hobbiesArray) {
     printHobbyInfo(hobby);
 }
+
+//BONUS
+hobbiesArray.forEach(hobby => {
+    console.log(`  ${hobby.name} has been a hobby for  ${hobby.lengthInYearsAtHobby} years `);
+});

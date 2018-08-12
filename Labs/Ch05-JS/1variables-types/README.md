@@ -46,6 +46,15 @@
 
 ## Bonus
 
-1. Write code to convert from Celsius to Fahrenheit.
+1. Use the following code to get the number of milliseconds since epoch. Jan 1, 1970.  
+    ``` javascript
+    let timeInMs = Date.now();
+    ```
+
+1. Use operators to do some rough calculations and console.log to show:
+    * how many years since epoch  
+    * how many months
+    * how many daya
+
 
  
