@@ -23,15 +23,16 @@
     
     The `--yes`, or `-y` accepts all the defaults from the wizard.
 
-1. Create a `src` directory for scripts, and to this directory, copy the `hobbies.js` file you worked on in the last chapter. If you need to, you can copy this from the last chapter's solution.
+1. Create a `src` directory for scripts, and to this directory, copy the `hobbies.js` file from the same directory as this README.md. It is the solution from a previous exercise you worked on. 
 
+1. Create an `index.html` file in the directory of `\WIP\ES6`. You can use the html:5 template.
 
-1. Create an `index.html` file in the directory of `\WIP\ES6` which includes a script reference like this:
+1. Include a script reference like this:
     ``` javascript
-    <script src="src/myHobbies.js"></script>
+    <script src="src/hobbies.js"></script>
     ```
 
-1. Open `index.html` in Chrome and verify in the console that it works.
+1. Open `index.html` in Chrome and verify in the console area of devtools that it works.
 
 1. Open in IE11 and verify that it does not work. It does not understand the ES6 syntax.
 
@@ -136,20 +137,45 @@
     <script>document.getElementById("hobbiesInfo").innerHTML=returnHobbiesHTML()</script>  
     ```
 
-1. In `src/myHobbies.js`, write the `returnHobbiesHTML` function  file to return a string, which includes HTML tags such as `<br />` or `<li>`. You can use an approach similar to this using ES6 backticks - but be sure to update the code if you copy it to use. 
+1. In `src/hobbies.js`, write the `returnHobbiesHTML` function  file to return a string of hobby information, which includes HTML tags such as `<br />` or `<li>`. You can use ES6 backticks. Scroll down for a hint or to continue.
 
     ```javascript
-    function returnSportsHTML() {
-        let sportsInfo = '';
-        sportsArray.forEach(sport => {
-            sportsInfo += (` ${sport.name} is played in ${sport.duration} <br /> `);
-        });
 
-        return sportsInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    function returnHobbiesHTML() {
+        let hobbyInfo = `
+            <ul>
+        `;
+        hobbiesArray.forEach(hobby => {
+            hobbyInfo+= `<li>${hobby.name} ${hobby.lengthInYearsAtHobby}</li>`;
+            });
+            hobbyInfo+=`</ul>`;
+        return hobbyInfo;
     }
+
     ```
 
-1. When you save the JS file, notice the console indicating that the dist folder is updated. 
+1. When you save the JS file again, notice the console indicates that the dist folder was updated. 
 
 1. Test in Chrome and IE. When it is working, mark your work as complete. 
 
