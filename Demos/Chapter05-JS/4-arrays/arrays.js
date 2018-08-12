@@ -87,6 +87,15 @@ console.log(aBand); // "The Temptations"
 console.log(bands); // ["The Beatles", "Aerosmith"]
 console.log('');
 
+console.log('Array.find()');
+const haystack = ['Apple', 'banana', 'Cherry'];
+const needle = haystack.find(function(currentValue) {
+    return currentValue.toUpperCase().startsWith('B');
+});
+
+console.log('Needle is: ' + needle);
+console.log('');
+
 console.log('Array sort()');
 const values = ['a', 'b', 'c', 'd', 'e'];
 
@@ -95,3 +104,5 @@ console.log(values.slice(1)); // ["b", "c", "d", "e"]
 console.log(values.slice(1, 3)); // ["b", "c"]
 console.log(values.slice(-2)); // ["d", "e"]
 console.log(values.slice(0, -3)); // ["a", "b"]
+
+

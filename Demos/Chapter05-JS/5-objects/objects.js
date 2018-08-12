@@ -85,3 +85,24 @@ for	(index = 0; index < bands.length; index++) {
     //ES6
     outstring += `${band['name']}<br/>`;
 }
+
+// Passing objects into functions
+let myMusician = {name: 'Les', band: 'Primus'};
+
+function changeBand(musician) {
+    musician.band = 'Oysterhead';
+}
+
+console.log(myMusician);
+changeBand(myMusician);
+console.log('*******');
+console.log(myMusician);
+
+//Passing string into function
+function changeName(name) {
+    name = 'Mr.' + name;
+    console.log('IN FUNCTION: ' + name)
+}
+
+changeName(myMusician.name);
+console.log('AFTER FUNCTION: ' + myMusician.name)

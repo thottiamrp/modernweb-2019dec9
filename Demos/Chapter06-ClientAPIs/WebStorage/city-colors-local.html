@@ -14,7 +14,8 @@
 
         
         function hasLocalStorage() {
-            return ('localStorage' in window && window['localStorage'] != null);
+            return ('localStorage' in window && 
+                     window['localStorage'] != null);
         }
         
         function loadSettings() {
@@ -27,15 +28,15 @@
         }
         
         function submitClick() {
-	        if (hasLocalStorage) {
+	        if (hasLocalStorage()) {
                 try {
 	                localStorage.setItem('city', cityTextBox.value);
 	                localStorage.setItem('color', colorsSelect.value);
-	                document.getElementById('OutputSpan').innerHTML = 'Preferences Saved!';
+                    document.getElementById('message').innerHTML = 
+                            '<p>Preferences Saved!<p>';
                 } catch (e) {
-	                if (e == QUOTA_EXCEEDED_ERR) {
-		                alert('Storage quota exceeded');
-	                }
+                    //can assume storage error
+                    alert('Storage quota exceeded');
                 }
 	        }
 	        else {
@@ -48,7 +49,10 @@
 			if (hasLocalStorage()) {
 				localStorage.clear();
 				loadSettings();
-			}
+            }
+
+            document.getElementById('message').innerHTML = '';
+          
 		}
 
 
@@ -69,11 +73,11 @@
         <option>Red</option>
         <option>Green</option>
     </select>
-    <br />
+    <br /><br />
     <button id="SubmitButton" onclick="submitClick()">Save Preferences</button>&nbsp;&nbsp;
     <button id="ClearButton" onclick="clearClick()">Clear Preferences</button>
     <br />
-    <span id="OutputSpan"></span>
+    <span id="message"></span>
     <script src="../../scripts/header.js"></script>
   
 </body>
