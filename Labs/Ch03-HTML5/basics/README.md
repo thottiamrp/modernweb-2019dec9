@@ -43,7 +43,7 @@
     <meta charset="UTF-8">
     ```
 
-    * Comment out this line by clicking anywhere on that line, and using the keyboard shortcut of control+/  (forward slash)
+    * Comment out this line by clicking anywhere on that line, and using the VSCode keyboard shortcut of control+/  (forward slash)
     
 
 1. Copy the following line (highlight, then control-c), and then paste it after the line you just commented out. (control-c):
