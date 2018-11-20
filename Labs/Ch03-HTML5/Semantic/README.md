@@ -12,23 +12,23 @@
 
 1. In this file, type html and from the template choose the template with the word `html` in a white box with dotted bottom border. (View the screenshot in this directory if needed).
 
-1. Notice:
-    * that the title tag is highlighted - type Lorem Ipsum.
-    * that there is a link to an external stylesheet main.css that has media set to screen. Change this value to all. We will use this in the CSS section.
-    * that there is a script tag - remove it
+1. Notice and make changes:
+    * the title tag is highlighted - type Lorem Ipsum.
+    * there is a link to an external stylesheet `main.css` that has media set to `screen`. Change this value to `all`. We will use this in the CSS section.
+    * there is a `<script>` element that we do not need - remove it.
 
-1. In the HTML file's `body` tag, create a `<header>` element.
+1. In the HTML file's `<body>` element, create a `<header>` element.
 
 1. In header,  
-    * Create an `h1` element with the text `Lorem Ipsum Generators`
-    * Create an `h2` element with the text `let's show some content`
+    * Create an `<h1>` element with the text `Lorem Ipsum Generators`
+    * Create an `<h2>` element with the text `let's show some content`
    
-1. After h2, add a `<nav>` tag and 3 list items with anchors.  You can use this Emmet abbreviation in VSCode to create this dynamically:
+1. After h2, you will add a `<nav>` element and 3 list items with anchors.  To do this dynamically, type this Emmet abbreviation (do not copy) in VSCode. You will be prompted with a dialog box to have it create the lines of code for you.
     ```
     nav>ul>li*3>a
     ```
 
-    For now just add short words to each list item for display. 
+    For now just add the words One, Two and Three to each list item for display. 
 
 1. Continue the following steps refreshing the browser when you want to check work that you are doing.
 
@@ -78,9 +78,10 @@
     
 1. If done before others, create a copy of your Lorem Ipsum file and call it DynamicLoremIpsum.html. (Ctrl-C and Ctrl-V)
 
-1. Include a JS file which defines an array of Lorem Ipsum text
+1. Include a JS file which defines an array of Lorem Ipsum content.
 
-1. Use JavaScript to manipulate the DOM to add the content.
+1. Use JavaScript to manipulate the DOM to add the content. 
+    (Recall use of document.getElementById() and innerHTML)
 
 ## Bonus Bonus
 1. Create a JSON fle with your content to be loaded by using JSON-server.

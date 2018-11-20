@@ -12,7 +12,7 @@
 
 1. Open a browser to http://127.0.0.1:3000/ and view the output. In VSCode you can use this link to open it. 
 
-1. Change Hello World to Hello Universe. Refresh your brower, and notice you do not see the changes!
+1. In the `serverExample.js` file - change Hello World to Hello Universe. Refresh your brower, and notice you do not see the changes!
 
 1. You need to stop and restart the server. Stop the server now, by clicking in the Integrated terminal window using Ctrl-C. This will stop the server and retain the current path.
 

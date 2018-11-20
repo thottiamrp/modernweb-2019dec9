@@ -17,7 +17,7 @@ Follow the steps, and if you need additional help you can refer to the slides, p
 
 1. In the empty `index.html` file, type `html` and pause. You should see a menu with options for html templates. Choose the one that is `html:5` - you can refer to the screenshot `choose-template.png` in this directory.
 
-We will review the structure of this file in upcoming chapters.
+    We will review the structure of this file in upcoming chapters.
 
 1. In `<head>` look for `<title>` modify it's content so that it looks like this:
     ```html
@@ -28,17 +28,17 @@ We will review the structure of this file in upcoming chapters.
 
 1. After `<title>`, and before the closing `</head>` tag, add opening and closing `<script></script>` tags.
 
-1. Type in the following code, notice as you type, the editor offers autocompletion.
+1. Type in the following code, notice as you type, the editor offers autocompletion. Replace XXXX with your first name.
 
     ```html
         <script>
             function init() {
-                document.getElementById("name").innerHTML = 'Put your name in here';
+                document.getElementById("name").innerHTML = 'XXXX';
             }
         </script>
     ```            
 
-1. Modify the `<body>` start tag as shown. It will trigger the function, after the rest of the page has been loaded.
+1. Modify the `<body>` start tag as shown to include the onload attribute as shown. This will trigger the function called init(), after the rest of the page has been loaded.
     ```html
     <body onload="init()">
     ```
@@ -84,6 +84,8 @@ We will review the structure of this file in upcoming chapters.
 
 ## Bonus:
 
+    For those who finish before others and have existing web dev experience, scan through the bonuses and try to complete what you are able to. 
+
 1. Try adjusting values for the CSS colors and sizes and refreshing the browser.
 
 1. In init() hard-code a JS object with your info like this:
@@ -91,7 +93,9 @@ We will review the structure of this file in upcoming chapters.
     me = {name: 'Judy', email: 'judy@karmoxie.com'}
     ```
 
-1. Use `document.elementById()` as above, to now update `name` by using the object. Create a dov to target for `email` and use the object to populate the email as well.
+1. Use `document.elementById()` as above, to now update `name` by using the object. 
+
+1. Create a new div with an id value `email` and use the object to populate the email value.
 
 1. Once both name and email are working, update the object to include an array of your hobbies. 
 

@@ -5,7 +5,7 @@
 * leverage HTMLWrap plugin
 
 ### Estimated Completion Time 
-10 minutes
+15 minutes
  
 1. In your `/WIP/html` create a new file called  `class-outline.html`. You will work in this file.
 Remember to use the html:5 template. If you forget how, go back to last exercise for help.
