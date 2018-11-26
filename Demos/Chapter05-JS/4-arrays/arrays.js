@@ -1,8 +1,18 @@
+
+// let soughtAfterElement = someArray.doSomething ( 
+//     function(currentElementThatIsBeingEvaluated) {
+//         return (currentElementThatIsBeingEvaluated.startsWith('J'))
+//     }
+// );
+
+
+
+
 var numbers = new Array(1, 2, 3, 4, 5);
 console.log('Numbers length ' + numbers.length);
 
-var simpleNameArray = ['Adam', 'Judy', 'Cody'];
-var ages = new Array(45, 41, 1);
+const simpleNameArray = ['Adam', 'Judy', 'Cody'];
+const ages = new Array(45, 41, 1);
 
 let jName = simpleNameArray.find ( 
     function(currentElementThatIsBeingEvaluated) {
