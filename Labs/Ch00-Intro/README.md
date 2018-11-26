@@ -71,7 +71,7 @@ You will also create a directory for your work during class called WIP.
     
         Your name here -> : 
     
-    b. Save this file by clicking the drop-down menu File | Save or by hitting CTRL-S to save. (get used to Ctrl-S if you are nto already it will save you a lot of time.) 
+    b. Save this file by clicking the drop-down menu File | Save or by hitting CTRL-S to save. (get used to Ctrl-S if you are not already it will save you a lot of time.) 
 
     c. Now that your change has been saved, look at the Source Control icon in the  left-side navigation bar. You should see a number now. 
     
