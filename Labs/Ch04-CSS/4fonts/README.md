@@ -37,7 +37,7 @@
 1. Mark your work as complete
 
 ## Bonus 
-1. Use shortcut notation of font to target `p.two` to be 15px Arial, bold, and sans-serif
+1. Use shortcut notation of font to target `p.two` to be bold, 15px Arial,  and sans-serif
     
 
   

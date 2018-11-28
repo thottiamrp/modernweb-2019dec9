@@ -35,7 +35,7 @@
 
     p.two {
         color: black;
-        font:15px Arial, bold, sans-serif;
+        font:bold 15px Arial, sans-serif;
     }
 
     footer { font-weight:bold; }
