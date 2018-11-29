@@ -9,6 +9,7 @@ function printHobbyInfo(hobby) {
     console.log(` ${hobby.name} has been an interest for ${hobby.lengthInYearsAtHobby} years`)
 }
 
-for (let hobby of hobbiesArray) {
+for (let hobbyIndex = 0; index < hobbiesArray.length; index++) {
+    const hobby = hobbiesArray[hobbyIndex];
     printHobbyInfo(hobby);
 }
