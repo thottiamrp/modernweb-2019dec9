@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Using Local Storage</title>
+    <script>
+      var bandTextBox;
+      var genreSelect;
+
+      window.onload = function() {
+        bandTextBox = document.getElementById("bandTextBox");
+        genreSelect = document.getElementById("genreSelect");
+        loadData();
+      };
+
+      function hasLocalStorage() {
+        return "localStorage" in window && window["localStorage"] != null;
+      }
+
+      function saveData() {
+        if (hasLocalStorage()) {
+          try {
+            localStorage.setItem("band", bandTextBox.value);
+            
+            genreSelected = [];
+            let allGenres = document.getElementsByName("genres");
+            allGenres.forEach(element => {
+                console.log(element);
+                if (element.checked) {
+                    genreSelected.push(element.value)
+                }
+            });
+            
+            localStorage.setItem("genres", genreSelected.join());
+
+            //var checkedBoxes = document.querySelectorAll('input[name=genres]:checked');
+
+            alert("data saved");
+          } catch (e) {
+            //can assume storage error
+            console.log(e);
+            alert("Storage quota exceeded");
+          }
+        } else {
+          alert("No local storage support");
+        }
+      }
+
+      function loadData() {
+        if (hasLocalStorage()) {
+          var band = localStorage.getItem("band");
+          bandTextBox.value = band;
+         
+          var savedGenres = localStorage.getItem("genres");
+          const allGenres = document.getElementsByName("genres");
+        
+          const genresArray = savedGenres.split(',');
+            allGenres.forEach(element => {
+                if (genresArray.includes(element.value)) {
+                    element.checked = true;
+                }
+            });  
+
+         // genreSelect.value = genre;
+        }
+      }
+
+      function clearSavedData() {
+        genreSelect.selectedIndex = 0;
+        if (hasLocalStorage()) {
+          localStorage.clear();
+          loadData();
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h2>Storing Favorite Music Info in Local Storage</h2>
+    <br />
+    Favorite Band: <input type="text" id="bandTextBox" /> <br />
+    Favorite Genres:
+   
+      <input type="checkbox" id="rock" name="genres" value="rock">
+      <label for="rock">Rock</label>
+
+      <input type="checkbox" id="blues" name="genres" value="blues">
+      <label for="blues">Blues</label>
+
+      <input type="checkbox" id="alternative" name="genres" value="alternative">
+      <label for="alternative">Alternative</label>
+
+      <input type="checkbox" id="classical" name="genres" value="classical">
+      <label for="classical">Classical</label>
+
+    <br />
+    <button id="SaveButton" onclick="saveData()">Save Info</button>&nbsp;&nbsp;
+    <button id="ClearButton" onclick="clearSavedData()">Clear Info</button>
+    <br />
+    <span id="OutputSpan"></span>
+  </body>
+</html>
