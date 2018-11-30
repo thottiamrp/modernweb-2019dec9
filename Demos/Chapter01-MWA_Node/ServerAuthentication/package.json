@@ -1,0 +1,17 @@
+{
+  "name": "samplenodeproject",
+  "version": "1.0.0",
+  "description": "Demonstrates working with node",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node server.js --watch ./json/db.json",
+    "start": "json-server -p 3000 -w db.json"
+  },
+  "author": "Judy Lipinski",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.12.1",
+    "passport": "^0.2.2",
+    "passport-http": "^0.3.0"
+  }
+}
