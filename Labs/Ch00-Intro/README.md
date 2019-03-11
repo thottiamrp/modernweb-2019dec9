@@ -1,5 +1,9 @@
 # Chapter 0: Intro
-## Objectives
+
+Hello
+
+
+## Objectives    
 * Practice with markdown files 
 * Practice with VSCode
 * Install VS Code extensions
