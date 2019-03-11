@@ -1,3 +1,3 @@
-## Class 555 Modern Web Dev
+## Modern Web Dev
 
-### These files are used in class
+### This repository has Demos, Cheatsheets, and instructions for Labs
