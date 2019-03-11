@@ -10,7 +10,7 @@
 
 
 1. If you needed to step away or otherwise did not finish the Lorem Ipsum content exercise,
-please rename your LoremIpsum folder (or delete if you do not want to keep it). You can then copy the solution folder `\Labs\ch03-html5\Semantic\solution\LoremIpsum` into your `/WIP/` directory.
+please rename your LoremIpsum folder (or delete if you do not want to keep it). You can then copy the solution folder `\Labs\ch03-html5\Semantic\solution\LoremIpsum` into your project directory.
 
 1. Continue working in `LoremIpsum` 
 

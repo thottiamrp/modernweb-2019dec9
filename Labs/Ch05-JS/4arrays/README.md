@@ -2,7 +2,7 @@
 
 ## Steps
  
-1. In `WIP/js` create a file called `arrays.js` and do your work in this file. 
+1. In `/js` create a file called `arrays.js` and do your work in this file. 
 
 1. Create a string array with the name of 3 of your favorite hobbies. For help and to continue, scroll down.
     ```javascript
@@ -96,7 +96,7 @@ Expected Output :
 Hint: look up join() on MDN.
 
 
-1.  Given an array find the most frequently occuring item. 
+1.  Given an array find the most frequently occurring item. 
 Given:
 let arr1=[3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
 Output:

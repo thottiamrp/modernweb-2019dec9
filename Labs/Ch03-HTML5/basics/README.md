@@ -5,14 +5,14 @@
 * Copy files between folders in VSCode
 * Create a new HTML file
 * Practice with a HTML `<head>` child elements
-* Practice Commenting / Uncommenting code
+* Practice Commenting / Un-commenting code
 
 ### Estimated Completion Time 
 15 minutes
 
 ## Create a new page
 
-1. In your `/WIP` folder create a folder called `html`.
+1. In your project create a folder called `html`.
 
 1. Add an HTML file called `index.html` by right-clicking the html folder and choosing `new file`.
 
@@ -53,22 +53,23 @@
 
 1. Reload the page and view the differences.
 
-1. Go back and uncomment the UTF-8 version and remove the ISO version.
+1. Go back and un-comment the UTF-8 version and remove the ISO version.
 
     ## Add a favicon
-1. Under `WIP/html` directory create a new directory called `favicon`.
+1. In your project, create a new directory called `favicon`.
 
 1. In the Explorer sidebar of VSCode look in the same folder as this readme file `\Labs\Ch03-HTML5\basics` and find the file `favicon.ico`.
 
 1. Add this file to your project by
     * clicking on this file in explorer menu
     * hit control-c to copy
-    * click on your new `WIP/html/favicon` directory
+    * click on your new `/html/favicon` directory
     * hit control-v to paste
 
 1. In your `index.html` file:
     * Add this line in `<head>`
-    ```
+    
+    ```html
     <link rel="icon" href="favicon/favicon.ico" />
     ```
 
@@ -95,7 +96,7 @@
     <link rel="icon" href="favicon/favicon.ico" />
     ```
     
-1. Search for a PNG image you like using Google image search, specifying a custom size of 260x260. Download the file into your `WIP/html` directory.
+1. Search for a PNG image you like using Google image search, specifying a custom size of 260x260. Download the file into your `/html` directory.
 
 1. Visit the website: https://realfavicongenerator.net/ and upload your image into tool. 
 
@@ -103,7 +104,7 @@
 
 1. Copy the generated code into the `<head>` element of your html file. 
 
-1. Download the zip file and use Windows Explorer to extract the files into `WIP\html\favicon`. (Right-click to extract files from context menu)
+1. Download the zip file and use Windows Explorer to extract the files into `\html\favicon`. (Right-click to extract files from context menu)
 
 ## adjust relative paths
 

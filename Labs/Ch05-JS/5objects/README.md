@@ -2,7 +2,7 @@
 
 ## Steps
  
-1. In `WIP/js` create a file called `hobbies.js` and do your work in this file. 
+1. In `/js` create a file called `hobbies.js` and do your work in this file. 
  
 1. Create an array of 3 objects to define your hobbies. Each hobby should be represented as an object with a name, and `lengthInYearsAtHobby`. Scroll down for help and to continue:
 
@@ -34,7 +34,7 @@
     ];
     ```            
 
-1. Create a function that takes in one hobby and prints it to console.log. Use ES6 backticks to concatenate without the plus symbol.  Use ${ }  with the variable name inside. Scroll down for help and to continue:
+1. Create a function that takes in one hobby and prints it to console.log. Use ES6 back ticks to concatenate without the plus symbol.  Use ${ }  with the variable name inside. Scroll down for help and to continue:
 
     ``` javascript
 
@@ -140,7 +140,7 @@
     });
     ```
 
-1. Use the `forEach` method with your own hobbies array. Create a `logHobbies` function with no inputs which uses the `forEach` method for looping, and prints a message using ES6 backticks with string template references for the properties. 
+1. Use the `forEach` method with your own hobbies array. Create a `logHobbies` function with no inputs which uses the `forEach` method for looping, and prints a message using ES6 back ticks with string template references for the properties. 
 
    Example output:
 

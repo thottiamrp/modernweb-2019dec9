@@ -3,7 +3,7 @@
 ### Estimated Completion Time 
 5 minutes
  
-1. If you needed to step away or otherwise did not finish the exercise, you can rename or delete your folder, and copy the solution from last exercise into your WIP directory to continue from there. 
+1. If you needed to step away or otherwise did not finish the exercise, you can rename or delete your folder, and copy the solution from last exercise into your project directory to continue from there. 
 
 1. Continue working in `LoremIpsum` 
 

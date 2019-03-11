@@ -3,11 +3,11 @@
 ## Objectives
 * Add a table to your document
 
-1. Copy the `table.css` from the `/Demos/Chapter03-HTML/tables` directory into your `/WIP/html` directory - for some better styling with standard table tags
+1. Copy the `table.css` from the `/Demos/Chapter03-HTML/tables` directory into your project directory - for some better styling with standard table tags
  
-1. In your `/WIP/html` add a file `table.html`. Choose the template with the white box and dotted bottom border.
+1. In your project add a file `table.html`. Choose the template with the white box and dotted bottom border.
 
-1. In the head section, notice the `main.css` being referenced. Change this to `table.css`.
+1. In the head section, notice the `main.css` being referenced. Modify table.html to instead use a reference to the `table.css`.
 
 1. You will create the table structure using EMMET abbreviations with a caption and <th> for headers.
 

@@ -5,9 +5,9 @@
 
 ## Steps:
 
-1. If you needed to step away or otherwise did not finish the bonus from the last exercise, please rename any in progress work by renaming the `index.html` file to end with -WIP such as `index-WIP.html` then copy the solution file from `\Labs\ch01-MWA_Node\solution\basics.html` into your `/WIP/` directory and rename it as `index.html`.
+1. If you did not finish the last exercise, copy the solution file from `\Labs\ch01-MWA_Node\solution\basics.html` into your project root directory and rename it as `index.html`.
 
-1. If not already open, open your `index.html` in the Chrome Browser. Recall Alt-B from within the file being opened in VSCode, or right-clicking in the VSCode Explorer menu to open in default browser.
+1. Open your `index.html` in the Chrome Browser. Recall Alt-B from within the file being opened in VSCode, or right-clicking in the VSCode Explorer menu to open in default browser.
 
 1. Open the dev tools by right-clicking on your displayed name in the browser, and choosing Inspect. 
 
@@ -20,7 +20,7 @@
     * hitting the up/down arrows to increment/decrement the value
 
 1. Change the background color:
-    * click the color value (#eeeeee) or the square of color - to launch the color picker  - sometimes you may have to click around a bit on teh squeare of color value.
+    * click the color value (#eeeeee) or the square of color - to launch the color picker  - sometimes you may have to click around a bit on the square of color.
     * choose a new color from color picker. you may need to hit return for your changes to stick.
 
 1. Center the text by adding a new property. 

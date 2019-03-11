@@ -8,7 +8,7 @@
 
 ## Create page and include CSS
  
-1. In your `/WIP/` directory create a new directory called `LoremIpsum`. Inside of this new directory create a new file `lorem-ipsum.html`. 
+1. In your project directory create a new directory called `LoremIpsum`. Inside of this new directory create a new file `lorem-ipsum.html`. 
 
 1. In this file, type html and from the template choose the template with the word `html` in a white box with dotted bottom border. (View the screenshot in this directory if needed).
 
@@ -39,7 +39,7 @@
 1. After main, create a footer with this content. 
     ```html
     <footer>
-            &copy; 2018 - Karmoxie Consulting <a href="mailto:judy@karmoxie.com?subject=CSS%20Exercise">judy@karmoxie.com</a> or <a href="tel:412-353-9161">412-353-9161</a>
+            &copy; 2019 - Karmoxie Consulting <a href="mailto:judy@karmoxie.com?subject=CSS%20Exercise">judy@karmoxie.com</a> or <a href="tel:412-353-9161">412-353-9161</a>
     </footer>
     ```
 

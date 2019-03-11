@@ -4,7 +4,7 @@
 * Use HTML and CSS to create a quiz page which uses CSS hover to reveal an answer
 
 ## Steps:
-1. In `WIP` create a folder called `CSSQuiz` - do your work in this folder.
+1. In your project create a folder called `CSSQuiz` - do your work in this folder.
 
 1. View the image in this folder, `CSSQuiz.png`
 

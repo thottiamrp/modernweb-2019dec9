@@ -14,7 +14,7 @@
 
 1. In the browser display - click the `Run Code` button, and notice execution stops on line 13. 
 
-1. Adjust the devtools display so that you can see the current values of a and b. (There is a hide left menu button to the immediate left of the display of debugging.html)
+1. Adjust the dev tools display so that you can see the current values of a and b. (There is a hide left menu button to the immediate left of the display of debugging.html)
 
 1. Use the debugging menu, and step through the code, watching the values of a and b that are passed to a callback function
 

@@ -12,7 +12,7 @@
 ### Estimated Completion Time 
 15 minutes
 
-1. In your `/WIP/html` open your file `index.html` which you created which had Welcome in different languages.
+1. In your project open your file `index.html` which you created which had Welcome in different languages.
 
 1. Immediately after the starting `<body>` tag add this content which creates an area for links to other pages:
     ```html
@@ -33,9 +33,9 @@
  
 1. Copy the bonus solution file from 
  `\Labs\Ch03-HTML5\elements-block\solution\recipes.html` into your 
- `\WIP\html` directory.
+ project directory.
 
-1. Open `/WIP/html/recipes.html` in the editor and view in the browser.
+1. Open `recipes.html` in the editor and view in the browser.
  
 1. Copy this content into the area just below the `<h1>` element.
     ```html
@@ -53,7 +53,7 @@
         </ul>
     ```
  
-1. `Note` how these internal links with the `#` symbol match the id values below such as: 
+1. Note how these internal links with the `#` symbol match the id values below such as: 
     ```html
         <div id="chicken">
     ```
@@ -72,7 +72,7 @@
 
 1. Test that this links to an external page that opens in a new browser tab.
 
-1. In the solutions folder for this exercise is a folder called `images`. Copy this folder by clicking it, control-c to copy, then paste it into your `WIP/html/` directory by clicking it and using control-v.
+1. In the solutions folder for this exercise is a folder called `images`. Copy this folder by clicking it, control-c to copy, then paste it into your project by pasting using control-v.
 
 1. In your recipes file, find the location of `<div id="lemon-bars">`
 
@@ -92,11 +92,9 @@
     <li><em>2</em> cups sifted flour</li>
     ```
 
-1. Mark your work as complete.  
+1. Once you have marked up the document, mark your work as complete.  
 
 ## Bonus
-
-1. Add a link in index.html to `myrecipes.html` if you created it
 
 1. Add images for the other recipes. Display them smaller at the top of the page and wrap an anchor tag, to href to the recipe below. 
 

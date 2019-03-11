@@ -7,11 +7,10 @@
 ### Estimated Completion Time 
 15 minutes
  
-1. In your `/WIP/html` create a new file called  `class-outline.html`. You will work in this file.
-Remember to use the html:5 template. If you forget how, go back to last exercise for help.
+1. In your project create a new file called  `class-outline.html`. You will work in this file. Remember to use the html:5 template. If you forget how, go back to last exercise for help.
 
-1. If you haven't already install the VSCode extension HTMLTagWrap.
-    * Click extensions, look for HTMLTagWrap by Brad Gashler,and install | reload
+1. If you haven't already - install the VSCode extension HTMLTagWrap.
+    * Click extensions, look for HTMLTagWrap by Brad Gashler, and install | reload
     
 1. HTMLTagWrap makes it easy to quickly markup your test.
     * click and drag to highlight a block of text
@@ -47,7 +46,7 @@ Remember to use the html:5 template. If you forget how, go back to last exercise
 
 ## Bonus
 
-1. In your `/WIP/html` create a new file called  `myrecipes.html`
+1. In your project create a new file called  `myrecipes.html`
 
 1. Copy this content into your file.
 

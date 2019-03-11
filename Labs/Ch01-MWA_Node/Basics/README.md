@@ -12,8 +12,7 @@ Follow the steps, and if you need additional help you can refer to the slides, p
 
 ### Create a basic page with VSCode
 
-
-1. In the `WIP` folder, create a file called `index.html`. You can create this file by right-clicking the `WIP` folder, and choosing New File.
+1. In your MyWebCourse project, create a new file called `index.html`. 
 
 1. In the empty `index.html` file, type `html` and pause. You should see a menu with options for html templates. Choose the one that is `html:5` - you can refer to the screenshot `choose-template.png` in this directory.
 
