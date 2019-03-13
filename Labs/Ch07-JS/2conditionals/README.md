@@ -1,7 +1,7 @@
 # Chapter 5: Conditionals 
 ## Steps
 
-1. In `/js` create a file called `conditionals.js` and do your work in this file. 
+1. In `WIP/js` create a file called `conditionals.js` and do your work in this file. 
 
 1. Declare numOne to be a numeric 1.
 (Scroll for answer and to continue)
@@ -61,7 +61,7 @@
     let stringOne = '1';
     ```
 
-1. Think about the output will be for these two statements. Add these to your code and run - is it as you expect?
+1. Think about the ouput will be for these two statements. Add these to your code and run - is it as you expect?
     ```javascript
     console.log('double ==', numOne == stringOne);
     console.log('triple ===', numOne === stringOne);
@@ -78,7 +78,7 @@
     ```
 
 1. If today is Monday, display "Back to work!"
-    If today is Wednesday, display "Over the hump!"
+    If today is Wedneday, display "Over the hump!"
     If today is Saturday or Sunday, display "It is the weekend!"
     For all other days, display "It is a weekday".
 

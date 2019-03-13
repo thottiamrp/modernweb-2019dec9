@@ -6,9 +6,9 @@
 30 minutes
 
 ## Steps:
-1. Copy this `6ajax` directory to your project.
+1. Copy this `6ajax` directory to `WIP`.
 
-1. Open a command prompt (VSCode integrated terminal) to `\6ajax` 
+1. Open a command prompt (VSCode integrated terminal) to `\WIP\6ajax` 
 
 1. Execute these two commands:
     ```
@@ -16,6 +16,7 @@
     node server.js 
     ```
 1. Open the URL: http://localhost:9001
+You need to complete the following steps in order to get the data to display correctky on the screen.
 
 1. Review the file `bands.json`
 

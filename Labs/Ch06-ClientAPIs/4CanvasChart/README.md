@@ -4,9 +4,9 @@
 
 ## Steps:
 
-1. Copy the `CanvasChartWIP` folder to the `\ES6` directory. You will work on the files provided as a starting point. 
+1. Copy the `CanvasChartWIP` folder to the `\WIP\ES6.canvas` directory. You will work on the files provided as a starting point. 
 
-1. Read through the `canvasChart.js` file and notice that it is an IIFE - Immediately invoked function expression). If you scroll to the bottom, the function is called with ().
+1. Read through the `canvasChart.js` file and notice that it is an IIFE. 
 
 1. Read through the `chart.html` file and notice that the `onload` defines a JavaScript object which is passed to the canvasChart.render function. 
 

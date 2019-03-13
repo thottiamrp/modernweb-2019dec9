@@ -8,7 +8,7 @@
 
 ## Steps:
 ### Save Preferences in Local Storage
-1. Create a folder in your project called `WebStorage`.
+1. Create a folder in `/WIP` called `WebStorage`.
 
 1. Copy `favoriteMusic.html` to this new folder, then open it in the browser and editor.
     * You will notice an alert when the page loads, from code in window.onload 
@@ -17,8 +17,8 @@
 
 1. Above window.onload, add two variables that will be used to handle saving and loading data from form elements, and use document.getElementById in the onload function to refer to the HTML elements:
     ```javascript
-    let bandTextBox;
-    let genreSelect;
+    var bandTextBox;
+    var genreSelect;
 
     window.onload = function() {
         bandTextBox = document.getElementById('bandTextBox');
@@ -59,15 +59,15 @@
     * Open the browser developer tools and look in the area where local storage is viewed. 
     * you should see the data saved under local storage.
 
-1. Close the browser and reload the page in the browser and notice that your saved values are not pre-filled. They are in localStorage but need to be loaded.
+1. Close the browser and reload the page in the browser and notice that your saved values are not prefilled. They are in localStorage but need to be loaded.
 
     ### Load Preferences from Local Storage
 1. In the `loadData()` function check if local storage is available, and load the band and genre data using the references to the HTML elements.
     ```javascript
     function loadData() {
                 if (hasLocalStorage()) {
-                    let band = localStorage.getItem('band');
-                    let genre = localStorage.getItem('genre');
+                    var band = localStorage.getItem('band');
+                    var genre = localStorage.getItem('genre');
                     bandTextBox.value = band;
                     genreSelect.value = genre;
                 }

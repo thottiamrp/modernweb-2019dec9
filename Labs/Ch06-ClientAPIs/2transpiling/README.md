@@ -2,45 +2,36 @@
 
 ## Objectives
 * In this lab, you will write code using ES6 notation
-* Create a new node project using npm init
+* Create a new package.json using npm init
 * Install packages locally 
-* You will transpile code from ES6 to ES5
-* Use babel to compile code from ES6 to ES5
+* Use babel to transpile code from ES6 to ES5
 * If you need additional help, you can refer to the appropriate `/Demos` directory. 
 
 ### Estimated Completion Time 
 30 minutes
 
 
-## Overview
-You will use babel to transpile code
-
-Follow the steps, and if you need additional help you can refer to the slides, previous demos, or the `Solutions` folder.
-
-
-
 ## Steps:
 
-1. Create a directory in your project called `ES6`. You will do your work in this directory in creating a new project.
+1. Create a directory in `/WIP` called `ES6`. You will do your work in this directory in creating a new project.
 
-1. To manage our new project's dependencies, including for babel, we will create a `package.json` by using the `npm init` wizard from the command line. Be sure to be within `\ES6` when you execute this command 
+1. To manage our new project's dependencies, including for babel, we will create a `package.json` by using the `npm init` wizard from the command line. Be sure to be within `\WIP\ES6` when you execute this command 
     ```
     npm init --yes
     ``` 
     
     The `--yes`, or `-y` accepts all the defaults from the wizard.
 
-1.  Create a `src` directory for scripts, and to this directory, copy the `hobbies.js` file from the same directory as this README.md.  
+1. Create a `src` directory for scripts, and to this directory, copy the `hobbies.js` file from the same directory as this README.md. It is the solution from a previous exercise you worked on. 
 
-
-1. Create an `index.html` file in the directory of `\ES6`. You can use the html:5 template.
+1. Create an `index.html` file in the directory of `\WIP\ES6`. You can use the html:5 template.
 
 1. Include a script reference like this:
     ``` javascript
     <script src="src/hobbies.js"></script>
     ```
 
-1. Open `index.html` in Chrome and verify in the console area of dev tools that it works.
+1. Open `index.html` in Chrome and verify in the console area of devtools that it works.
 
 1. Open in IE11 and verify that it does not work. It does not understand the ES6 syntax.
 
@@ -62,8 +53,7 @@ Follow the steps, and if you need additional help you can refer to the slides, p
 
 1. Open the `package.json` and look at the new entries in the dev dependencies section. Close the file.
 
-
-1. READ: You may notice a `package-lock.json` file being created. This file tracks the different dependencies and versions of packages in your node_modules directory. (https://docs.npmjs.com/files/package-lock.json)
+1. READ: You may notice a `package-lock.json` file being created. This is a new approach to be able to go back to previous versions of your package.json. You can ignore this for now, but it could be checked in to your repo in the real-world. (https://docs.npmjs.com/files/package-lock.json)
 
 1. Add a `babel-preset-env` to the dev dependencies. Babel uses this to know how to transpile to a specific version.
     ```
@@ -90,21 +80,13 @@ Follow the steps, and if you need additional help you can refer to the slides, p
     }
     ```
 
-1. READ this step (BUT take no action): we want to execute the babel command to turn our ES6 code into ES5. 
+1. READ (take no action): we want to execute the babel command to turn our ES6 code into ES5. 
 
     Because you have installed `babel` into node_modules, you could specify the CLI tool in the node_modules directory like this: 
     
     ```
     ./node_modules/.bin/babel src --out-dir dist
     ```
-    
-    BUT starting with npm version 5.0 there is a new tool available called `npx` which simplifies the calls from the command line to the package to the following:
-    ```
-    npx babel src --out-dir dist
-    ```
-
-    The `npx` command will look in the node_modules directory, if not there, it looks globally, if not there, it will temporarily download the program, execute it, then delete it.
-
 
 1. Instead of the command line, let's add the use of babel in the package.json `build` script so that it is easily repeatable and part of our development build process. 
 
@@ -126,25 +108,13 @@ Follow the steps, and if you need additional help you can refer to the slides, p
 1. Start the build process using the command: `npm run build`. Notice that your terminal window does not return to the prompt because it is listening for changes to your `src` directory. Keep this running as you are about to add more code.
  
   
-1. Look in the `/dist` directory at the transpiled file. Examine the contents: you should now see ES5 type concatenation instead of backticks and anonymous function use instead of an arrow function.
+1. Look in the `/dist` directory at the transpiled file. It should now be using ES5 type concatenation instead of backticks and not be using the arrow function.
 
 1. Update the `index.html` to use this new `/dist/myHobbies.js` version of the hobbies JS file.
 
-1. Reload the IE browser. Is it working?
-
-    Because of the use of Array.prototype's foreach, it is necessary to add in code to use a shim for IE11. Babel did not take care of this. (as of Jan 2019)
-
-    Insert this in your HTML before the inclusion of the hobbies script.
-
-    ```html
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.7/es5-shim.min.js"></script>
-    ```
-
-    You should now see output in the dev tools console for both Chrome and IE.
+1. Reload the IE browser, you should now see output in the dev tools console for both Chrome and IE.
 
 1. Mark your work as complete and then attempt the bonus
-
-1. Check your code into your GitHub repo
 
 ## BONUS
 
@@ -218,5 +188,3 @@ https://github.com/ai/browserslist
 1. You can look at the docs on `package.json` https://docs.npmjs.com/getting-started/using-a-package.json
 
 1. Read over the documentation for `Arrays.prototype` there are many useful functions for processing data. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype
-
-1. Check your code into your GitHub repo

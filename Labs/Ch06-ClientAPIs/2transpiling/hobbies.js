@@ -1,19 +1,14 @@
 const hobbiesArray = [
     { name: 'volleyball', lengthInYearsAtHobby: 25 },
-    { name: 'cooking', lengthInYearsAtHobby: 15},
-    { name: 'swimming', lengthInYearsAtHobby: 11}
+    { name: 'cooking', lengthInYearsAtHobby: 15 },
+    { name: 'swimming', lengthInYearsAtHobby: 11 }
 ];
 
-function logHobby(oneHobby) {
-    console.log(`${oneHobby.name}: A hobby for ${oneHobby.lengthInYearsAtHobby} years`)
+
+function printHobbyInfo(hobby) {
+    console.log(` ${hobby.name} has been an interest for ${hobby.lengthInYearsAtHobby} years`)
 }
 
-function logHobbies() {
-    for (let index = 0; index < hobbiesArray.length; index++) {
-        const element = hobbiesArray[index];
-        logHobby(element)
-        
-    }
+for (let hobby of hobbiesArray) {
+    printHobbyInfo(hobby);
 }
-
-logHobbies();

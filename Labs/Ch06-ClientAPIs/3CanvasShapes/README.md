@@ -3,7 +3,7 @@
 ## Objectives
 * In this lab, you will use canvas to draw some shapes
 
-1. In `\ES6` add a `canvas` directory
+1. In `\WIP\ES6` add a `canvas` directory
 
 1. Add a `canvas-shapes.html` file that contains a canvas element
     ```
