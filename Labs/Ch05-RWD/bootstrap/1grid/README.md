@@ -7,7 +7,7 @@
 * The content stacks to a single column layout on small display.
 
 ## Steps
-1. In `WIP/bootstrap` copy the starterTemplate.html and rename it to `grid.html` and do your work in this file.
+1. In your project create a folder called `bootstrap` - and copy from this directory the starterTemplate.html and rename it to `grid.html` and do your work in this file.
 
 1. Create a `<div>` in `<body>` and add `.container` class to it.
 
