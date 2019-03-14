@@ -23,7 +23,7 @@
     ```                     
 
 
-5. Now, reload this file in the browser and change the size of the browser window. It should be responive to screen size changes.
+5. Now, reload this file in the browser and change the size of the browser window. It should be responsive to screen size changes.
 
 6. Mark your work as complete.
 
