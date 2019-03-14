@@ -6,9 +6,9 @@
 ### Estimated Completion Time 
 10 minutes
  
-1. In `WIP` create a new folder called `js`
+1. In your current project create a new folder called `js`
 
-1. In `WIP/js` create a file called `variables.js` and do your work in this file.
+1. In `/js` create a file called `variables.js` and do your work in this file.
 
 1. Declare variables x,y,z
     ```javascript
