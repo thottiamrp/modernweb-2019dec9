@@ -70,8 +70,8 @@
     ```javascript
     function printHobbies(passedArray) {
         console.log(`I like ${passedArray.length} things`);
-        for (let index = 0; index < hobbiesArray.length; index++) {
-            let element = hobbiesArray[index];
+        for (let index = 0; index < passedArray.length; index++) {
+            let element = passedArray[index];
             console.log('I like ' + element);
         }  
     }
@@ -96,7 +96,7 @@ Expected Output :
 Hint: look up join() on MDN.
 
 
-1.  Given an array find the most frequently occuring item. 
+1.  Given an array find the most frequently occurring item. 
 Given:
 let arr1=[3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
 Output:

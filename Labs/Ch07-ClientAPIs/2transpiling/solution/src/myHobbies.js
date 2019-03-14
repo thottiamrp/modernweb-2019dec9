@@ -7,11 +7,12 @@ const hobbiesArray = [
 function logHobby(oneHobby) {
     console.log(`${oneHobby.name}: A hobby for ${oneHobby.lengthInYearsAtHobby} years`)
 }
-
+    
 function logHobbies() {
-    hobbiesArray.forEach(hobby => {
+    for (let index = 0; index < hobbiesArray.length; index++) {
+        const hobby = hobbiesArray[index];
         logHobby(hobby);
-    });
+    }
 }
 
 logHobbies();
@@ -21,12 +22,15 @@ function returnHobbiesHTML() {
     let hobbyInfo = `
         <ul>
     `;
-    hobbiesArray.forEach(hobby => {
+
+    for (let index = 0; index < hobbiesArray.length; index++) {
         hobbyInfo+= `<li>${hobby.name} ${hobby.lengthInYearsAtHobby}</li>`;
-        });
-        hobbyInfo+=`</ul>`;
-        return hobbyInfo;
+    };
+
+    hobbyInfo+=`</ul>`;
+    return hobbyInfo;
 }
+    
 
 //BONUS
 var hobbiesInfoDiv = document.getElementById("hobbiesInfoTable");
@@ -47,15 +51,18 @@ function getHobbiesAsTableHTML() {
         <table class="tableStyle">
             <tr><th>Sport</th><th>Years in sport</th></tr>
     `;
-    hobbiesArray.forEach(hobby => {
+
+    for (let index = 0; index < hobbiesArray.length; index++) {
+        const hobby = hobbiesArray[index];
         hobbyInfo+= `<tr>
                         <td>${hobby.name}</td>
                         <td>${hobby.lengthInYearsAtHobby}</td>
                         </tr>`;
-        });
-        hobbyInfo+=`</table>`;
+    };
     
-      return  hobbyInfo;
+    hobbyInfo+=`</table>`;
+
+    return  hobbyInfo;
 }
 
 

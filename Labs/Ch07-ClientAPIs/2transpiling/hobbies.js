@@ -9,9 +9,10 @@ function logHobby(oneHobby) {
 }
 
 function logHobbies() {
-    hobbiesArray.forEach(hobby => {
+    for (let index = 0; index < hobbiesArray.length; index++) {
+        const hobby = hobbiesArray[index];
         logHobby(hobby);
-    });
+    }
 }
 
 logHobbies();
