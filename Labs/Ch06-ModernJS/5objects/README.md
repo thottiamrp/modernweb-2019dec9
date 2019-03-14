@@ -2,7 +2,7 @@
 
 ## Steps
  
-1. In `WIP/js` create a file called `hobbies.js` and do your work in this file. 
+1. In `/js` create a file called `hobbies.js` and do your work in this file. 
  
 1. Create an array of 3 objects to define your hobbies. Each hobby should be represented as an object with a name, and `lengthInYearsAtHobby`. Scroll down for help and to continue:
 

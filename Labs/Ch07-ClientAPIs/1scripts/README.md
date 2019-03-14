@@ -6,7 +6,7 @@
 ### Estimated Completion Time 
 5 minutes
  
-1. In your `/WIP/` directory, if not already created from previous exercises, add a `js` folder.
+1. In your project, if not already created from previous exercises, add a `js` folder.
 
 1. Create a new file `JSpractice.html`. 
 

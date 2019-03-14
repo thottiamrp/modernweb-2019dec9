@@ -13,9 +13,9 @@
 
 ## Steps:
 
-1. Create a directory in `/WIP` called `ES6`. You will do your work in this directory in creating a new project.
+1. Create a directory in your project called `ES6`. You will do your work in this directory in creating a new project.
 
-1. To manage our new project's dependencies, including for babel, we will create a `package.json` by using the `npm init` wizard from the command line. Be sure to be within `\WIP\ES6` when you execute this command 
+1. To manage our new project's dependencies, including for babel, we will create a `package.json` by using the `npm init` wizard from the command line. Be sure to be within `\ES6` when you execute this command 
     ```
     npm init --yes
     ``` 
@@ -24,7 +24,7 @@
 
 1. Create a `src` directory for scripts, and to this directory, copy the `hobbies.js` file from the same directory as this README.md.  
 
-1. Create an `index.html` file in the directory of `\WIP\ES6`. You can use the html:5 template.
+1. Create an `index.html` file in the directory of `\ES6`. You can use the html:5 template.
 
 1. Include a script reference like this:
     ``` javascript

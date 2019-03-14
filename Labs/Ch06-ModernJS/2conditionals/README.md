@@ -1,7 +1,7 @@
 # Chapter 6: Conditionals 
 ## Steps
 
-1. In `WIP/js` create a file called `conditionals.js` and do your work in this file. 
+1. In `/js` create a file called `conditionals.js` and do your work in this file. 
 
 1. Declare numOne to be a numeric 1.
 (Scroll for answer and to continue)
