@@ -15,7 +15,7 @@
 
 3. Open your new **grid.html** in the browser to see how it currently displays 3 breeds of dogs. 
 
-4. Modify the **grid.html** file to use Bootstrap classes. The outermost div should have **container**, then **row**, then column sizes are specified for different screen sizes. 
+4. Modify the **grid.html** file to use Bootstrap classes. The outermost div should have **container**, then **row**, then add the reference to column sizes to each div for the different dogs. Notice how it specifies how to work with different screen sizes. 
     ```html
     <div class="container">
             <div class="row">
