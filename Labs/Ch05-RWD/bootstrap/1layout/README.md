@@ -9,13 +9,13 @@
 
 ## Steps
 
-1. Create a `/bootstrap` directory in your working project.
+1. Create a **bootstrap** directory in your working project.
 
-2. In this directory, locate the `starterTemplate.html` file and copy this file into the new WIP/bootstrap directory. Right-click to rename the file as `grid.html`.
+2. Look in the same directory as this README.md and copy the file named `starterTemplate.html` into the new **bootstrap** directory. Right-click to rename the file **grid.html**.
 
-3. Open this `grid.html` int he browser to see how it displays 3 breeds of dogs. 
+3. Open your new **grid.html** in the browser to see how it currently displays 3 breeds of dogs. 
 
-4. Modify the `grid.html` file to use Bootstrap classes. The outermost div is the container, then row, then column sizes are specified for different screen sizes. 
+4. Modify the **grid.html** file to use Bootstrap classes. The outermost div should have **container**, then **row**, then column sizes are specified for different screen sizes. 
     ```html
     <div class="container">
             <div class="row">
