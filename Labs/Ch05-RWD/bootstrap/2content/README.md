@@ -5,32 +5,36 @@
 
 ## Steps
 
-1.  In this directory, locate the `img` directory and copy this directory into the WIP/bootstrap directory. 
+1.  In the same directory as this readme.md, locate the `img` directory and copy this directory into your project's **/bootstrap** directory. 
 
-1. In this `WIP/bootstrap`, continue working on previous file `grid.html`. 
+2. In this **/bootstrap** directory, continue working on previous file **grid.html**.   If you did not finish the last exercise, then copy the **grid.html** from the **/Labs/bootstrap/1layout/Solution/** folder into **/bootstrap**
 
-1. If not finished in last exercise, then copy the `grid.html` from the `Labs/bootstrap/1layout/Solution/` folder.
-
-1. Add images for each dog, one to follow each existing `<h2>` element. Do this for all 3 dogs. An example:
+3. Add images for each dog, one to follow each existing `<h2>` element. Do this for all 3 dogs. An example:
     ```html
     <h2>Pembroke Welsh Corgi</h2>
     <img src="img/corgi.jpg" alt="Pembroke Welsh Corgi" />
     ```
 
-1. Reload the browser. And resize the page to see how the default use of `<img />` works.
+4. Reload the browser and then resize the page to see how the default use of `<img />` looks.
 
-1. Now use Bootstrap to make the images responsive. Add a class with img-fluid. Experiment by using: img-thumbnail,         
-    rounded-circle, and rounded.
+5. Now use Bootstrap to make the images responsive. To the first dog image, add a class with **img-fluid**. and **img-thumbnail**. 
 
     ```html
         <img src="img/corgi.jpg" alt="Pembroke Welsh Corgi" class="img-fluid img-thumbnail">
     ```
 
-1. Reload the browser to see new styling for images. Resize the page to see how the images respond after havign added Bootstrap. 
+6. Reload the browser to see new styling for the image. Resize the page to see how the image responds after having added Bootstrap. 
+   
+7. For the second image add **img-fluid** and **rounded-circle**.
+8. For the third, image add **img-fluid** and **rounded**.
 
-1. Mark your work as complete, before starting the bonus.
+
+9. Reload the browser to see new styling and responsiveness for the images. 
+
+10. Mark your work as complete, before starting the bonus.
 
 ## BONUS: 
 
 Go to https://getbootstrap.com/docs/4.2/content/reboot/ and explore other options for content. 
+
 Go to https://getbootstrap.com/docs/4.2/utilities/borders/ to explore other utilities for different colors and borders for each image.  
