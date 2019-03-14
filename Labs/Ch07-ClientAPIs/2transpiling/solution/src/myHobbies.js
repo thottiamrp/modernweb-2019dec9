@@ -24,6 +24,7 @@ function returnHobbiesHTML() {
     `;
 
     for (let index = 0; index < hobbiesArray.length; index++) {
+        const hobby = hobbiesArray[index];
         hobbyInfo+= `<li>${hobby.name} ${hobby.lengthInYearsAtHobby}</li>`;
     };
 
