@@ -1,4 +1,4 @@
-# Chapter 9: Unit Test Examples
+# Chapter 9: Unit Test Chai Examples
 
 ## Objective
 * This is a project of examples of testing JavaScript modules
