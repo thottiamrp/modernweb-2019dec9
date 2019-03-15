@@ -1,12 +1,14 @@
 # Chapter 7: Practice with forms
 
 ## Objectives
-* Create a form 
 
-### Estimated Completion Time 
+* Create a form
+
+### Estimated Completion Time
+
 15 minutes
- 
-1. In your `/WIP/html` add a file `vball-register.html`.
+
+1. In your `/html` add a file `vball-register.html`.
 
 1. Open the image `vball-form.png`
 
@@ -20,7 +22,6 @@
 1. Mark your work as complete
 
 ## Bonus
-
 
 1. HTML4 introduced the tabindex to allow keyboards to be used to tab between elements. Check out this document on using tabindex and other accessibility features:     https://developer.mozilla.org/en-US/docs/Web/Accessibility/Keyboard-navigable_JavaScript_widgets
 

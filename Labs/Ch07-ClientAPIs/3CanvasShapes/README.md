@@ -1,12 +1,14 @@
 # Chapter 7: Canvas Shapes
 
 ## Objectives
+
 * In this lab, you will use canvas to draw some shapes
 
-1. In `\WIP\ES6` add a `canvas` directory
+1. In your `\ES6` directory, add a `canvas` directory
 
 1. Add a `canvas-shapes.html` file that contains a canvas element
-    ```
+
+    ```html
     <canvas id="canvas" width="800" height="400"></canvas>
     ```
 
@@ -17,8 +19,8 @@
     * Get a 2D context.
 
     ```javascript
-    var canvas = document.getElementById('canvas');
-    var ctx = canvas.getContext('2d');
+    let canvas = document.getElementById('canvas');
+    let ctx = canvas.getContext('2d');
     ```
 
 1. Now use the context to draw a rectangle, triangle and two circles.
@@ -31,4 +33,4 @@
 
 ## Bonus
 
-1. Follow the steps in the README.md in \Labs\Ch06-ClientAPIs\4CanvasChart/
+1. Follow the steps in the README.md in \4CanvasChart/
