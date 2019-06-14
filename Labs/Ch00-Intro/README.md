@@ -19,7 +19,7 @@ Hello
     There are multiple ways to open markdown files in preview mode in VSCode. You will practice opening and viewing this README.md in different ways to learn about markdown files as we will be using them during class labs and to run demos.
 
 
-1. While viewing this README.md file in Edit Mode in VSCode - an icon is visible in the upper right of the VSCode window - which looks like a rectangle with a dark T in the middle and a magnifiying glass. 
+1. While viewing this README.md file in Edit Mode in VSCode - an icon is visible in the upper right of the VSCode window - which looks like a rectangle with a dark T in the middle and a magnifying glass. 
     Hover over this icon, it says "Open Preview to the Side". Click this icon.
 
     Notice that you can now see both source and formatted version side by side. You can choose to click the Explorer icon (by default first one in top of vertical menu) to hide it, giving you more room to compare the open files. Click the icon a couple of times and notice it is a toggle button. All of the icons in this vertical menu can be toggled to give you more room to work.
