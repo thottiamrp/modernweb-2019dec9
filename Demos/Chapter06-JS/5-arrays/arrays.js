@@ -3,11 +3,31 @@
   console.log("Numbers length " + numbers.length);
 }
 
+
+{
+  const elements = ['Fire', 'Air', 'Water'];
+
+  console.log(elements.join());
+
+  console.log(elements.join(''));
+
+
+  console.log(elements.join('-'));
+}
+
+// expected output: "Fire,Air,Water"
+// expected output: "FireAirWater"
+
+// expected output: "Fire-Air-Water"
+
+
+
+
 {
   let simpleNameArray = ["Adam", "Judy", "Cody"];
   let ages = new Array(45, 41, 1);
 
-  let jName = simpleNameArray.find(function(
+  let jName = simpleNameArray.find(function (
     currentElementThatIsBeingEvaluated
   ) {
     return currentElementThatIsBeingEvaluated.startsWith("J");
@@ -76,7 +96,7 @@ console.log(letters);
 {
   console.group("Array sort(funct)");
   let scores = [1, 10, 21, 2];
-  scores.sort(function(a, b) {
+  scores.sort(function (a, b) {
     console.log(a, b);
     return a - b;
   });
@@ -103,7 +123,7 @@ console.log("");
 
 console.log("Array.find()");
 const haystack = ["Apple", "banana", "Cherry"];
-const needle = haystack.find(function(currentValue) {
+const needle = haystack.find(function (currentValue) {
   return currentValue.toUpperCase().startsWith("B");
 });
 
