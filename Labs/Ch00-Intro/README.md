@@ -63,7 +63,7 @@
     
     a. While viewing this README.md file in Edit Mode (recall you can double click preview to get there), in the space provided below, type in your name.
 
-    **Name: Your name here**
+    **Name: Put Your name here**
     
     b. Save this file by clicking the drop-down menu File | Save or by hitting CTRL-S to save. (get used to Ctrl-S if you are not already it will save you a lot of time.)
 
