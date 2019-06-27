@@ -22,7 +22,7 @@
     z=30;
     ```
 
-1. Use the `typeof` operator to check the types of each variable, printing the result to the console.
+1. Use the `typeof` operator to check the types of each variable, printing the result to the console. Here is the code for x, do this for both x AND y AND z.
     ```javascript
     console.log(`x is ${typeof x}`);
     ```
@@ -31,11 +31,11 @@
     * right-click the file, choose open in command prompt
     * use this command: `node variables`
     
-1. Now install the VSCode extension called Code Runner.
-    * After the install, reload VSCode
-    * highlight your lines of code, right-click and choose Run Code 
+2. Now ensure that the VSCode extension called Code Runner is installed (by Jun Han).
+    * While looking at your variables.js code in the editor, you can now right-click and choose Run Code 
+    * Or, use the shortcut (Ctrl + Alt + N)
 
-1. Add this code:
+3. Add this code to the bottom of the file:
 ```javascript
     var newX = x++;
 ```
@@ -43,6 +43,9 @@
 1. Print the value using console.log - is it what you expect?
 
 1. Use console.log to see the comparison and the result of x == y. 
+    ```javascript
+    console.log('The comparison of x==y is:', (x==y))
+    ```
 
 ## Bonus
 
@@ -51,10 +54,10 @@
     let timeInMs = Date.now();
     ```
 
-1. Use operators to do some rough calculations and console.log to show:
+2. Use operators to do some rough calculations and console.log to show:
     * how many years since epoch  
     * how many months
-    * how many daya
+    * how many days
 
 
  
