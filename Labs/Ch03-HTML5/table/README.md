@@ -5,13 +5,20 @@
 
 1. Copy the `table.css` from the `/Demos/Chapter03-HTML/tables` directory into your project directory - for some better styling with standard table tags
  
-1. In your project add a file `table.html`. Choose the template with the white box and dotted bottom border.
+1. In your project create a file called `table.html`. Start `table.html` using the  the html:5 emmet abreviation.
 
-1. In the head section, notice the `main.css` being referenced. Modify table.html to instead use a reference to the `table.css`.
+1. Copy the `table.css` file from the solution of this lab into your project. 
+
+1. In the `<head>` of `table.html`, add the following line:
+   
+   ```CSS
+   <link rel="stylesheet" type="text/css" media="screen" href="table.css" />
+   ```
 
 1. You will create the table structure using EMMET abbreviations with a caption and <th> for headers.
 
     In the body area of your html file, copy the following line. It really activates when you are typing so, after you paste the following, hit the backspace and recreate the last character 3:
+
     ```
     table>tr*3>td*3
     ```
