@@ -28,7 +28,7 @@
     ```
 
 1. Check your work, first by using node to run your code from the command line:
-    * right-click the file, choose open in command prompt
+    * right-click the file, choose Open in Terminal
     * use this command: `node variables`
     
 1. Now ensure that the VSCode extension called Code Runner is installed (by Jun Han).
