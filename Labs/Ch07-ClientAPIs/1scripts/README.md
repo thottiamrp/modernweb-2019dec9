@@ -10,7 +10,7 @@
 
 1. Create a new file `JSpractice.html`. 
 
-1. Type html and choose the template that has the white box with dotted underline.
+1. Type html and choose the html:5 emmet abreviation
 
 1. Notice:
     * that the title tag is highlighted - type JSPractice.
