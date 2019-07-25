@@ -31,14 +31,14 @@
     * right-click the file, choose open in command prompt
     * use this command: `node variables`
     
-2. Now ensure that the VSCode extension called Code Runner is installed (by Jun Han).
+1. Now ensure that the VSCode extension called Code Runner is installed (by Jun Han).
     * While looking at your variables.js code in the editor, you can now right-click and choose Run Code 
     * Or, use the shortcut (Ctrl + Alt + N)
 
-3. Add this code to the bottom of the file:
-```javascript
-    var newX = x++;
-```
+1. Add this code to the bottom of the file:
+    ```javascript
+        var newX = x++;
+    ```
 
 1. Print the value using console.log - is it what you expect?
 
@@ -54,7 +54,7 @@
     let timeInMs = Date.now();
     ```
 
-2. Use operators to do some rough calculations and console.log to show:
+1. Use operators to do some rough calculations and console.log to show:
     * how many years since epoch  
     * how many months
     * how many days
