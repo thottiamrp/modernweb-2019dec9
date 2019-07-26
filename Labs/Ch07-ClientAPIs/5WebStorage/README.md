@@ -106,6 +106,6 @@
 
 1. Mark your work as complete
 
-##Bonus
+## Bonus
 
 If done before others, implement checkboxes for favorite genres. Save and load these using web storage.
