@@ -1,4 +1,4 @@
-# Chapter 7: Exercise: Use Web Storage
+# Chapter 8: Exercise: Use Web Storage
 
 ## Objectives
 
