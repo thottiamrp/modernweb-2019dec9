@@ -1,5 +1,5 @@
 const privateSpecialCharacters = ">>";
 
-export function arrayToText(array) {
+module.exports = function arrayToText(array) {
 	return array.join(privateSpecialCharacters);
 }
