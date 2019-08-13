@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Box Model</title>
     <style>
+        body {width: 400px;}
         p {
             padding: 1em;
             border: 1px solid black;
@@ -22,6 +23,13 @@
             border: 1px solid blue;
         }
 
+
+
+
+
+
+
+
         .inline {
             height:20px;
             display: inline;
@@ -29,11 +37,15 @@
 
         .block {
             display: block;
-         
+            height:100px;
+            width:100px;
+     
         }
 
         .inline-block {
             display: inline-block;
+            height:100px;
+            width:100px;
      
         }
 
@@ -49,24 +61,25 @@
     <header>Same paragraph content, with span of Inline, Inline-block and block</header>
     <section>Inline</section>
     <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        <span class="inline">Mauris tempus turpis id ante mollis dignissim.</span>
-        Nam sed dolor non tortor lacinia lobortis id dapibus nunc.
+        Here we have some
+        <span class="inline"> inline text in a span</span>
+        And some Lorem Ipsum text.
     </p>
    
-    <section>Inline-block: </section>
+    <section>Inline-block: Can set height and width </section>
     <p>
+        
+            Here is a span with class setting display: inline-block and height and width
+             <span class="inline-block">inline-block text</span>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        <span class="inline-block">Mauris tempus turpis id ante mollis dignissim.</span>
-        Nam sed dolor non tortor lacinia lobortis id dapibus nunc.
     </p>
 
-    <section>Block: </section>
+    <section>Block: new lines before and after </section>
    
     <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Here is a span with class setting display: block and height and width
             <span class="block">Mauris tempus turpis id ante mollis dignissim.</span>
-            Nam sed dolor non tortor lacinia lobortis id dapibus nunc.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
     
 </body>
