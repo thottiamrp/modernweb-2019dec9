@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <img id="target" />
+
+    <script>
+        let url = 'https://api.nasa.gov/planetary/apod?api_key=nEkiOHq2I9MMSH09FAoSJ325yI6sbHhhAY9q0oqs&date=2019-1-1';
+
+        fetch(url)
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (myJson) {
+                console.log(JSON.stringify(myJson));
+                document.getElementById("target").src = myJson.url
+            });
+    </script>
+
+
+</body>
+
+</html>
