@@ -18,7 +18,7 @@
     
 1. In the CSS, practice changing the width of the box around your name, by:
     * clicking the current value to highlight it
-    * hitting the up/down arrows to increment/decrement the value
+    * hitting the up/down arrows on your keyboard to increment/decrement the value
 
 1. Change the background color:
     * click the color value (#eeeeee) or the square of color - to launch the color picker  - sometimes you may have to click around a bit on the square of color.
