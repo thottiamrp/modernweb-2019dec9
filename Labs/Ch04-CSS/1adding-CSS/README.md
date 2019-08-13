@@ -116,6 +116,11 @@ these by using this CSS - we will talk about other values later.
 
 1. View on screen, view on print preview is same? if not check your work.
 
-## Continuing Bonus
+1. Mark your work as complete, before continuing to the bonus
 
-1. Create a button that when clicked updates some of the CSS values we have used so far.
+## Bonus
+
+1. JavaScript can be used to manipulate CSS values via the style property.  
+https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style
+
+Create a button that when clicked updates some of the CSS values we have used so far. In the function handler for the button click, select an element with document.getElementById() and use element.style.XXX = 'value'. 
