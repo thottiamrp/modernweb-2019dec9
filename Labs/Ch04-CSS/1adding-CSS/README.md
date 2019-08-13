@@ -120,7 +120,5 @@ these by using this CSS - we will talk about other values later.
 
 ## Bonus
 
-1. JavaScript can be used to manipulate CSS values via the style property.  
-https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style
+1. Continue making your way through the folder PracticeBonusProblems. You can add CSS to your AboutMe project from 1HTML_CSS_JS. 
 
-Create a button that when clicked updates some of the CSS values we have used so far. In the function handler for the button click, select an element with document.getElementById() and use element.style.XXX = 'value'. 
