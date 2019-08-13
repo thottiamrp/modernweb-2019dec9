@@ -36,3 +36,5 @@
 ## Bonus
 
 1. Create a table for the recipe data with columns for serving sizes, calories, etc. 
+   
+2. Add a table to your PracticeBonusProblems app.

@@ -63,11 +63,10 @@
     * add a `<footer>` before the closing article tag with a link to the generator website
         * You can type a, wait and see a drop down to get the basic structure
     
-## Bonus
 
 1. Update the nav links in the top of the page to link to each article 
 
-1. You will test your internal links, but may need to add in a lot of content. For now, add this code to the `<head>` of your document:
+1. You will test your internal links, but may need to add in a lot of content to see any scroll effect. For now, add this code to the `<head>` of your document:
     ```html
     <style>
         p {width:50%}
@@ -75,15 +74,11 @@
     ```
 
 1. Test your links, you may need to copy a few paragraphs to get an article to start "below the fold" so that you see the page scroll when you click the link for that article.
-    
-1. If done before others, create a copy of your Lorem Ipsum file and call it DynamicLoremIpsum.html. (Ctrl-C and Ctrl-V)
 
-1. Include a JS file which defines an array of Lorem Ipsum content.
+1. Mark your work as complete.
 
-1. Use JavaScript to manipulate the DOM to add the content. 
-    (Recall use of document.getElementById() and innerHTML)
 
-## Bonus Bonus
-1. Create a JSON fle with your content to be loaded by using JSON-server.
-    * take a look at the docs to understand how to format and add id values
-    * Google npm json-server or refer to the Demos in Ch01 
+# Bonus
+
+1. Open the folder PracticeBonusProblems and view the README in 1HTML_CSS_JS. Begin building an app that you can continue to work on during class.
+
