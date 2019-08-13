@@ -35,6 +35,24 @@ if (day == 6 || day == 0) {
 
 console.log(working);
 
+
+
+
+//ternary operator
+function getShipping(isPrime) {
+    return (isPrime ? "$0.00" : "$2.99");
+}
+
+console.log(getShipping(true));             // expected output: "$0.00"
+
+console.log(getShipping(false));            // expected output: "$2.99"
+
+console.log(getShipping(1));                // expected output: "$0.00"
+
+
+
+
+
 const lie = false;
 console.log('lie == 0 ', (lie == 0));
 console.log('lie == "" ' , (lie == ""));
