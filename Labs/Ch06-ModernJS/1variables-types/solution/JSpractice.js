@@ -15,3 +15,9 @@ console.log("newX is " + newX);
 console.log(x);
 console.log("Does X equate to Y?  " + (x == y));
 
+
+console.log(1 / "three");
+
+let aaa = "1";
+console.log(typeof +aaa);
+
