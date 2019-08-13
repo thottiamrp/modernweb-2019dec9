@@ -7,6 +7,11 @@
 * Create new repository using GitHub
 * Commit your changes
 
+## NOTES: 
+
+* Throughout the course the terms folder and directory are used interchangeable.
+* Enter key == Return key
+
 ### Part 1 - Viewing Markdown .md files in Edit & Preview Mode
 
     Many web projects and tools today are stored in repositories which make use of markdown files to share information about projects - such as this README.md (ending in the extension `.md`). For example GitHub uses the README.md in the root directory of a repository to display information about the project.
@@ -23,7 +28,7 @@
     
     With both Edit mode and preview mode open in split panes, notice that if you scroll in one, the other scrolls as well. 
 
-1. Compare Edit mode and Preview Mode:
+2. Compare Edit mode and Preview Mode:
 
     * Hash marks (#), are used for formatting headings.
         * A single # is heading "level 1" which is biggest, ## is "level 2", slightly smaller, and so on.
@@ -33,17 +38,17 @@
     * Every item is numbered as 1, when the markdown file is rendered: in preview mode or in browsers - the numbers will increment correctly.
         * This makes it easy to insert new items or re-order items, without needing to take the time to renumber.
 
-1. Close the formatted view by hitting the X for that window.
+3. Close the formatted view by hitting the X for that window.
 
-1. While clicked into the Edit view of this README.md, hit control-shift-V. This will  open the preview in a new tab. Close the Preview mode.
+4. While clicked into the Edit view of this README.md, hit control-shift-V. This will open the preview in a new tab. Close the Preview mode.
 
-1. Another way to open the formatted view is by right-clicking the .md file in the Explorer view and choosing Open Preview. 
+5. Another way to open the formatted view is by right-clicking the .md file in the Explorer view and choosing Open Preview. 
     * Bring back the Explorer view pane if you have closed it by clicking the Explorer icon 
     * While in Preview mode, if you double-click an area of the file, you will be taken back to the source markdown file for editing. 
 
-1. Another way to view README.md files during the course is to visit the course repository on Github and navigate to the appropriate /Labs chapter folder.
+6. Another way to view README.md files during the course is to visit the course repository on Github and navigate to the appropriate /Labs chapter folder.
 
-1. For the rest of this exercise, view this file in Preview mode. 
+7. For the rest of this exercise, view this file in Preview mode. 
 
 ## Part 2 - Toggle the left pane
 
