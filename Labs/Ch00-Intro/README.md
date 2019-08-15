@@ -1,54 +1,65 @@
 # Chapter 0: Intro
 
-## Objectives    
-* Practice with markdown files 
+## Objectives
+
+* Practice with markdown files
 * Practice with VSCode
 * Install VS Code extensions
-* Create new repository using GitHub
+* Create new repository used during class
 * Commit your changes
+* Optionally create GitHub repository
 
-## NOTES: 
+## NOTES
 
 * Throughout the course the terms folder and directory are used interchangeable.
 * Enter key == Return key
 
 ### Part 1 - Viewing Markdown .md files in Edit & Preview Mode
 
-    Many web projects and tools today are stored in repositories which make use of markdown files to share information about projects - such as this README.md (ending in the extension `.md`). For example GitHub uses the README.md in the root directory of a repository to display information about the project.
-
-    When using VS Code to open `.md` files - the files open in edit mode. In edit mode, special characters are used to indicate the meaning of text and how to display it in Preview Mode, which is how it will also display in browsers. 
+    We use markdown files in this class as they are used extensively in the industry with modern web projects.  They end in the extension `.md` and typically describe the project, as well as how to build or run dynamic projects. Bitbucket, GitHub and more use the README.md in the root directory to describe repositories. Reddit used markdown notation for editing posts. 
+    
+    The default mode of VS Code opens `.md` files in edit mode. In edit mode, special characters are used to indicate the meaning of text and how to display it in VSCode's Preview Mode as well as in browsers. 
 
     There are multiple ways to open markdown files in preview mode in VSCode. You will practice opening and viewing this README.md in different ways to learn about markdown files as we will be using them during class labs and to run demos.
 
+1. With this README.md in focus (click here if you need to) you can switch to a mode called PREVIEW MODE. Do this now by hitting control-shift-V. This will open the preview in a new tab. Close the Preview mode.
 
-1. While viewing this README.md file in Edit Mode in VSCode - an icon is visible in the upper right of the VSCode window - which looks like a rectangle with a dark T in the middle and a magnifying glass. 
-    Hover over this icon, it says "Open Preview to the Side". Click this icon.
+![Open In Preview](screenshots/dragtabs.png)
 
-    Notice that you can now see both source and formatted version side by side. You can choose to click the Explorer icon (by default first one in top of vertical menu) to hide it, giving you more room to compare the open files. Click the icon a couple of times and notice it is a toggle button. All of the icons in this vertical menu can be toggled to give you more room to work.
-    
+
+1. If you have been given a link to an online repository for this class, such as GitHub, you can use that link to navigate to the \Labs\Ch00-Intro in a browser. Try this now and see if you can find/see the formatted markdown.
+
+    This is a good option if you have more than one monitor to use during class. If this is an option, you may want to open this now on your other monitor as you move forward in the directions.
+
+2. In VSCode, from the Explorer Pane, you can find the markdown file of interest, right click and choose **Open Preview**. Try this now with this README.md as shown.
+![Open In Preview](screenshots/open-preview.png)
+
+1. In VSCode, while viewing in Preview mode, if you double-click an area of the file, you will be taken back to the EDIT VIEW or "source" markdown file for editing.
+
+    Notice that if you double click the  image shown above - it takes you to the edit mode version where the image is linked.
+
+2. VSCode also provides an icon in the upper right of the VSCode window. This appears when the README.md is the active file. Hover over this icon, it says "Open Preview to the Side". Click this icon.
+![Preview button](screenshots/preview-button.png)
+
+    **Notice** that by splitting the screen you can now see both source and formatted versions side by side.
+
+    Remember you can make even more room on your screen by toggling the Menu to close. Click the Explorer icon (by default first one in top of vertical menu) to hide it, giving you more room to compare the open files. Click the icon a couple of times and notice it is a toggle button. All of the icons in this vertical menu can be toggled to give you more room to work.
+
     With both Edit mode and preview mode open in split panes, notice that if you scroll in one, the other scrolls as well. 
 
-2. Compare Edit mode and Preview Mode:
+1. Compare Edit mode and Preview Mode:
 
     * Hash marks (#), are used for formatting headings.
         * A single # is heading "level 1" which is biggest, ## is "level 2", slightly smaller, and so on.
     * An asterisk is used for making a bullet.
         * Tabs are used for indentation of bullets.
     * Text can be made bold and red by using `backticks` around words.
-    * Every item is numbered as 1, when the markdown file is rendered: in preview mode or in browsers - the numbers will increment correctly.
+    * Every item can be numbered as 1 in Edit Mode. When the markdown file is rendered: in preview mode or in browsers - the numbers will increment correctly.
         * This makes it easy to insert new items or re-order items, without needing to take the time to renumber.
 
-3. Close the formatted view by hitting the X for that window.
 
-4. While clicked into the Edit view of this README.md, hit control-shift-V. This will open the preview in a new tab. Close the Preview mode.
 
-5. Another way to open the formatted view is by right-clicking the .md file in the Explorer view and choosing Open Preview. 
-    * Bring back the Explorer view pane if you have closed it by clicking the Explorer icon 
-    * While in Preview mode, if you double-click an area of the file, you will be taken back to the source markdown file for editing. 
-
-6. Another way to view README.md files during the course is to visit the course repository on Github and navigate to the appropriate /Labs chapter folder.
-
-7. For the rest of this exercise, view this file in Preview mode. 
+2.  For the rest of this exercise, view this file in Preview mode. 
 
 ## Part 2 - Toggle the left pane
 
@@ -103,41 +114,41 @@ Git supercharged`
     git config --global user.name "Your Name"
     ```
 
-1. Create a directory on C:\ called `MyWebCourse`
-
-1. Open a command prompt to the c:\ directory. Use mkdir to create a new directory called MyWebCourse:
+1. Open a command prompt to the c:\ directory. 
+   
+2. Use mkdir to create a new directory called MyWebCourse:
 
     ```
     mkdir MyWebCourse
     ```
 
-1. Navigate to https://GitHub.com/ and sign into an existing account of yours or sign up for a new account.
+3. Navigate to https://GitHub.com/ and sign into an existing account of yours or sign up for a new account.
 
-1. After logging into GitHub, create a new GitHub repository called `MyWebCourse` by either selecting the `Start a Project` button on the center of the page or the `New` green button on the left hand `Repositories` panel
+4. After logging into GitHub, create a new GitHub repository called `MyWebCourse` by either selecting the `Start a Project` button on the center of the page or the `New` green button on the left hand `Repositories` panel
 
     Leave the checkbox for `Initialize this repository with a README` unchecked and select `Create Repository`
 
-1. Copy the list of commands from the section `…or create a new repository on the command line` and paste them into the windows Command Prompt we opened in Step 2 that is currently within the `MyWebCourse` directory. Press enter to execute the last line and your repository should have been created.
+5. Copy the list of commands from the section `…or create a new repository on the command line` and paste them into the windows Command Prompt we opened in Step 2 that is currently within the `MyWebCourse` directory. Press enter to execute the last line and your repository should have been created.
 
-1. From the Command Prompt within `MyWebCourse` directory execute the command `code .` to open the project in VS Code.
+6. From the Command Prompt within `MyWebCourse` directory execute the command `code .` to open the project in VS Code.
 
-1. Find the README.md file within the Explorer on the left side of VS Code and open it.
+7. Find the README.md file within the Explorer on the left side of VS Code and open it.
 
-1. Edit the README.md file to include your name
+8. Edit the README.md file to include your name
 
-1. Save the file, and notice the `Source Control` button on the left hand toolbar. It should now have a blue circle on it containing the number 1. This number indicates the number of files that have been changed locally.
+9.  Save the file, and notice the `Source Control` button on the left hand toolbar. It should now have a blue circle on it containing the number 1. This number indicates the number of files that have been changed locally.
 
-1. Within the panel `Source Control` that opened, mouse over the README.md file; press the `+` button that appeared to stage the change. You can also stage the change by right clicking on the README.md and clicking `Stage Changes`. You should now see that `README.md` was added above to `Staged Changes`
+10. Within the panel `Source Control` that opened, mouse over the README.md file; press the `+` button that appeared to stage the change. You can also stage the change by right clicking on the README.md and clicking `Stage Changes`. You should now see that `README.md` was added above to `Staged Changes`
 
-1. Above `Staged Changes` you should see a text input field with the text `Message (press Ctrl+Enter to commit)`. Within this field enter a good commit message which describes the changes we staged in the previous step.
+11. Above `Staged Changes` you should see a text input field with the text `Message (press Ctrl+Enter to commit)`. Within this field enter a good commit message which describes the changes we staged in the previous step.
 
-1. Click the check mark above the text message field to commit the changes made to README.md
+12. Click the check mark above the text message field to commit the changes made to README.md
 
-1. Now that we have committed a change it is ready to be pushed to GitHub. Before pushing we always want to make sure we've pulled the latest changes from the remote repository, but since we're making the first changes we can go ahead and push. To push the commit to GitHub, click on the `...` button found on top of VS Code's git panel which was on the same level as the check mark. You can also click on the `Synchronize Changes` button found in blue on the bottom left of VS Code. This button will pull changes and then push commits made to the current branch we are on.
+13. Now that we have committed a change it is ready to be pushed to GitHub. Before pushing we always want to make sure we've pulled the latest changes from the remote repository, but since we're making the first changes we can go ahead and push. To push the commit to GitHub, click on the `...` button found on top of VS Code's git panel which was on the same level as the check mark. You can also click on the `Synchronize Changes` button found in blue on the bottom left of VS Code. This button will pull changes and then push commits made to the current branch we are on.
 
-1. VS Code will prompt you to enter your GitHub credentials to push the changes, please do so now. If you navigate to GitHub, you should see the README.md is updated with your changes.
+14. VS Code will prompt you to enter your GitHub credentials to push the changes, please do so now. If you navigate to GitHub, you should see the README.md is updated with your changes.
 
-1. VS Code will continue to ask for your GitHub username and password every time it talks to GitHub. You can use a credential helper shown in the Windows example below:
+15. VS Code will continue to ask for your GitHub username and password every time it talks to GitHub. You can use a credential helper shown in the Windows example below:
 
 
     On Windows, running the following in the command line will store your credentials:
@@ -148,7 +159,7 @@ Git supercharged`
 
     You can also do this by install a native Git shell, such as Git for Windows https://gitforwindows.org/ or cloning the repository using SSH, but we would need an administrator of the repository to explicitly allow your SSH key.
 
-1. Tell Git to ignore files in a directory. 
+16. Tell Git to ignore files in a directory. 
     
     * Git includes a settings file called `.gitignore`
     * Any files or directories included in this file will not be included when you push changes up to the repository.
@@ -159,8 +170,8 @@ Git supercharged`
     * You will be adding files as you perform labs in the class.  You do not want these changes to be published to the repository.  In order to ensure this, you will create a directory to hold these files.  The GIT directory is in this .gitignore file.
 
 
-1. On VS Code's left hand toolbar, click on the `GitLens` extension you installed earlier. This extension contains additional features.
+17. On VS Code's left hand toolbar, click on the `GitLens` extension you installed earlier. This extension contains additional features.
 
-1. Familiarize yourself with `GitLens'` panel. Notice how you can use it to access different repositories and their branches, remote, your stashes, etc. Also notice how you can navigate through it to see history of a file, a line, or compare files between different branches or between local and remote.
+18. Familiarize yourself with `GitLens'` panel. Notice how you can use it to access different repositories and their branches, remote, your stashes, etc. Also notice how you can navigate through it to see history of a file, a line, or compare files between different branches or between local and remote.
 
-1. Please mark your work as complete. With your name tent card if in a classroom or by using method for online training. (spreadsheet, status symbol, etc.)
+19. Please mark your work as complete. With your name tent card if in a classroom or by using method for online training. (spreadsheet, status symbol, etc.)
