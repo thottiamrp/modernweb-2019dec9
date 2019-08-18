@@ -24,9 +24,15 @@ Links to content below
 
 [Part 4 - Install VSCode extensions](#part-4-install-vs-code-extensions)
 
-[Part 5 - Local Git Repo](#part-3---git-tracking-changes)
+[Part 5 - Create Local Git Repo](#part-5---create-new-mywebcourse-local-repository)
 
-[Part 6 - Optionally create GitHub remote repo](#part-6-optional---add-a-remote-link-from-your-local-repo-to-github)
+[Part 6 - Using VSCode to commit changes](#part-6---using-vscode-to-commit-and-ignore-changes)
+
+[Part 7 - Use .gitignore to not track changes](#part-7---using-gitignore-to-ignore-changes)
+
+[Part 8- Optionally create GitHub remote repo](#part-8-optional--setup-github-remote-repository)
+
+[Bonus](#bonus)
 
 ### **Part 1 - Markdown .md files in Edit & Preview Mode**
 
@@ -192,83 +198,48 @@ Git supercharged
    
 ![GitInit](screenshots/git-init.png)
 
-### **Part 6 - USING VSCODE to COMMIT YOUR CHANGES**
+### **Part 6 - Using VScode to Commit Changes**
 
 1. From the Command Prompt within `MyWebCourse` directory execute the command `code .` to open the project in VS Code.
 
-1.  Find the README.md file within the Explorer on the left side of VS Code and open it.
+2.  Find the README.md file within the Explorer on the left side of VS Code and open it.
 
-1.  Edit the README.md file to include your name
+3.  Edit the README.md file to include your name
 
-1.  Save the file, and notice the `Source Control` button on the left hand toolbar. It should now have a blue circle on it containing the number 1. This number indicates the number of files that have been changed locally.
+4.  Save the file, and notice the `Source Control` button on the left hand toolbar. It should now have a blue circle on it containing the number 1. This number indicates the number of files that have been changed locally.
 
-8.  Within the panel `Source Control` that opened, mouse over the README.md file; press the `+` button that appeared to stage the change. You can also stage the change by right clicking on the README.md and clicking `Stage Changes`. You should now see that `README.md` was added above to `Staged Changes`
+5.  Within the panel `Source Control` that opened, mouse over the README.md file; press the `+` button that appeared to stage the change. You can also stage the change by right clicking on the README.md and clicking `Stage Changes`. You should now see that `README.md` was added to `Staged Changes`
 
-9.  Above `Staged Changes` you should see a text input field with the text `Message (press Ctrl+Enter to commit)`. Within this field enter a good commit message which describes the changes we staged in the previous step.
+    ![](screenshots/source-control-stage-changes.png)
 
-10. Click the check mark above the text message field to commit the changes made to README.md
+6.  Above `Staged Changes` you should see a text input field with the text `Message (press Ctrl+Enter to commit)`. Within this field enter a good commit message which describes the changes we staged in the previous step.
 
-14. Tell Git to ignore files in a directory. 
+7. Click the check mark above the text message field to commit the changes made to README.md
+
+### **Part 7 - Using .gitignore to ignore Changes**
+
+    Sometimes, you do not want Git to track certain files or directories. Git looks for a settings file called `.gitignore`. Any files or directories included in this file will not be tracked.
     
-    * Git includes a settings file called `.gitignore`
-    * Any files or directories included in this file will not be tracked.
-    * Add a file called `.gitignore` - notice there is an intentional period (.) proceeding the nameof the file.
+    In Modern Web projects for example, we end up with node_modules directories which should not be tracked.
 
-    You can add a new file in VSCode by using the Explorer pane.
+1. Add a file called `.gitignore` - notice there is an intentional period (.) proceeding the name of the file.
+
+    You can add a new file in VSCode by using the Explorer pane add button.
     ![](screenshots/vscode-new-file.png)
 
-    * Open the .gitignore file and add this on the first line: local-only.txt 
-    * Now create a new file called `local-only.txt` and inside add the text "This is a local file."
+1. Open the .gitignore file and add this on the first line: untracked.txt
+  ![](screenshots/source-control-ignore.png) 
+  
+1. Now create a new file called `untracked.txt` and inside add the text "This is a local file."
     * Save the file - and you should not see it being tracked by Git.
 
 
-### **Part 6 OPTIONAL - Add a remote link from your local repo to GitHUB**
 
-1. Navigate to https://GitHub.com/ and sign into an existing account of yours or sign up for a new account.
+7.  Please mark your work as complete. With your name tent card if in a classroom or by using method for online training. (spreadsheet, status symbol, etc.)
 
-2. After logging into GitHub, create a new GitHub repository called `MyWebCourse` by clicking Repositories in the menu and the green new button.
+### **Part 8 OPTIONAL- Setup GitHub remote repository**
 
-    ![New Repo](screenshots/repositories-new.png)
-
-
-3. In the menu that appears, choose private and skip the steps to initialize with a readme.
-    ![New Repo Wizard](screenshots/new-repo-wizard.png)
-
-    Leave the checkbox for `Initialize this repository with a README` unchecked and click the green button to `Create Repository`
-
-1. You will be given instructions for the remote repo. You ony need the last two lines. Yours will be slightly different. Copy these lines and paste them into the command prompt in your MyWebCourse directory.
-![](screenshots/git-add-origin.png)
-
-![](screenshots/git-add-remote.png)
-
-### **OPTIONAL PUSHING CHANGES TO GITHUB**
-
-1.  Now you can push your repo to GitHub. The changes you have committed locally will appear in GitHub.
-   
-    On projects with others involved, always PULL before you PUSH. 
-    
-    To push the commit to GitHub, click on the `...` button found on top of VS Code's git panel which was on the same level as the check mark. You can also click on the `Synchronize Changes` button found in blue on the bottom left of VS Code. This button will pull changes and then push commits made to the current branch we are on.
-
-2.  VS Code will prompt you to enter your GitHub credentials to push the changes, please do so now. If you navigate to GitHub, you should see the README.md is updated with your changes.
-
-3.  VS Code will continue to ask for your GitHub username and password every time it talks to GitHub. You can use a credential helper shown in the Windows example below:
-
-
-    On Windows, running the following in the command line will store your credentials:
-
-    ```
-    $ git config --global credential.helper manager
-    ```
-
-    You can also do this by install a native Git shell, such as Git for Windows https://gitforwindows.org/ or cloning the repository using SSH, but we would need an administrator of the repository to explicitly allow your SSH key.
-
-
-
-4.  On VS Code's left hand toolbar, click on the `GitLens` extension you installed earlier. This extension contains additional features.
-
-5.  Familiarize yourself with `GitLens'` panel. Notice how you can use it to access different repositories and their branches, remote, your stashes, etc. Also notice how you can navigate through it to see history of a file, a line, or compare files between different branches or between local and remote.
-
-6.  Please mark your work as complete. With your name tent card if in a classroom or by using method for online training. (spreadsheet, status symbol, etc.)
+1. If you have access to GitHub you can follow the directions in this folders optional-github.md file.
 
 ## Bonus
 
