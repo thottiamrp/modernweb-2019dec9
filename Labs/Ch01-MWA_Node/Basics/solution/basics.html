@@ -11,8 +11,8 @@
             document.getElementById("name").innerHTML = 'Judy';
 
             // BONUS
-            var outputString = '<ul>';
-            var hobbies = ['gardening', 'running'];
+            let outputString = '<ul>';
+            let hobbies = ['gardening', 'running'];
             for (let index = 0; index < hobbies.length; index++) {
                 const element = hobbies[index];
 
@@ -25,17 +25,19 @@
         }
     </script>
     <style>
-            div {
-                width: 300px;
-                padding: 10px;
-                border: 1px solid purple;
-                background-color: #eeeeee;
-                color: purple
-            }
+        div {
+            width: 300px;
+            padding: 10px;
+            border: 1px solid purple;
+            background-color: #eeeeee;
+            color: purple
+        }
 
-            div#hobbies {font-weight: bold; color:green}
-
-        </style>
+        div#hobbies {
+            font-weight: bold;
+            color: green
+        }
+    </style>
 </head>
 
 <body onload="init()">
