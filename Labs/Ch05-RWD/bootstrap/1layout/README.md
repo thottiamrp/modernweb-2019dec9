@@ -13,21 +13,25 @@
 
 2. Look in the same directory as this README.md and copy the file named `starterTemplate.html` into the new **bootstrap** directory. Right-click to rename the file **grid.html**.
 
-3. Open your new **grid.html** in the browser to see how it currently displays 3 breeds of dogs. 
+3. Open your new **grid.html** in the browser to see how it currently displays 3 breeds of dogs.
 
-4. Modify the **grid.html** file to use Bootstrap classes. The outermost div should have **container**, then **row**, then add the reference to column sizes to each div for the different dogs. Notice how it specifies how to work with different screen sizes. 
+4. To get started, modify the **grid.html** file to use Bootstrap classes. The outermost div should have **container**, followed by **row**. 
+
+    ![](../../screenshots/container-row.png)
+
+5. For each of the 3 divs that surrounds a dog you can use the breakpoints to indicate the number of columns to occupy.
     ```html
-    <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-4">
+    <div class="col-xs-12 col-sm-6 col-md-4">
     ```                     
 
 
-5. Now, reload this file in the browser and change the size of the browser window. It should be responsive to screen size changes.
+6. Now, reload this file in the browser and change the size of the browser window. It should be responsive to screen size changes.
 
-6. Mark your work as complete.
+7. Mark your work as complete.
 
 
 ## Bonus
 
-1. If done before others, experiment with spacing using margin and padding shortcuts. https://getbootstrap.com/docs/4.2/utilities/spacing/ 
+1. If done before others, experiment with spacing using Bootstrap margin and padding shortcuts. https://getbootstrap.com/docs/4.2/utilities/spacing/ 
+
+2. Use Bootstrap in Practice Bous Problems  About Me project.
