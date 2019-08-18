@@ -110,9 +110,9 @@ please rename your LoremIpsum folder (or delete if you do not want to keep it). 
 1. To turn off the `<header>` and `<footer>` create a `print.css` which excludes
 these by using this CSS - we will talk about other values later. 
 
-```css
-    header, footer {display: none;}
-```
+    ```css
+        header, footer {display: none;}
+    ```
 
 1. View on screen, view on print preview is same? if not check your work.
 
