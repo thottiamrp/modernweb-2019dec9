@@ -12,56 +12,83 @@
 ## NOTES
 
 * Throughout the course the terms folder and directory are used interchangeable.
-* Enter key == Return key
+* You may see references to Enter key and Return key. These are the same intention, Enter is usually found on Windows and Return on Macs.
 
 ### Part 1 - Viewing Markdown .md files in Edit & Preview Mode
 
-    We use markdown files in this class as they are used extensively in the industry with modern web projects.  They end in the extension `.md` and typically describe the project, as well as how to build or run dynamic projects. Bitbucket, GitHub and more use the README.md in the root directory to describe repositories. Reddit used markdown notation for editing posts. 
+    We use markdown files in this class as they are used extensively in the industry with modern web projects.  They are plain text files that end in the extension `.md` and use special characters to indicate the meaning of text and how to display it when used on websites.
     
-    The default mode of VS Code opens `.md` files in edit mode. In edit mode, special characters are used to indicate the meaning of text and how to display it in VSCode's Preview Mode as well as in browsers. 
+    On repository sites such as GitHub and Bitbucket a README.md in the root directory describes repositories and how to build and run dynamic projects. If you like to use Reddit you can use markdown to style your posts.
+    
+    The default mode of VS Code opens `.md` files in EDIT MODE where you see the special characters for formatting. VSCode also offers a PREVIEW MODE so you can more easily read the styled text.
 
-    There are multiple ways to open markdown files in preview mode in VSCode. You will practice opening and viewing this README.md in different ways to learn about markdown files as we will be using them during class labs and to run demos.
+    We will look at multiple ways to open markdown files in PREVIEW MODE in VSCode. You will use these methods for lab exercises and some demos. 
 
-1. With this README.md in focus (click here if you need to) you can switch to a mode called PREVIEW MODE. Do this now by hitting control-shift-V. This will open the preview in a new tab. Close the Preview mode.
+    
+**Shortcut CTRL-SHIFT-V**
 
+1. With this README.md in focus (click this text in the VSCode editor if the document has lost focus) you can open a new tab in PREVIEW MODE by hitting control-shift-V. This will open the preview in a new tab. You can then switch back and forth using the tabs. 
+   
+    **OPEN SPLIT SCREEN**
+
+2. Open a Split screen in order to view both at the same time by clicking on this icon 
+![Open Split Screen](screenshots/open-split-screen.png)
+
+1. Drag the tab to the other window.
 ![Open In Preview](screenshots/dragtabs.png)
 
+        You should now see the two files at the same time. With both Edit mode and Preview mode open in split panes, notice that if you scroll in one, the other scrolls as well.
 
-1. If you have been given a link to an online repository for this class, such as GitHub, you can use that link to navigate to the \Labs\Ch00-Intro in a browser. Try this now and see if you can find/see the formatted markdown.
+        Remember this process to split the panes, it will be helpful when you want to see two files at the same time - such as lab instructions and the file you are editing.
 
-    This is a good option if you have more than one monitor to use during class. If this is an option, you may want to open this now on your other monitor as you move forward in the directions.
+    **VERTICAL MENU BUTTONS TOGGLE**
 
-2. In VSCode, from the Explorer Pane, you can find the markdown file of interest, right click and choose **Open Preview**. Try this now with this README.md as shown.
+1. Give yourself more room to view code by hiding the leftmost pane. It should currently be the Explorer pane. Clicking the Explorer pane icon - pictured here with a blue circle and 1 will toggle this view. All of the icons in this vertical menu can be toggled to give you more room to work. Practice clicking to show and hide the menus.
+
+    ![Vertical Pane](screenshots/vertical-pane.png)
+
+     **USING GITHUB**
+
+2. If you have been given a link to an online repository for this class, such as GitHub, you can use that link to navigate to the folder \Labs\Ch00-Intro in a browser. Try this now and see if you can find/see the formatted markdown.
+
+   ![GitHub](screenshots/github.png)
+
+    This is a good option if you have more than one monitor to use during class. If this is an option,you may want to open this now on your other monitor as you move forward in the directions.
+
+    **MARKDOWN FORMATTING**
+
+3. Make sure you can see both the Edit Mode in VSCode and the Preview Mode in VSCode or GitHub while you review the following:
+
+    * Hash marks (#), are used for formatting headings.
+        * A single # is heading "level 1" which is biggest, ## is "level 2", slightly smaller, and so on.
+    * The asterisk is used to make a bullet.
+        * Tabs are used for indentation of bullets.
+    * Text can be highlighted using `backticks` around key words.
+    * Code can be made **bold** using double asterisks.
+    * Every item can be numbered as 1 in Edit Mode. When the markdown file is rendered: in preview mode or in browsers - the numbers will increment correctly.
+        * This makes it easy to insert new items or re-order items, without needing to take the time to renumber.
+
+
+    **OPEN PREVIEW TO SIDE**
+
+4. Close all tabs so only the README.md is open in Edit Mode.
+   
+5. When a markdown file is the active file, there is a button that automatically opens Preview in the split pane.
+![Preview button](screenshots/preview-button.png)
+
+        Most everything in VSCode has a hover effect. If you forget what anything does, just hover over it.
+
+    **OPENING FROM EXPLORER**
+1. In VSCode, from the Explorer Pane, you can find the markdown file of interest, right click and choose **Open Preview**. Try this now with this README.md as shown.
 ![Open In Preview](screenshots/open-preview.png)
 
 1. In VSCode, while viewing in Preview mode, if you double-click an area of the file, you will be taken back to the EDIT VIEW or "source" markdown file for editing.
 
     Notice that if you double click the  image shown above - it takes you to the edit mode version where the image is linked.
 
-2. VSCode also provides an icon in the upper right of the VSCode window. This appears when the README.md is the active file. Hover over this icon, it says "Open Preview to the Side". Click this icon.
-![Preview button](screenshots/preview-button.png)
+2.  For the rest of this lab exercise, view this file in Preview mode. 
 
-    **Notice** that by splitting the screen you can now see both source and formatted versions side by side.
-
-    Remember you can make even more room on your screen by toggling the Menu to close. Click the Explorer icon (by default first one in top of vertical menu) to hide it, giving you more room to compare the open files. Click the icon a couple of times and notice it is a toggle button. All of the icons in this vertical menu can be toggled to give you more room to work.
-
-    With both Edit mode and preview mode open in split panes, notice that if you scroll in one, the other scrolls as well. 
-
-1. Compare Edit mode and Preview Mode:
-
-    * Hash marks (#), are used for formatting headings.
-        * A single # is heading "level 1" which is biggest, ## is "level 2", slightly smaller, and so on.
-    * An asterisk is used for making a bullet.
-        * Tabs are used for indentation of bullets.
-    * Text can be made bold and red by using `backticks` around words.
-    * Every item can be numbered as 1 in Edit Mode. When the markdown file is rendered: in preview mode or in browsers - the numbers will increment correctly.
-        * This makes it easy to insert new items or re-order items, without needing to take the time to renumber.
-
-
-
-2.  For the rest of this exercise, view this file in Preview mode. 
-
-## Part 2 - Toggle the left pane
+## Part 2 - The Course Files
 
 1. Ensure the Explorer view is visible, listing the files/directories. Recall to click the icon if the view is hidden. 
 
@@ -77,22 +104,26 @@
 
 1. Making changes to the repository.
     
-    a. While viewing this README.md file in Edit Mode (recall you can double click preview to get there), in the space provided below, type in your name.
+    a. While viewing this README.md file in Edit Mode, in the space provided below, type in your name.
 
     **Name: Put Your name here**
     
-    b. Save this file by clicking the drop-down menu File | Save or by hitting CTRL-S to save. (get used to Ctrl-S if you are not already it will save you a lot of time.)
+    b. Save this file by clicking the drop-down menu File | Save or by hitting CTRL-S to save. (get used to Ctrl-S if you are not already - it will save you a lot of time.)
 
     c. Now that your change has been saved, look at the Source Control icon in the  left-side navigation bar. You should see a number now. 
     
-    d. Click on this icon.  This displays a list of files that have been changed. In this case, you should only see one file, this README.md. 
+
+    ![Source control](screenshots/source-control.png)
+
+    d. Click on this icon.  This displays a list of files that have been changed. If you avent modified anything else, you should only see one file, this README.md. 
         
     * You can discard changes made in a single file by hovering over the file to reveal a menu, and clicking the circular arrow with the title of "Discard Changes". Hover over README.md and click the Discard Changes. The number should then disappear.  
 
     * If you end up with many changes, you can discard all changes by hovering over the word CHANGES to reveal a menu on that level, and clicking on the undo icon.
 
+![Discard Changes](screenshots/discard-changes.png)
 
-### Part 2: Install VS Code extensions:
+### Part 3: Install VS Code extensions:
 
     To install extensions, look on the left side bar menu of VS Code and click on the `Extensions` icon or use the shortcut (Ctrl + Shift + X). Type into the Extensions Marketplace search field to find `Open in Browser`. When you've found the extension, install it by pressing the green `Install` button. Wait for the install to complete and then press the blue `Reload` button that appeared in the same location as the green `Install` button.
 
@@ -101,7 +132,7 @@
 
     This extension will allow us to easily open our HTML files on the browser.
 
-1. Follow a similar workflow as explained in Step 1 to download another VS Code Extension called `GitLens -
+2. Follow a similar workflow as explained in Step 1 to download another VS Code Extension called `GitLens -
 Git supercharged`
 
     GitLens supercharges the Git capabilities built into Visual Studio Code. It helps you to visualize code authorship at a glance via Git blame annotations and code lens, seamlessly navigate and explore Git repositories, gain valuable insights via powerful comparison commands, and so much more.
