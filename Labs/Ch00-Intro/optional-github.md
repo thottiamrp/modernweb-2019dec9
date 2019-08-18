@@ -1,6 +1,6 @@
 These instructions will help you to setup a remote repository in GitHub that you can push your code to.
 
-### **Part 1 - Add a remote link from your local repo to GitHUB**
+### **Part 1 - Add a remote link from your local repo to GitHub**
 
 1. Navigate to https://GitHub.com/ and sign into an existing account of yours or sign up for a new account.
 
