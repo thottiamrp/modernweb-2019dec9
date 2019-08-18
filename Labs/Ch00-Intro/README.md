@@ -14,7 +14,7 @@
 * Throughout the course the terms folder and directory are used interchangeable.
 * You may see references to Enter key and Return key. These are the same intention, Enter is usually found on Windows and Return on Macs.
 
-Links to content below
+## Links to content below
 
 [Part 1 - Markdown .md files in Edit & Preview Mode](#part-1---markdown-md-files-in-edit--preview-mode)
 
@@ -31,6 +31,9 @@ Links to content below
 [Part 7 - Use .gitignore to not track changes](#part-7---using-gitignore-to-ignore-changes)
 
 [Part 8- Optionally create GitHub remote repo](#part-8-optional--setup-github-remote-repository)
+
+
+[Part 9 - View GitLens extension](#part-9---view-gitlens)
 
 [Bonus](#bonus)
 
@@ -233,13 +236,19 @@ Git supercharged
 1. Now create a new file called `untracked.txt` and inside add the text "This is a local file."
     * Save the file - and you should not see it being tracked by Git.
 
-
-
-7.  Please mark your work as complete. With your name tent card if in a classroom or by using method for online training. (spreadsheet, status symbol, etc.)
+1.  Please mark your work as complete. With your name tent card if in a classroom or by using method for online training. (spreadsheet, status symbol, etc.)
 
 ### **Part 8 OPTIONAL- Setup GitHub remote repository**
 
-1. If you have access to GitHub you can follow the directions in this folders optional-github.md file.
+1. If you have access to GitHub you can follow the directions in this folder's file [optional-github.md](./optional-github.md)  file. If others are done with this exercise already you can return to do this on a break or at a later time. It can be completed at any time before the end of class. 
+
+### **Part 9 - View GitLens** 
+1.  On VS Code's left hand toolbar, click on the `GitLens` extension you installed earlier. This extension contains additional features.
+
+    ![](screenshots/gitlens.png)
+
+1.  Familiarize yourself with `GitLens'` panel. Notice how you can use it to access different repositories and their branches, remote, your stashes, etc. Also notice how you can navigate through it to see history of a file, a line, or compare files between different branches or between local and remote.
+
 
 ## Bonus
 

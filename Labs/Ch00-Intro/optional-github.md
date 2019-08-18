@@ -1,4 +1,6 @@
-### **Part 7 OPTIONAL - Add a remote link from your local repo to GitHUB**
+These instructions will help you to setup a remote repository in GitHub that you can push your code to.
+
+### **Part 1 - Add a remote link from your local repo to GitHUB**
 
 1. Navigate to https://GitHub.com/ and sign into an existing account of yours or sign up for a new account.
 
@@ -17,7 +19,7 @@
 
 ![](screenshots/git-add-remote.png)
 
-### **Part 8 OPTIONAL PUSHING CHANGES TO GITHUB**
+### **Part 2 PUSHING CHANGES TO GITHUB**
 
     Now you can push your repo to GitHub. The changes you have committed locally will appear in GitHub.
    
@@ -40,7 +42,3 @@
     ```
     $ git config --global credential.helper manager
     ```
-
-5.  On VS Code's left hand toolbar, click on the `GitLens` extension you installed earlier. This extension contains additional features.
-
-6.  Familiarize yourself with `GitLens'` panel. Notice how you can use it to access different repositories and their branches, remote, your stashes, etc. Also notice how you can navigate through it to see history of a file, a line, or compare files between different branches or between local and remote.
