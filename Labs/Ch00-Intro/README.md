@@ -5,8 +5,8 @@
 * Practice with markdown files
 * Practice with VSCode
 * Install VS Code extensions
-* Create new repository used during class
-* Commit your changes
+* Create new local repository used during class
+* Commit changes
 * Optionally create GitHub repository
 
 ## NOTES
@@ -14,7 +14,21 @@
 * Throughout the course the terms folder and directory are used interchangeable.
 * You may see references to Enter key and Return key. These are the same intention, Enter is usually found on Windows and Return on Macs.
 
-### **Part 1 - Viewing Markdown .md files in Edit & Preview Mode**
+Links to content below
+
+[Part 1 - Markdown .md files in Edit & Preview Mode](#part-1---markdown-md-files-in-edit--preview-mode)
+
+[Part 2 - The Course Files](#part-2---the-course-files)
+
+[Part 3 - Local Git Repo](#part-3---create-a-local-git-repo-for-tracking-changes)
+
+[Part 4 - Install VSCode extensions](#part-4-install-vs-code-extensions)
+
+[Part 5 - Local Git Repo](#part-3---git-tracking-changes)
+
+[Part 6 - Optionally create GitHub remote repo](#part-6-optional---add-a-remote-link-from-your-local-repo-to-github)
+
+### **Part 1 - Markdown .md files in Edit & Preview Mode**
 
     We use markdown files in this class as they are used extensively in the industry with modern web projects.  They are plain text files that end in the extension `.md` and use special characters to indicate the meaning of text and how to display it when used on websites.
     
@@ -102,7 +116,7 @@
     * Practice Bonus problems are available for CSS and JS.
     * The z_cheatsheets has shortcuts and links for what we will be discussing in class.
 
-### **Part 3 - Git Tracking Changes**
+### **Part 3 - Create a local Git Repo for Tracking Changes**
 
 1. Making changes to the repository.
     
@@ -156,51 +170,88 @@ Git supercharged
 * Bracket Pair Colorizer 2 - CoenraadS
 
 
-### **Part 6 - Create new MyWebCourse local repository**
+### **Part 5 - Create new MyWebCourse local repository**
 
-1. You will be creating a repository in which to do your work. At the end of class you will be able to keep this work.
+    You will be creating a local repository in which to do your work in a folder called MyWebCourse. It will be tracked by GIT so that if you accidentally delete or change files you can recover them easily. 
+
+    Additionally, and optionally, you can connect your local repository to a remote GitHub repo. 
+
+1.  Open a command prompt to c:\ 
    
-2. in GitHub and for working locally. Open a command prompt to c:\ and execute these commands - putting YOUR name and your email in quotes.
+    When you commit locally, you need to have global configuration set to assign commit messages to your **name** and **email**. 
+   
+    The name and email values do not need to match to anything real. If you wish them to match your GitHub email and name you can do so, but it is not required. 
+    
+1. Execute these two commands, using YOUR name and your email in quotes. They are global commands and can be executed anywhere.
     ```
     git config --global user.email "you@example.com"
     git config --global user.name "Your Name"
     ```
 
-3. Open a command prompt to the c:\ directory. 
+1. Execute these commands as follows. This will create a new folder called MyWebCourse and place it under local source control.
    
-4. Use mkdir to create a new directory called MyWebCourse:
+![GitInit](screenshots/git-init.png)
 
-    ```
-    mkdir MyWebCourse
-    ```
+### **Part 6 - USING VSCODE to COMMIT YOUR CHANGES**
 
-5. Navigate to https://GitHub.com/ and sign into an existing account of yours or sign up for a new account.
+1. From the Command Prompt within `MyWebCourse` directory execute the command `code .` to open the project in VS Code.
 
-6. After logging into GitHub, create a new GitHub repository called `MyWebCourse` by either selecting the `Start a Project` button on the center of the page or the `New` green button on the left hand `Repositories` panel
+1.  Find the README.md file within the Explorer on the left side of VS Code and open it.
 
-    Leave the checkbox for `Initialize this repository with a README` unchecked and select `Create Repository`
+1.  Edit the README.md file to include your name
 
-7. Copy the list of commands from the section `…or create a new repository on the command line` and paste them into the windows Command Prompt we opened in Step 2 that is currently within the `MyWebCourse` directory. Press enter to execute the last line and your repository should have been created.
+1.  Save the file, and notice the `Source Control` button on the left hand toolbar. It should now have a blue circle on it containing the number 1. This number indicates the number of files that have been changed locally.
 
-8. From the Command Prompt within `MyWebCourse` directory execute the command `code .` to open the project in VS Code.
+8.  Within the panel `Source Control` that opened, mouse over the README.md file; press the `+` button that appeared to stage the change. You can also stage the change by right clicking on the README.md and clicking `Stage Changes`. You should now see that `README.md` was added above to `Staged Changes`
 
-9.  Find the README.md file within the Explorer on the left side of VS Code and open it.
+9.  Above `Staged Changes` you should see a text input field with the text `Message (press Ctrl+Enter to commit)`. Within this field enter a good commit message which describes the changes we staged in the previous step.
 
-10. Edit the README.md file to include your name
+10. Click the check mark above the text message field to commit the changes made to README.md
 
-11. Save the file, and notice the `Source Control` button on the left hand toolbar. It should now have a blue circle on it containing the number 1. This number indicates the number of files that have been changed locally.
+14. Tell Git to ignore files in a directory. 
+    
+    * Git includes a settings file called `.gitignore`
+    * Any files or directories included in this file will not be tracked.
+    * Add a file called `.gitignore` - notice there is an intentional period (.) proceeding the nameof the file.
 
-12. Within the panel `Source Control` that opened, mouse over the README.md file; press the `+` button that appeared to stage the change. You can also stage the change by right clicking on the README.md and clicking `Stage Changes`. You should now see that `README.md` was added above to `Staged Changes`
+    You can add a new file in VSCode by using the Explorer pane.
+    ![](screenshots/vscode-new-file.png)
 
-13. Above `Staged Changes` you should see a text input field with the text `Message (press Ctrl+Enter to commit)`. Within this field enter a good commit message which describes the changes we staged in the previous step.
+    * Open the .gitignore file and add this on the first line: local-only.txt 
+    * Now create a new file called `local-only.txt` and inside add the text "This is a local file."
+    * Save the file - and you should not see it being tracked by Git.
 
-14. Click the check mark above the text message field to commit the changes made to README.md
 
-15. Now that we have committed a change it is ready to be pushed to GitHub. Before pushing we always want to make sure we've pulled the latest changes from the remote repository, but since we're making the first changes we can go ahead and push. To push the commit to GitHub, click on the `...` button found on top of VS Code's git panel which was on the same level as the check mark. You can also click on the `Synchronize Changes` button found in blue on the bottom left of VS Code. This button will pull changes and then push commits made to the current branch we are on.
+### **Part 6 OPTIONAL - Add a remote link from your local repo to GitHUB**
 
-16. VS Code will prompt you to enter your GitHub credentials to push the changes, please do so now. If you navigate to GitHub, you should see the README.md is updated with your changes.
+1. Navigate to https://GitHub.com/ and sign into an existing account of yours or sign up for a new account.
 
-17. VS Code will continue to ask for your GitHub username and password every time it talks to GitHub. You can use a credential helper shown in the Windows example below:
+2. After logging into GitHub, create a new GitHub repository called `MyWebCourse` by clicking Repositories in the menu and the green new button.
+
+    ![New Repo](screenshots/repositories-new.png)
+
+
+3. In the menu that appears, choose private and skip the steps to initialize with a readme.
+    ![New Repo Wizard](screenshots/new-repo-wizard.png)
+
+    Leave the checkbox for `Initialize this repository with a README` unchecked and click the green button to `Create Repository`
+
+1. You will be given instructions for the remote repo. You ony need the last two lines. Yours will be slightly different. Copy these lines and paste them into the command prompt in your MyWebCourse directory.
+![](screenshots/git-add-origin.png)
+
+![](screenshots/git-add-remote.png)
+
+### **OPTIONAL PUSHING CHANGES TO GITHUB**
+
+1.  Now you can push your repo to GitHub. The changes you have committed locally will appear in GitHub.
+   
+    On projects with others involved, always PULL before you PUSH. 
+    
+    To push the commit to GitHub, click on the `...` button found on top of VS Code's git panel which was on the same level as the check mark. You can also click on the `Synchronize Changes` button found in blue on the bottom left of VS Code. This button will pull changes and then push commits made to the current branch we are on.
+
+2.  VS Code will prompt you to enter your GitHub credentials to push the changes, please do so now. If you navigate to GitHub, you should see the README.md is updated with your changes.
+
+3.  VS Code will continue to ask for your GitHub username and password every time it talks to GitHub. You can use a credential helper shown in the Windows example below:
 
 
     On Windows, running the following in the command line will store your credentials:
@@ -211,22 +262,13 @@ Git supercharged
 
     You can also do this by install a native Git shell, such as Git for Windows https://gitforwindows.org/ or cloning the repository using SSH, but we would need an administrator of the repository to explicitly allow your SSH key.
 
-18. Tell Git to ignore files in a directory. 
-    
-    * Git includes a settings file called `.gitignore`
-    * Any files or directories included in this file will not be included when you push changes up to the repository.
-    * Add a file called `.gitignore`
-    * Open this file and add this on the first line: local-only.txt 
-    * Now create a new file called `local-only.txt` and inside add the text "This is a local file."
-    * Save the file - and you should not see it being tracked by Git.
-    * You will be adding files as you perform labs in the class.  You do not want these changes to be published to the repository.  In order to ensure this, you will create a directory to hold these files.  The GIT directory is in this .gitignore file.
 
 
-19. On VS Code's left hand toolbar, click on the `GitLens` extension you installed earlier. This extension contains additional features.
+4.  On VS Code's left hand toolbar, click on the `GitLens` extension you installed earlier. This extension contains additional features.
 
-20. Familiarize yourself with `GitLens'` panel. Notice how you can use it to access different repositories and their branches, remote, your stashes, etc. Also notice how you can navigate through it to see history of a file, a line, or compare files between different branches or between local and remote.
+5.  Familiarize yourself with `GitLens'` panel. Notice how you can use it to access different repositories and their branches, remote, your stashes, etc. Also notice how you can navigate through it to see history of a file, a line, or compare files between different branches or between local and remote.
 
-21. Please mark your work as complete. With your name tent card if in a classroom or by using method for online training. (spreadsheet, status symbol, etc.)
+6.  Please mark your work as complete. With your name tent card if in a classroom or by using method for online training. (spreadsheet, status symbol, etc.)
 
 ## Bonus
 
