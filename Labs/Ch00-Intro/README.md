@@ -157,22 +157,26 @@
 
 ### **Part 4: Install VS Code extensions**
 
-    The extensions pane allows you to search for and install extensions easily.
-    
-![extensions](screenshots/extensions.png)
-
+    The extensions pane allows you to search for, install, disable and remove extensions easily.
 
 1. Look on the left side bar menu of VS Code and click on the `Extensions` icon or use the shortcut (Ctrl + Shift + X). 
+
+    ![extensions](screenshots/extensions.png)
+
+
+2. Type into the Extensions Marketplace search field to find `VSCode Great Icons` by Emmanual Beziat. If you do not have it already installed click the install button.
+   
+   ![](screenshots/extensions-icons-search.png)
+
+    This extension gives us different icons we can use in VSCode. 
     
+3. When you've found the extension, install it by pressing the green `Install` button. Wait for the install to complete. 
 
-1. Type into the Extensions Marketplace search field to find `Open in Browser` if you do not have it already installed. 
-
-    This extension will allow us to easily open our HTML files on the browser.
-
+    Sometimes that is all you do - install. For some extensions there are additional options In this case, update the icons used by VSCode. 
     
-2. When you've found the extension, install it by pressing the green `Install` button. Wait for the install to complete and then press the blue `Reload` button that appeared in the same location as the green `Install` button.
+    ![](screenshots/extensions-install-menu.png)
 
-3. Follow a similar workflow as above to download these VS Code Extensions. Read their pages to see what they do. 
+4. Follow a similar workflow as above to download these VS Code Extensions. Read their pages to see what they do. 
 
 * GitLens -Eric Amodio
 Git supercharged
