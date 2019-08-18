@@ -14,7 +14,7 @@
 * Throughout the course the terms folder and directory are used interchangeable.
 * You may see references to Enter key and Return key. These are the same intention, Enter is usually found on Windows and Return on Macs.
 
-### Part 1 - Viewing Markdown .md files in Edit & Preview Mode
+### **Part 1 - Viewing Markdown .md files in Edit & Preview Mode**
 
     We use markdown files in this class as they are used extensively in the industry with modern web projects.  They are plain text files that end in the extension `.md` and use special characters to indicate the meaning of text and how to display it when used on websites.
     
@@ -88,7 +88,7 @@
 
 2.  For the rest of this lab exercise, view this file in Preview mode. 
 
-## Part 2 - The Course Files
+### **Part 2 - The Course Files**
 
 1. Ensure the Explorer view is visible, listing the files/directories. Recall to click the icon if the view is hidden. 
 
@@ -101,6 +101,8 @@
         * You can always revert to the original files by clicking this source control icon, and discarding the changes from one or all files. 
     * Practice Bonus problems are available for CSS and JS.
     * The z_cheatsheets has shortcuts and links for what we will be discussing in class.
+
+### **Part 3 - Git Tracking Changes**
 
 1. Making changes to the repository.
     
@@ -115,71 +117,90 @@
 
     ![Source control](screenshots/source-control.png)
 
-    d. Click on this icon.  This displays a list of files that have been changed. If you avent modified anything else, you should only see one file, this README.md. 
-        
-    * You can discard changes made in a single file by hovering over the file to reveal a menu, and clicking the circular arrow with the title of "Discard Changes". Hover over README.md and click the Discard Changes. The number should then disappear.  
+    d. Click on this icon.  This opens the Source Control pane with a list of files that have been changed. If you haven't modified anything else, you should only see one file, this README.md. 
+
+    e. You can compare changes by clicking on teh name of the file. This brings up a nice graphical diff tool of the changes. 
+
+    ![Diff](screenshots/diff.png)
+
+
+    f. Discard the changes made in a single file by hovering over the file to reveal a menu, and clicking the left facing circular arrow with the title of "Discard Changes". Hover over README.md and click the Discard Changes. The number should then disappear.  
+
+    ![discard-changes-file.png](screenshots/discard-changes-file.png)
 
     * If you end up with many changes, you can discard all changes by hovering over the word CHANGES to reveal a menu on that level, and clicking on the undo icon.
 
 ![Discard Changes](screenshots/discard-changes.png)
 
-### Part 3: Install VS Code extensions:
+### **Part 4: Install VS Code extensions**
 
-    To install extensions, look on the left side bar menu of VS Code and click on the `Extensions` icon or use the shortcut (Ctrl + Shift + X). Type into the Extensions Marketplace search field to find `Open in Browser`. When you've found the extension, install it by pressing the green `Install` button. Wait for the install to complete and then press the blue `Reload` button that appeared in the same location as the green `Install` button.
+    The extensions pane allows you to search for and install extensions easily.
+    
+![extensions](screenshots/extensions.png)
 
 
-1. Install a VS Code Extension called `Open in Browser` if you do not have it already installed. 
+1. Look on the left side bar menu of VS Code and click on the `Extensions` icon or use the shortcut (Ctrl + Shift + X). 
+    
+
+1. Type into the Extensions Marketplace search field to find `Open in Browser` if you do not have it already installed. 
 
     This extension will allow us to easily open our HTML files on the browser.
 
-2. Follow a similar workflow as explained in Step 1 to download another VS Code Extension called `GitLens -
-Git supercharged`
+    
+2. When you've found the extension, install it by pressing the green `Install` button. Wait for the install to complete and then press the blue `Reload` button that appeared in the same location as the green `Install` button.
 
-    GitLens supercharges the Git capabilities built into Visual Studio Code. It helps you to visualize code authorship at a glance via Git blame annotations and code lens, seamlessly navigate and explore Git repositories, gain valuable insights via powerful comparison commands, and so much more.
+3. Follow a similar workflow as above to download these VS Code Extensions. Read their pages to see what they do. 
 
-### Part 3 - Create new MyWebCourse repository using GitHub
+* GitLens -Eric Amodio
+Git supercharged
+* Bracket Pair Colorizer 2 - CoenraadS
 
-1. You will be creating a repository in GitHub and for working locally. Open a command prompt to c:\ and execute these commands - putting YOUR name and your email in quotes.
+
+### **Part 6 - Create new MyWebCourse local repository**
+
+1. You will be creating a repository in which to do your work. At the end of class you will be able to keep this work.
+   
+2. in GitHub and for working locally. Open a command prompt to c:\ and execute these commands - putting YOUR name and your email in quotes.
     ```
     git config --global user.email "you@example.com"
     git config --global user.name "Your Name"
     ```
 
-1. Open a command prompt to the c:\ directory. 
+3. Open a command prompt to the c:\ directory. 
    
-2. Use mkdir to create a new directory called MyWebCourse:
+4. Use mkdir to create a new directory called MyWebCourse:
 
     ```
     mkdir MyWebCourse
     ```
 
-3. Navigate to https://GitHub.com/ and sign into an existing account of yours or sign up for a new account.
+5. Navigate to https://GitHub.com/ and sign into an existing account of yours or sign up for a new account.
 
-4. After logging into GitHub, create a new GitHub repository called `MyWebCourse` by either selecting the `Start a Project` button on the center of the page or the `New` green button on the left hand `Repositories` panel
+6. After logging into GitHub, create a new GitHub repository called `MyWebCourse` by either selecting the `Start a Project` button on the center of the page or the `New` green button on the left hand `Repositories` panel
 
     Leave the checkbox for `Initialize this repository with a README` unchecked and select `Create Repository`
 
-5. Copy the list of commands from the section `…or create a new repository on the command line` and paste them into the windows Command Prompt we opened in Step 2 that is currently within the `MyWebCourse` directory. Press enter to execute the last line and your repository should have been created.
+7. Copy the list of commands from the section `…or create a new repository on the command line` and paste them into the windows Command Prompt we opened in Step 2 that is currently within the `MyWebCourse` directory. Press enter to execute the last line and your repository should have been created.
 
-6. From the Command Prompt within `MyWebCourse` directory execute the command `code .` to open the project in VS Code.
+8. From the Command Prompt within `MyWebCourse` directory execute the command `code .` to open the project in VS Code.
 
-7. Find the README.md file within the Explorer on the left side of VS Code and open it.
+9.  Find the README.md file within the Explorer on the left side of VS Code and open it.
 
-8. Edit the README.md file to include your name
+10. Edit the README.md file to include your name
 
-9.  Save the file, and notice the `Source Control` button on the left hand toolbar. It should now have a blue circle on it containing the number 1. This number indicates the number of files that have been changed locally.
+11. Save the file, and notice the `Source Control` button on the left hand toolbar. It should now have a blue circle on it containing the number 1. This number indicates the number of files that have been changed locally.
 
-10. Within the panel `Source Control` that opened, mouse over the README.md file; press the `+` button that appeared to stage the change. You can also stage the change by right clicking on the README.md and clicking `Stage Changes`. You should now see that `README.md` was added above to `Staged Changes`
+12. Within the panel `Source Control` that opened, mouse over the README.md file; press the `+` button that appeared to stage the change. You can also stage the change by right clicking on the README.md and clicking `Stage Changes`. You should now see that `README.md` was added above to `Staged Changes`
 
-11. Above `Staged Changes` you should see a text input field with the text `Message (press Ctrl+Enter to commit)`. Within this field enter a good commit message which describes the changes we staged in the previous step.
+13. Above `Staged Changes` you should see a text input field with the text `Message (press Ctrl+Enter to commit)`. Within this field enter a good commit message which describes the changes we staged in the previous step.
 
-12. Click the check mark above the text message field to commit the changes made to README.md
+14. Click the check mark above the text message field to commit the changes made to README.md
 
-13. Now that we have committed a change it is ready to be pushed to GitHub. Before pushing we always want to make sure we've pulled the latest changes from the remote repository, but since we're making the first changes we can go ahead and push. To push the commit to GitHub, click on the `...` button found on top of VS Code's git panel which was on the same level as the check mark. You can also click on the `Synchronize Changes` button found in blue on the bottom left of VS Code. This button will pull changes and then push commits made to the current branch we are on.
+15. Now that we have committed a change it is ready to be pushed to GitHub. Before pushing we always want to make sure we've pulled the latest changes from the remote repository, but since we're making the first changes we can go ahead and push. To push the commit to GitHub, click on the `...` button found on top of VS Code's git panel which was on the same level as the check mark. You can also click on the `Synchronize Changes` button found in blue on the bottom left of VS Code. This button will pull changes and then push commits made to the current branch we are on.
 
-14. VS Code will prompt you to enter your GitHub credentials to push the changes, please do so now. If you navigate to GitHub, you should see the README.md is updated with your changes.
+16. VS Code will prompt you to enter your GitHub credentials to push the changes, please do so now. If you navigate to GitHub, you should see the README.md is updated with your changes.
 
-15. VS Code will continue to ask for your GitHub username and password every time it talks to GitHub. You can use a credential helper shown in the Windows example below:
+17. VS Code will continue to ask for your GitHub username and password every time it talks to GitHub. You can use a credential helper shown in the Windows example below:
 
 
     On Windows, running the following in the command line will store your credentials:
@@ -190,7 +211,7 @@ Git supercharged`
 
     You can also do this by install a native Git shell, such as Git for Windows https://gitforwindows.org/ or cloning the repository using SSH, but we would need an administrator of the repository to explicitly allow your SSH key.
 
-16. Tell Git to ignore files in a directory. 
+18. Tell Git to ignore files in a directory. 
     
     * Git includes a settings file called `.gitignore`
     * Any files or directories included in this file will not be included when you push changes up to the repository.
@@ -201,8 +222,14 @@ Git supercharged`
     * You will be adding files as you perform labs in the class.  You do not want these changes to be published to the repository.  In order to ensure this, you will create a directory to hold these files.  The GIT directory is in this .gitignore file.
 
 
-17. On VS Code's left hand toolbar, click on the `GitLens` extension you installed earlier. This extension contains additional features.
+19. On VS Code's left hand toolbar, click on the `GitLens` extension you installed earlier. This extension contains additional features.
 
-18. Familiarize yourself with `GitLens'` panel. Notice how you can use it to access different repositories and their branches, remote, your stashes, etc. Also notice how you can navigate through it to see history of a file, a line, or compare files between different branches or between local and remote.
+20. Familiarize yourself with `GitLens'` panel. Notice how you can use it to access different repositories and their branches, remote, your stashes, etc. Also notice how you can navigate through it to see history of a file, a line, or compare files between different branches or between local and remote.
 
-19. Please mark your work as complete. With your name tent card if in a classroom or by using method for online training. (spreadsheet, status symbol, etc.)
+21. Please mark your work as complete. With your name tent card if in a classroom or by using method for online training. (spreadsheet, status symbol, etc.)
+
+## Bonus
+
+1. Open the directory z_cheatsheets and look over the VSCode markdown.
+   
+2. Open the Interactive Playground from the VSCode Help menu and explore what is possible.

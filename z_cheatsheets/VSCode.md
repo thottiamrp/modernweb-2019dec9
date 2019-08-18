@@ -42,3 +42,8 @@ hello class!
 
 ## Tips and Tricks
 https://code.visualstudio.com/docs/getstarted/tips-and-tricks
+
+## Articles
+
+* https://www.telerik.com/blogs/top-15-visual-studio-code-extensions-in-2019
+* https://levelup.gitconnected.com/best-vs-code-extensions-that-you-must-try-in-2019-7add34e7b89d

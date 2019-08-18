@@ -6,7 +6,7 @@
 
 
 ## Steps:
-1. In your WIP directory, create a folder called Practice. Create another directory called AboutMe.
+1. In your MyWebCourse directory, create a folder called Practice. Create another directory called AboutMe.
    
 HTML
 
