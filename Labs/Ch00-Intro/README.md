@@ -26,14 +26,15 @@
 
 [Part 5 - Create Local Git Repo](#part-5---create-new-mywebcourse-local-repository)
 
-[Part 6 - Using VSCode to commit changes](#part-6---using-vscode-to-commit-and-ignore-changes)
+[Part 6 - Opening Multiple Instances of VScode](#part-6---opening-multiple-instances-of-vscode)
 
-[Part 7 - Use .gitignore to not track changes](#part-7---using-gitignore-to-ignore-changes)
+[Part 7 - Using VSCode to commit changes](#part-7---using-vscode-to-commit-changes)
 
-[Part 8- Optionally create GitHub remote repo](#part-8-optional--setup-github-remote-repository)
+[Part 8 - Use .gitignore to not track changes](#part-8---using-gitignore-to-ignore-changes)
 
+[Part 9 - Optionally create GitHub remote repo](#part-9-optional--setup-github-remote-repository)
 
-[Part 9 - View GitLens extension](#part-9---view-gitlens)
+[Part 10 - View GitLens extension](#part-10---view-gitlens)
 
 [Bonus](#bonus)
 
@@ -187,29 +188,55 @@ Git supercharged
 
     You will be creating a local repository in which to do your work in a folder called MyWebCourse. It will be tracked by GIT so that if you accidentally delete or change files you can recover them easily. 
 
-    Additionally, and optionally, you can connect your local repository to a remote GitHub repo. 
+    Additionally, and optionally, you will be able to connect your local repository to a remote GitHub repository. 
 
-1.  Open a command prompt to c:\ 
-   
-    When you commit locally, you need to have global configuration set to assign commit messages to your **name** and **email**. 
-   
-    The name and email values do not need to match to anything real. If you wish them to match your GitHub email and name you can do so, but it is not required. 
-    
-1. Execute these two commands, using YOUR name and your email in quotes. They are global commands and can be executed anywhere.
-    ```
-    git config --global user.email "you@example.com"
-    git config --global user.name "Your Name"
-    ```
+1.  Open a command prompt to c:\
 
-1. Execute these commands as follows. This will create a new folder called MyWebCourse and place it under local source control.
+    When you commit locally, you need to have global configuration set to assign commit messages to your **name** and **email**.
+
+    The name and email values do not need to match to real information. It is a good practice to match to the info you would use on a remote repository, such as  GitHub, but it is not required.
+
+2. Execute these two commands, substituting your name and your email in the quotes. They are global commands and can be executed anywhere.
+
+        ```bash
+        git config --global user.email "you@example.com"
+        git config --global user.name "Your Name"
+        ```
+
+3. Execute these commands as follows. This will create a new folder called MyWebCourse and place it under local source control.
    
 ![GitInit](screenshots/git-init.png)
 
-### **Part 6 - Using VScode to Commit Changes**
+### **Part 6 - Opening Multiple Instances of VScode**
 
-1. From the Command Prompt within `MyWebCourse` directory execute the command `code .` to open the project in VS Code.
+    Quite often you will need to have multiple instances of VSCode open. For example, you may be referring to a sample project and comparing to your own project. In this class, you may wish to have open the Labs and your project.
 
-2.  Find the README.md file within the Explorer on the left side of VS Code and open it.
+    There are multiple options to do this including:
+       * Running multiple instances of VSCode 
+       * Putting projects in the same folder and opening that folder in VSCode
+       * Creating a workspace 
+
+    Whichever method you use, You can use control+c and control+v to copy and paste files and directories between projects.  
+
+
+#### Multiple Instances, switch using Windows Task Bar
+   ![](screenshots/vscode-multiple-instances.png)
+
+1. From the Command Prompt within `MyWebCourse` directory execute the command `code .` to open the project in VS Code. You should now have two instances of VSCode running.
+   
+2. In the modern web project find the file license-agreement.txt from the same  directory as this README.md. Highlight the license-agreement.txt file and hit Control-C or right-click to choose copy.
+   
+3. In your MyWebCourse project paste the file using Control-V or right-click and choosing paste.
+
+   Here you can see more than one instance open. You can use the windows status bar to switch between projects by clicking the icon and choosing the one you want. If you are not using a virtual machine you can use Alt+tab to switch.
+
+### **Part 7 - Using VScode to Commit Changes**
+
+    By copying a file into your project, you might have noticed the source control icon now has a number on it. Here we will pratice with change tracking in projects.
+   
+1.  Delete the file license-agreement.txt. This will decrease the count of files being tracked as having changed.
+   
+2.  If not alreasy open in VSCode, open this chapters README.md file in Edit Mode.
 
 3.  Edit the README.md file to include your name
 
@@ -221,9 +248,9 @@ Git supercharged
 
 6.  Above `Staged Changes` you should see a text input field with the text `Message (press Ctrl+Enter to commit)`. Within this field enter a good commit message which describes the changes we staged in the previous step.
 
-7. Click the check mark above the text message field to commit the changes made to README.md
+7.  Click the check mark above the text message field to commit the changes made to README.md
 
-### **Part 7 - Using .gitignore to ignore Changes**
+### **Part 8 - Using .gitignore to ignore Changes**
 
     Sometimes, you do not want Git to track certain files or directories. Git looks for a settings file called `.gitignore`. Any files or directories included in this file will not be tracked.
     
@@ -242,11 +269,11 @@ Git supercharged
 
 1.  Please mark your work as complete. With your name tent card if in a classroom or by using method for online training. (spreadsheet, status symbol, etc.)
 
-### **Part 8 OPTIONAL- Setup GitHub remote repository**
+### **Part 9 OPTIONAL- Setup GitHub remote repository**
 
 1. If you have access to GitHub you can follow the directions in this folder's file [optional-github.md](./optional-github.md)  file. If others are done with this exercise already you can return to do this on a break or at a later time. It can be completed at any time before the end of class. 
 
-### **Part 9 - View GitLens** 
+### **Part 10 - View GitLens** 
 1.  On VS Code's left hand toolbar, click on the `GitLens` extension you installed earlier. This extension contains additional features.
 
     ![](screenshots/gitlens.png)
