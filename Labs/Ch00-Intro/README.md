@@ -143,7 +143,7 @@
 
     d. Click on this icon.  This opens the Source Control pane with a list of files that have been changed. If you haven't modified anything else, you should only see one file, this README.md. 
 
-    e. You can compare changes by clicking on teh name of the file. This brings up a nice graphical diff tool of the changes. 
+    e. You can compare changes by clicking on the name of the file. This brings up a nice graphical diff tool of the changes. 
 
     ![Diff](screenshots/diff.png)
 
