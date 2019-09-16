@@ -198,10 +198,10 @@ Git supercharged
 
 2. Execute these two commands, substituting your name and your email in the quotes. They are global commands and can be executed anywhere.
 
-        ```bash
+    ```bat
         git config --global user.email "you@example.com"
         git config --global user.name "Your Name"
-        ```
+    ```
 
 3. Execute these commands as follows. This will create a new folder called MyWebCourse and place it under local source control.
    
@@ -261,10 +261,10 @@ Git supercharged
     You can add a new file in VSCode by using the Explorer pane add button.
     ![](screenshots/vscode-new-file.png)
 
-1. Open the .gitignore file and add this on the first line: untracked.txt
+1. Open the .gitignore file and add this on the first line: untracked.text
   ![](screenshots/source-control-ignore.png) 
   
-1. Now create a new file called `untracked.txt` and inside add the text "This is a local file."
+1. Now create a new file called `untracked.text` and inside add the text "This is a local file."
     * Save the file - and you should not see it being tracked by Git.
 
 1.  Please mark your work as complete. With your name tent card if in a classroom or by using method for online training. (spreadsheet, status symbol, etc.)
