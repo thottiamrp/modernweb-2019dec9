@@ -196,14 +196,14 @@ Git supercharged
 
     The name and email values do not need to match to real information. It is a good practice to match to the info you would use on a remote repository, such as  GitHub, but it is not required.
 
-2. Execute these two commands, substituting your name and your email in the quotes. They are global commands and can be executed anywhere.
+2. Execute these two commands, substituting your name and your email in the quotes. They are global commands and can be executed anywhere. 
 
     ```bat
         git config --global user.email "you@example.com"
         git config --global user.name "Your Name"
     ```
 
-3. Execute these commands as follows. This will create a new folder called MyWebCourse and place it under local source control.
+3. Execute these commands as follows. This will create a new folder called MyWebCourse and place it under local source control. You may or may not see the warnings as pictured.
    
 ![GitInit](screenshots/git-init.png)
 
@@ -232,17 +232,17 @@ Git supercharged
 
 ### **Part 7 - Using VScode to Commit Changes**
 
-    By copying a file into your project, you might have noticed the source control icon now has a number on it. Here we will pratice with change tracking in projects.
+    By copying a file into your project, you might have noticed the source control icon now has a number on it. Here we will practice with change tracking in projects.
    
 1.  Delete the file license-agreement.txt. This will decrease the count of files being tracked as having changed.
    
-2.  If not alreasy open in VSCode, open this chapters README.md file in Edit Mode.
+2.  If not already open in VSCode, open this chapters README.md file in Edit Mode.
 
 3.  Edit the README.md file to include your name
 
 4.  Save the file, and notice the `Source Control` button on the left hand toolbar. It should now have a blue circle on it containing the number 1. This number indicates the number of files that have been changed locally.
 
-5.  Within the panel `Source Control` that opened, mouse over the README.md file; press the `+` button that appeared to stage the change. You can also stage the change by right clicking on the README.md and clicking `Stage Changes`. You should now see that `README.md` was added to `Staged Changes`
+5.  Click on the Source Control button to open the panel `Source Control`. In this panel, mouse over the README.md file; press the `+` button that appeared to stage the change. You can also stage the change by right clicking on the README.md and clicking `Stage Changes`. You should now see that `README.md` was added to `Staged Changes`
 
     ![](screenshots/source-control-stage-changes.png)
 
@@ -267,7 +267,7 @@ Git supercharged
 1. Now create a new file called `untracked.text` and inside add the text "This is a local file."
     * Save the file - and you should not see it being tracked by Git.
 
-1.  Please mark your work as complete. With your name tent card if in a classroom or by using method for online training. (spreadsheet, status symbol, etc.)
+1.  Please mark your work as complete. With your name tent card if in a classroom or by using method for online training. (spreadsheet, status symbol, etc.) Then you can move on to the OPTIONAL part or Bonus below.
 
 ### **Part 9 OPTIONAL- Setup GitHub remote repository**
 
