@@ -9,16 +9,18 @@
 ## Create page and include CSS
 
 
-1. If you needed to step away or otherwise did not finish the Lorem Ipsum content exercise,
-please rename your LoremIpsum folder (or delete if you do not want to keep it). You can then copy the solution folder `\Labs\ch03-html5\Semantic\solution\LoremIpsum` into your project directory.
+1. If you needed to step away or otherwise did not finish the Lorem Ipsum content exercise, please rename your LoremIpsum folder (or delete if you do not want to keep it). You can then copy the solution folder `\Labs\ch03-html5\Semantic\solution\LoremIpsum` into your project directory.
 
 1. Continue working in `LoremIpsum` 
 
-1. If using your work - ensure your lorem-ipsum.html file has 
+1. If using your own work - ensure your lorem-ipsum.html file has 
     * a link to an external stylesheet main.css that has media set to `all`.
         * you may need to update this value
+    ```html
+        <link rel="stylesheet" media="all" href="main.css" />
+    ```
 
-1. Create the `main.css` file being referred to in the HTML at the same level as your html file. 
+2. Create the `main.css` file being referred to in the HTML at the same level as your html file. 
     * Inside of this css file, add this statement:
     ```css
     @import url('halloween.css');
@@ -28,16 +30,16 @@ please rename your LoremIpsum folder (or delete if you do not want to keep it). 
     header {background-color: orange;}
     ```    
 
-1. Reload the page - the header in your document should have an orange background.
+3. Reload the page - the header in your document should have an orange background.
     * If not - check your CSS and use of import.
 
-1. You can continue to add styles in your `main.css` if you have enough screen space you may wish to open your editor in Split mode (upper right icon in VSCode) to see both HTML and CSS at once. Or you may wish to put your CSS in embedded `<style>` tags.
+4. You can continue to add styles in your `main.css` if you have enough screen space you may wish to open your editor in Split mode (upper right icon in VSCode) to see both HTML and CSS at once. Or you may wish to put your CSS in embedded `<style>` tags.
     * target the body tag and make text red
 
-1. Reload your page, what color is the displayed h1,h2 and anchor text? 
+5. Reload your page, what color is the displayed h1,h2 and anchor text? 
    * We will address the nav styling later.
 
-1. Continue the following steps refreshing the browser when you want to check work that you are doing.
+6. Continue the following steps refreshing the browser when you want to check work that you are doing.
 
 
 ## Add style to Lorem Ipsum
