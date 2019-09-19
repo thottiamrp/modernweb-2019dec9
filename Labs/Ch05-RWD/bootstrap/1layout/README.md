@@ -11,7 +11,7 @@
 
 1. Create a **bootstrap** directory in your working project.
 
-2. Look in the same directory as this README.md and copy the file named `starterTemplate.html` into the new **bootstrap** directory. Right-click to rename the file **grid.html**.
+2. Look in the same directory as this README.md and copy the file named `starterTemplate.html` into the new **bootstrap** directory. Right-click to rename the file **grid.html**. This file already has Bootstrap included from a CDN.
 
 3. Open your new **grid.html** in the browser to see how it currently displays 3 breeds of dogs.
 
@@ -19,19 +19,16 @@
 
     ![](../../screenshots/container-row.png)
 
-5. For each of the 3 divs that surrounds a dog you can use the breakpoints to indicate the number of columns to occupy.
-    ```html
-    <div class="col-xs-12 col-sm-6 col-md-4">
-    ```                     
+    For each of the 3 divs that immediately surround a dog, repeat the line with red dots. For the red dots, put the correct values to indicate that xs screens should take up 12 columns, small should take up 6, and medium and larger should take up 4.
+    
 
+5. Now, reload this file in the browser and change the size of the browser window. It should be responsive to screen size changes.
 
-6. Now, reload this file in the browser and change the size of the browser window. It should be responsive to screen size changes.
-
-7. Mark your work as complete.
+6. Mark your work as complete.
 
 
 ## Bonus
 
 1. If done before others, experiment with spacing using Bootstrap margin and padding shortcuts. https://getbootstrap.com/docs/4.2/utilities/spacing/ 
 
-2. Use Bootstrap in Practice Bous Problems  About Me project.
+2. Use Bootstrap in Practice Bonus Problems - About Me project.
