@@ -9,7 +9,7 @@
 
 2. In this **/bootstrap** directory, continue working on previous file **grid.html**.   If you did not finish the last exercise, then copy the **grid.html** from the **/Labs/bootstrap/1layout/Solution/** folder into **/bootstrap**
 
-3. Add images for each dog, one to follow each existing `<h2>` element. Do this for all 3 dogs. An example:
+3. Add images for each dog, one to follow each existing `<h2>` element. Do this for all 3 dogs. WATCH THE EXTENSIONS ARE DIFFERENT. An example:
     ```html
     <h2>Pembroke Welsh Corgi</h2>
     <img src="img/corgi.jpg" alt="Pembroke Welsh Corgi" />
