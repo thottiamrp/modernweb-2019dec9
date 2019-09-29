@@ -6,7 +6,7 @@
 
 ## Steps:
 
-1. If you needed to step away or otherwise did not finish the bonus from the last exercise, you can copy this directory's `basics.html` into your WIP directory, replacing your `index.html`. 
+1. If you needed to step away or otherwise did not finish the bonus from the last exercise, you can copy this directory's `basics.html` into your MyWebCourse directory, replacing your `index.html`. 
 
 1. Open your `index.html` in the Chrome Browser. Recall Alt-B from within the file being opened in VSCode, or right-clicking in the VSCode Explorer menu to open in default browser.
 
