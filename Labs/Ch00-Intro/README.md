@@ -20,7 +20,7 @@
 
 [Part 2 - The Course Files](#part-2---the-course-files)
 
-[Part 3 - Local Git Repo](#part-3---create-a-local-git-repo-for-tracking-changes)
+[Part 3 - Tracking changes with Git in VSCode](#part-3---source-control-tracking)
 
 [Part 4 - Install VSCode extensions](#part-4-install-vs-code-extensions)
 
@@ -36,7 +36,7 @@
 
 [Part 10 - View GitLens extension](#part-10---view-gitlens)
 
-[Bonus](#bonus)
+[Bonus - Explore VSCode](#bonus)
 
 ### **Part 1 - Markdown .md files in Edit & Preview Mode**
 
@@ -126,7 +126,7 @@
     * Practice Bonus problems are available for CSS and JS.
     * The z_cheatsheets has shortcuts and links for what we will be discussing in class.
 
-### **Part 3 - Create a local Git Repo for Tracking Changes**
+### **Part 3 - Source Control Tracking**
 
 1. Making changes to the repository.
     
